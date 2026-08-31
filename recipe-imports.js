@@ -25,7 +25,7 @@ window.RecipeImports=(()=>{
    popularity:[1,2,3].includes(r.popularity)?r.popularity:null,
    season:{availability:text(r.season?.availability||'',80),recommended:(r.season?.recommended||[]).map(v=>text(v,80)),recommendedDisplay:text(r.season?.recommendedDisplay||'',150),months:text(r.season?.months||'',150),monthNumbers:(r.season?.monthNumbers||[]).filter(v=>Number.isInteger(v)&&v>=1&&v<=12)},
    history:(r.history||[]).filter(v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)),lastServedAt:r.lastServedAt?text(r.lastServedAt,10):null,rotationDays:{1:60,2:90,3:120}[r.popularity]||null,
-   status:['active','paused','archived'].includes(r.status)?r.status:'active',completionStatus:'needs-completion',image:null,allergens:[],allergensIncomplete:true,alternativeNames:(r.alternativeNames||[]).map(v=>text(v,250)),_imported:true};
+   status:['active','paused','archived'].includes(r.status)?r.status:'active',completionStatus:'needs-completion',image:/^[a-zA-Z0-9._-]+$/.test(r.image||'')?r.image:null,allergens:[],allergensIncomplete:true,alternativeNames:(r.alternativeNames||[]).map(v=>text(v,250)),_imported:true};
  }
  function localList(){const raw=localStorage.getItem(KEY);if(!raw)return [];let data;try{data=JSON.parse(raw)}catch{throw Error('Uložený katalog importů je poškozený. Nic se nepřepsalo.');}if(data.version!==1||!Array.isArray(data.recipes))throw Error('Nepodporovaná verze katalogu.');return data.recipes.map(clean)}
  const identity=r=>norm(r.name)+'|'+norm(r.sourceVariant).split(' ').sort().join(' ');
@@ -44,6 +44,7 @@ window.RecipeImports=(()=>{
  }
  async function lockedSave(records,builtins){await ready;const run=async()=>{const result=save(records,builtins);await persistDisk();return result};return navigator.locks?navigator.locks.request(KEY,run):run()}
  function display(value){if(typeof value==='string')return esc(value);if(Array.isArray(value))return value.map(display);if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([k,v])=>[k,display(v)]));return value}
+ function imageHref(r){const entry=fileEntries.find(e=>e.id===r.id);return r.image&&entry?entry.file.slice(0,entry.file.lastIndexOf('/')+1)+r.image:null}
  function href(r){return r._imported?(fileEntries.find(e=>e.id===r.id)?.page||'imported-recipe.html?id='+encodeURIComponent(r.id)):`Recepty/${encodeURIComponent(r._folder)}/${encodeURIComponent(r.id)}.html?v=55`}
  function backup(){return JSON.stringify({format:'receptar-docx-backup',version:1,exportedAt:new Date().toISOString(),recipes:list()},null,2)}
  function restore(raw,builtins){const d=JSON.parse(raw);if(d.format!=='receptar-docx-backup'||d.version!==1||!Array.isArray(d.recipes)||d.recipes.length>2000)throw Error('Neplatná záloha importovaných norem.');return lockedSave(d.recipes.map(clean),builtins)}
@@ -77,5 +78,5 @@ window.RecipeImports=(()=>{
  function diskStatus(){return diskMessage}
  async function setSourceFile(file){if(file.size>8*1024*1024)throw Error('Podklad smí mít nejvýše 8 MB.');sourceDocument={name:file.name,base64:await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result.split(',')[1]);reader.onerror=()=>reject(Error('Nelze načíst podklad.'));reader.readAsDataURL(file)})}}
  function exportCatalog(){return JSON.stringify({version:1,revision,recipes:list()},null,2)}
- return {ready,setSourceFile,syncDisk,diskStatus,exportCatalog,list,combine,save:lockedSave,backup,restore,update,esc,display,href,norm,clean,signature,identity};
+ return {imageHref,ready,setSourceFile,syncDisk,diskStatus,exportCatalog,list,combine,save:lockedSave,backup,restore,update,esc,display,href,norm,clean,signature,identity};
 })();

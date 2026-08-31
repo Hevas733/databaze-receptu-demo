@@ -78,7 +78,7 @@
   "rotationDays": null,
   "status": "active",
   "completionStatus": "needs-completion",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],
