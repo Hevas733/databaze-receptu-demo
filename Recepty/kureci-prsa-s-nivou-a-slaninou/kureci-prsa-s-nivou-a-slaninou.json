@@ -1,0 +1,140 @@
+{
+  "id": "kureci-prsa-s-nivou-a-slaninou",
+  "name": "Kuřecí prsa s nivou a slaninou",
+  "alternativeNames": [],
+  "description": "Kuřecí prsa s nivou, anglickou slaninou a smetanou 33 %.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Domov sociální péče Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL",
+  "group": "",
+  "pricePerServingCzk": 22.7,
+  "season": {
+    "availability": "",
+    "recommended": [
+      "Jaro",
+      "Léto",
+      "Podzim"
+    ],
+    "recommendedDisplay": "Jaro–Léto–Podzim",
+    "months": "Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad",
+    "monthNumbers": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "popularity": 2,
+  "rotationDays": 90,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "completionStatus": "reviewed-with-user",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "Smetana 33 %: půl balení 215 ml = 107,5 ml na 10 porcí. Sůl 1 g a pepř 0,001 ks na dávku potvrzeny uživatelem; gramáž balení pepře není doložena pro výpočet výživy. Diety: Z00, Z00*, ZVE, C00*, COOU, DVL. Alergeny ponechány nevyplněné na přání uživatele; neznamená to bezalergenní pokrm. Příprava se nedoplňuje. Obrázek je AI ilustrace.",
+  "nutritionReview": "CYGNUS – hodnoty potvrzené uživatelem na jednu porci. Věrný přepis, nikoli nezávisle ověřený nebo nový výpočet. V exportu chybí výživa smetany, soli a pepře. Prázdné buňky nejsou považovány za nulu.",
+  "nutritionPerServing": {
+    "energyKj": 1646.7,
+    "energyKcalApprox": 394.0,
+    "proteinG": 34.84,
+    "fatG": 19.9,
+    "carbohydratesG": 1.1,
+    "fiberG": 0.21
+  },
+  "sourceNutrition": {
+    "basis": "na jednu porci – potvrzeno uživatelem",
+    "totals": {
+      "energyKj": 1646.7,
+      "proteinG": 34.84,
+      "fatG": 19.9,
+      "carbohydratesG": 1.1,
+      "linoleicAcidG": 0.09,
+      "calciumMg": 692,
+      "fiberG": 0.21,
+      "vitaminAUg": 17,
+      "vitaminB1Mg": 0.04,
+      "vitaminB2Mg": 0.05,
+      "vitaminCMg": 6.9,
+      "ironMg": 1.06
+    },
+    "verified": false,
+    "userConfirmed": true
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "maso - kuřecí prsa",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "uzenina-angl.slanina",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "sýr Niva",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "Smetana 33 % (balení 215 ml)",
+      "amount": 0.1075,
+      "unit": "l",
+      "perServing": "10,75 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "sůl",
+      "amount": 0.001,
+      "unit": "kg",
+      "perServing": "0.1 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.001,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionStatus": "user-confirmed-cygnus",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen; návrh servírování, nikoli fotografie normované porce.",
+  "allergensStatus": "omitted-by-user"
+}

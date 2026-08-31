@@ -1,0 +1,55 @@
+{
+  "id": "testovinova-ryze",
+  "name": "Těstovinová rýže",
+  "alternativeNames": [],
+  "description": "Těstovinová rýže jako samostatná příloha.",
+  "category": "Příloha",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceDescription": "",
+  "sourceVariant": "000, 009, Z…",
+  "group": "",
+  "pricePerServingCzk": 4.57,
+  "season": {
+    "recommended": [],
+    "months": "",
+    "recommendedDisplay": "",
+    "availability": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Těstovinová rýže",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026.",
+  "instructions": null,
+  "planningNote": "ALERGENY NEJSOU V PODKLADU UVEDENY; nutno ověřit konkrétní výrobek před podáváním. Vláknina ani vitamín C nejsou doloženy. Norma 100 g suroviny na porci; suchý či uvařený stav není výslovně uveden. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "Věrný přepis CYGNUS, nezávisle neověřeno. Cena a výživa použity na porci podle návrhu následovaného pokynem k vložení; základ není na screenshotu explicitně uveden. Chybějící hodnoty nejsou odhadnuty.",
+  "nutritionPerServing": {
+    "fatG": 2.3,
+    "carbohydratesG": 74.1,
+    "energyKcalApprox": 356.0,
+    "energyKj": 1490,
+    "fiberG": null,
+    "proteinG": 11.8
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "perServing": "100 g",
+      "amount": 1,
+      "name": "Těstovinová rýže",
+      "unit": "kg"
+    }
+  ]
+}

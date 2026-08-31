@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "revision": "abfaa31ded5040a389746a4af882026c",
+  "recipes": [
+    {
+      "id": "docx-7300981716396b5b0ddfb210",
+      "name": "Pěna tvarohová s ovocem",
+      "file": "Recepty/pena-tvarohova-s-ovocem/pena-tvarohova-s-ovocem.json",
+      "page": "Recepty/pena-tvarohova-s-ovocem/pena-tvarohova-s-ovocem.html"
+    },
+    {
+      "id": "docx-b81919e683fd46b9a7affa6f",
+      "name": "Šlehaný tvaroh s čokoládovou omáčkou",
+      "file": "Recepty/slehany-tvaroh-s-cokoladovou-omackou/slehany-tvaroh-s-cokoladovou-omackou.json",
+      "page": "Recepty/slehany-tvaroh-s-cokoladovou-omackou/slehany-tvaroh-s-cokoladovou-omackou.html"
+    },
+    {
+      "id": "docx-8b999c5664c191fc0ef5c170",
+      "name": "Šlehaný tvaroh s kokosem a mangem",
+      "file": "Recepty/slehany-tvaroh-s-kokosem-a-mangem/slehany-tvaroh-s-kokosem-a-mangem.json",
+      "page": "Recepty/slehany-tvaroh-s-kokosem-a-mangem/slehany-tvaroh-s-kokosem-a-mangem.html"
+    },
+    {
+      "id": "docx-be50e168c82465852d90504e",
+      "name": "Tiramisu z tvarohu - Nové",
+      "file": "Recepty/tiramisu-z-tvarohu-nove/tiramisu-z-tvarohu-nove.json",
+      "page": "Recepty/tiramisu-z-tvarohu-nove/tiramisu-z-tvarohu-nove.html"
+    },
+    {
+      "id": "docx-6e3c64754dee2d59b74bcbc5",
+      "name": "Tvaroh sladký",
+      "file": "Recepty/tvaroh-sladky/tvaroh-sladky.json",
+      "page": "Recepty/tvaroh-sladky/tvaroh-sladky.html"
+    },
+    {
+      "id": "docx-b68cfccafc1e5dd73e3d3081",
+      "name": "Tvaroh sladký s džemem",
+      "file": "Recepty/tvaroh-sladky-s-dzemem/tvaroh-sladky-s-dzemem.json",
+      "page": "Recepty/tvaroh-sladky-s-dzemem/tvaroh-sladky-s-dzemem.html"
+    },
+    {
+      "id": "docx-10d0b2660c1bb71c38917f44",
+      "name": "Tvaroh sladký s kakaem",
+      "file": "Recepty/tvaroh-sladky-s-kakaem/tvaroh-sladky-s-kakaem.json",
+      "page": "Recepty/tvaroh-sladky-s-kakaem/tvaroh-sladky-s-kakaem.html"
+    },
+    {
+      "id": "docx-a1f4b39ec9db1dd3811a4abc",
+      "name": "Tvaroh sladký s kakaem a kokosem",
+      "file": "Recepty/tvaroh-sladky-s-kakaem-a-kokosem/tvaroh-sladky-s-kakaem-a-kokosem.json",
+      "page": "Recepty/tvaroh-sladky-s-kakaem-a-kokosem/tvaroh-sladky-s-kakaem-a-kokosem.html"
+    },
+    {
+      "id": "docx-11c652dacc7eac75d0e12300",
+      "name": "Čaj",
+      "file": "Recepty/caj/caj.json",
+      "page": "Recepty/caj/caj.html"
+    },
+    {
+      "id": "docx-551c22900cf0ca0e1bea4068",
+      "name": "Čaj ovocný",
+      "file": "Recepty/caj-ovocny/caj-ovocny.json",
+      "page": "Recepty/caj-ovocny/caj-ovocny.html"
+    },
+    {
+      "id": "docx-b6c464f0c1e9ee8027d46594",
+      "name": "Kakao",
+      "file": "Recepty/kakao/kakao.json",
+      "page": "Recepty/kakao/kakao.html"
+    },
+    {
+      "id": "docx-5b452654104383ae1ddd364b",
+      "name": "Káva bílá",
+      "file": "Recepty/kava-bila/kava-bila.json",
+      "page": "Recepty/kava-bila/kava-bila.html"
+    }
+  ]
+}

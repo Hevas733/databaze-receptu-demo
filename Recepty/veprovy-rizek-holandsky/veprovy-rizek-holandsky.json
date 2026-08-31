@@ -1,0 +1,135 @@
+{
+  "id": "veprovy-rizek-holandsky",
+  "name": "Vepřový řízek holandský",
+  "alternativeNames": [],
+  "description": "Vepřová plec se sýrem cihla 30 %, vejci a mlékem, s moukou, strouhankou a olejem podle dodané normy, bez přílohy.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "00, 03, 09, 33",
+  "group": "Ostatní",
+  "pricePerServingCzk": 15.22,
+  "season": {
+    "recommendedDisplay": "Celoročně",
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": 60,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Vepřové",
+  "sideDish": "Volitelná",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "instructions": "Maso umeleme, přidáme nastrouhaný sýr, vejce, mléko, pepř a sůl. Dobře propracujeme a dáme na hodinku odležet do chladu. Z prochladlé směsi… [Zbytek postupu na screenshotu není čitelný.]",
+  "planningNote": "Norma pro variantu 00, 03, 09, 33. Dva řádky vajec zachovány odděleně. Druhý řádek mléka je prázdný a není započten. Postup je oříznutý; množství soli a pepře chybí. Vápník ve zdroji 1 549 mg na přijatý základ porce, hodnota vyžaduje ověření. Olej je normované množství, skutečná absorpce není doložena. Obrázek je AI ilustrace – návrh servírování, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "Přepis výživy ze screenshotu CYGNUS. Cena a výživa použity na porci podle návrhu následovaného pokynem uživatele k vložení. Správnost výživy nebyla nezávisle ověřena; ostatní varianty nebyly sloučeny.",
+  "nutritionPerServing": {
+    "carbohydratesG": 20.2,
+    "fiberG": 0.8,
+    "energyKj": 2219,
+    "fatG": 38.5,
+    "energyKcalApprox": 530,
+    "proteinG": 26.8
+  },
+  "allergens": [
+    {
+      "name": "Obiloviny obsahující lepek",
+      "number": 1
+    },
+    {
+      "name": "Vejce",
+      "number": 3
+    },
+    {
+      "name": "Mléko včetně laktózy",
+      "number": 7
+    },
+    {
+      "name": "Sezamová semena",
+      "number": 11
+    },
+    {
+      "name": "Oxid siřičitý a siřičitany",
+      "number": 12
+    },
+    {
+      "name": "Vlčí bob (Lupina)",
+      "number": 13
+    }
+  ],
+  "ingredients": [
+    {
+      "perServing": "80 g",
+      "amount": 0.8,
+      "unit": "kg",
+      "name": "Vepřová plec"
+    },
+    {
+      "perServing": "20 g",
+      "amount": 0.2,
+      "unit": "kg",
+      "name": "Sýr cihla 30 %"
+    },
+    {
+      "perServing": "0,1 ks",
+      "amount": 1,
+      "unit": "ks",
+      "name": "Vejce"
+    },
+    {
+      "perServing": "10 ml",
+      "amount": 0.1,
+      "unit": "l",
+      "name": "Mléko polotučné 1 l"
+    },
+    {
+      "perServing": "0,2 ks",
+      "amount": 2,
+      "unit": "ks",
+      "name": "Vejce"
+    },
+    {
+      "perServing": "10 g",
+      "amount": 0.1,
+      "unit": "kg",
+      "name": "Mouka hladká"
+    },
+    {
+      "perServing": "15 g",
+      "amount": 0.15,
+      "unit": "kg",
+      "name": "Strouhanka"
+    },
+    {
+      "perServing": "30 ml",
+      "amount": 0.3,
+      "unit": "l",
+      "name": "Olej Forte"
+    }
+  ],
+  "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026."
+}

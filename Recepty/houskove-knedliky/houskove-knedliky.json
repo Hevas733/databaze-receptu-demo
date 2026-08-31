@@ -1,0 +1,94 @@
+{
+  "image": "houskove-knedliky.png",
+  "id": "houskove-knedliky",
+  "name": "Houskové knedlíky",
+  "alternativeNames": [
+    "Houskový knedlík",
+    "Kynuté houskové knedlíky"
+  ],
+  "description": "Tradiční vařené houskové knedlíky z hrubé mouky, droždí, vajec a oleje.",
+  "category": "Příloha",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "sourceCode": "8004",
+  "pricePerServingCzk": 2.88,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": null,
+  "lastServedAt": null,
+  "history": [],
+  "meatType": "Bezmasé",
+  "sideDish": "Houskový knedlík",
+  "preparationType": "Vařené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Hrubá mouka",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g"
+    },
+    {
+      "name": "Droždí – porce",
+      "amount": 1.7,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Olej",
+      "amount": 0.07,
+      "unit": "l",
+      "perServing": "7 ml"
+    },
+    {
+      "name": "Vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": "0,2 ks"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1805,
+    "energyKcalApprox": 431,
+    "proteinG": 13.1,
+    "fatG": 9.5,
+    "carbohydratesG": 74.8,
+    "fiberG": 4.5
+  },
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    }
+  ],
+  "instructions": null
+}

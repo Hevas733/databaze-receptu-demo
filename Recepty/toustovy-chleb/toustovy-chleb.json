@@ -1,0 +1,86 @@
+{
+  "image": "toustovy-chleb.png",
+  "id": "toustovy-chleb",
+  "name": "Toustový chléb",
+  "alternativeNames": [
+    "Toastový chléb",
+    "Toustový chléb 100 g"
+  ],
+  "description": "Porce krájeného toustového chleba podávaná jako pečivo ke svačině.",
+  "category": "Pečivo",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 6.35,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Toustový chléb 500 g",
+      "amount": 2.0,
+      "unit": "ks",
+      "perServing": "100 g"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1130,
+    "energyKcalApprox": 270,
+    "proteinG": 8.0,
+    "fatG": 4.0,
+    "carbohydratesG": 49.0,
+    "fiberG": 3.0
+  },
+  "nutritionReview": "Hodnoty na porci 100 g převzaté z dodaného podkladu.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    },
+    {
+      "number": 11,
+      "name": "Sezamová semena"
+    },
+    {
+      "number": 13,
+      "name": "Vlčí bob (Lupina)"
+    }
+  ],
+  "instructions": null
+}

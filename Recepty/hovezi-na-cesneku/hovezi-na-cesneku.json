@@ -1,0 +1,90 @@
+{
+  "image": "hovezi-na-cesneku.png",
+  "id": "hovezi-na-cesneku",
+  "name": "Hovězí pečeně na česneku",
+  "alternativeNames": [
+    "Hovězí na česneku",
+    "Hovězí pečené na česneku"
+  ],
+  "description": "Hovězí zadní pečené na cibuli a česneku, se slaninou a lehce zahuštěnou šťávou.",
+  "category": "Obědy",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 31.69,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Podzim",
+      "Zima"
+    ],
+    "recommendedDisplay": "Podzim–zima",
+    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "monthNumbers": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Hovězí",
+  "sideDish": "Volitelná",
+  "preparationType": "Pečené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Hovězí zadní",
+      "amount": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Olej",
+      "amount": 0.1,
+      "unit": "l"
+    },
+    {
+      "name": "Hladká mouka",
+      "amount": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Cibule",
+      "amount": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Česneková pasta",
+      "amount": 0.05,
+      "unit": "ks"
+    },
+    {
+      "name": "Slanina",
+      "amount": 0.05,
+      "unit": "kg"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1228,
+    "energyKcalApprox": 294,
+    "proteinG": 23.2,
+    "fatG": 18.7,
+    "carbohydratesG": 8.6,
+    "fiberG": 0.5
+  },
+  "nutritionReview": "Hodnoty na jednu porci převzaté z dodaného podkladu.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    }
+  ],
+  "instructions": null
+}

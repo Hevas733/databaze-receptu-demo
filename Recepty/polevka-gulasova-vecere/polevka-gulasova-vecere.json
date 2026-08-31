@@ -1,0 +1,149 @@
+{
+  "id": "polevka-gulasova-vecere",
+  "name": "Gulášová polévka – večeře",
+  "alternativeNames": [],
+  "description": "Gulášová polévka s hovězím předním, bramborami, cibulí, česnekem, zeleninovou směsí, kořením a rajským protlakem.",
+  "category": "Polévka",
+  "mealTypes": [
+    "Polévka",
+    "Večeře"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceDescription": "2017",
+  "sourceVariant": "00, 03, 33",
+  "group": "Večeře",
+  "pricePerServingCzk": 22.38,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": 60,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Hovězí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026.",
+  "instructions": null,
+  "planningNote": "Protlak doplněn uživatelem: 0,150 ks balení 720 g = 108 g na dávku. Cena a výživa z původního screenshotu; vliv doplnění protlaku nebyl přepočítán. Balení koření a druh kostí nejsou upřesněny. Železo 50,42 mg dle zdroje vyžaduje ověření. Postup a objem hotové porce nejsou doloženy. Obrázek je AI ilustrace – návrh servírování.",
+  "nutritionReview": "Přepis zdroje CYGNUS, bez nezávislého ověření. Hodnoty na porci převzaty podle předloženého návrhu a následného pokynu k vložení; základ není na screenshotu explicitně uveden. Doplněný protlak není ve výživě ani ceně nově přepočítán.",
+  "nutritionPerServing": {
+    "energyKj": 3384,
+    "energyKcalApprox": 809,
+    "proteinG": 32.7,
+    "fatG": 33.7,
+    "carbohydratesG": 95.3,
+    "fiberG": 3
+  },
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 9,
+      "name": "Celer"
+    }
+  ],
+  "allergensIncomplete": false,
+  "ingredients": [
+    {
+      "name": "Olej Forte",
+      "amount": 0.15,
+      "unit": "l",
+      "perServing": "15 ml"
+    },
+    {
+      "name": "Cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g"
+    },
+    {
+      "name": "Brambory",
+      "amount": 1.25,
+      "unit": "kg",
+      "perServing": "125 g"
+    },
+    {
+      "name": "Mouka hladká",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g"
+    },
+    {
+      "name": "Česnek",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g"
+    },
+    {
+      "name": "Koření mletá paprika",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Koření gulášové",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Koření majoránka",
+      "amount": 0.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Hovězí přední",
+      "amount": 0.6,
+      "unit": "kg",
+      "perServing": "60 g"
+    },
+    {
+      "name": "Mražená Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g"
+    },
+    {
+      "name": "Rajský protlak 720 g",
+      "amount": 0.108,
+      "unit": "kg",
+      "perServing": "10,8 g"
+    },
+    {
+      "name": "Kosti",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g"
+    }
+  ]
+}

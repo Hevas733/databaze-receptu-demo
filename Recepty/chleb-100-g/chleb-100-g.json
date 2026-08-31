@@ -1,0 +1,70 @@
+{
+  "image": "chleb-100-g.png",
+  "id": "chleb-100-g",
+  "name": "Chléb 100 g",
+  "alternativeNames": [
+    "Chléb snídaně",
+    "Pečivo chléb 100 g"
+  ],
+  "description": "Porce běžného konzumního chleba určená ke snídani nebo přesnídávce.",
+  "category": "Pečivo",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 3.99,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Chléb",
+      "amount": 1.0,
+      "unit": "kg",
+      "perServing": "100 g"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1050,
+    "energyKcalApprox": 251,
+    "proteinG": 8.5,
+    "fatG": 2.0,
+    "carbohydratesG": 49.0,
+    "fiberG": 4.0
+  },
+  "nutritionReview": "Orientační odhad na porci 100 g běžného konzumního chleba; skutečné hodnoty se mohou lišit podle druhu a výrobce.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    }
+  ],
+  "instructions": null
+}

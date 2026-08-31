@@ -1,0 +1,72 @@
+{
+  "id": "bramborova-kase",
+  "name": "Bramborová kaše",
+  "alternativeNames": [],
+  "description": "Bramborová kaše z brambor, polotučného mléka a másla.",
+  "category": "Příloha",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceDescription": "8002",
+  "sourceVariant": "00, 03, 33",
+  "group": "Přílohy",
+  "pricePerServingCzk": 13.69,
+  "season": {
+    "recommended": [],
+    "months": "",
+    "recommendedDisplay": "",
+    "availability": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bramborová kaše",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026.",
+  "instructions": null,
+  "planningNote": "První vybraný sloupec: 5 kg brambor, 1,5 l mléka a 0,15 kg másla na 10 porcí. Hmotnost hotové porce není doložena. Sůl ani postup nejsou uvedeny. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "Věrný přepis CYGNUS, nezávisle neověřeno. Cena a výživa použity na porci podle návrhu následovaného pokynem k vložení; základ není na screenshotu explicitně uveden. Chybějící hodnoty nejsou odhadnuty.",
+  "nutritionPerServing": {
+    "fatG": 16.2,
+    "carbohydratesG": 93.3,
+    "energyKcalApprox": 574.0,
+    "energyKj": 2403,
+    "fiberG": 8,
+    "proteinG": 17
+  },
+  "allergens": [
+    {
+      "name": "Mléko včetně laktózy",
+      "number": 7
+    }
+  ],
+  "allergensIncomplete": false,
+  "ingredients": [
+    {
+      "perServing": "500 g",
+      "amount": 5,
+      "name": "Brambory",
+      "unit": "kg"
+    },
+    {
+      "perServing": "150 ml",
+      "amount": 1.5,
+      "name": "Mléko polotučné 1 l",
+      "unit": "l"
+    },
+    {
+      "perServing": "15 g",
+      "amount": 0.15,
+      "name": "Máslo čerstvé 200 g",
+      "unit": "kg"
+    }
+  ]
+}

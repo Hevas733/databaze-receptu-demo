@@ -1,0 +1,154 @@
+{
+  "image": "polevka-borsc.png",
+  "id": "polevka-borsc",
+  "name": "Polévka boršč",
+  "alternativeNames": [
+    "Boršč",
+    "Borsč"
+  ],
+  "description": "Výrazná řepná polévka s hovězím, vepřovým a uzeným masem, bramborami, zelím, rajčaty a smetanou.",
+  "category": "Polévka",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "sourceCode": "2070",
+  "pricePerServingCzk": 20.86,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Podzim",
+      "Zima"
+    ],
+    "recommendedDisplay": "Podzim–zima",
+    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "monthNumbers": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": null,
+  "lastServedAt": null,
+  "history": [],
+  "meatType": "Hovězí a vepřové",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Hovězí přední s kostí",
+      "amount": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Vepřová plec",
+      "amount": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Uzené maso",
+      "amount": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Brambory",
+      "amount": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Cibule",
+      "amount": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Rajský protlak 720 g",
+      "amount": 0.3,
+      "unit": "ks",
+      "needsClarification": true
+    },
+    {
+      "name": "Sterilovaná řepa 4 l",
+      "amount": 0.15,
+      "unit": "ks",
+      "needsClarification": true
+    },
+    {
+      "name": "Sterilované zelí 4 l",
+      "amount": 0.3,
+      "unit": "ks",
+      "needsClarification": true
+    },
+    {
+      "name": "Hladká mouka",
+      "amount": 0.15,
+      "unit": "kg"
+    },
+    {
+      "name": "Smetana Master 1 l",
+      "amount": 0.2,
+      "unit": "ks",
+      "needsClarification": true
+    },
+    {
+      "name": "Olej",
+      "amount": 0.06,
+      "unit": "l"
+    },
+    {
+      "name": "Nové koření mleté",
+      "amount": 0.05,
+      "unit": "ks",
+      "needsClarification": true
+    },
+    {
+      "name": "Bobkový list",
+      "amount": 0.05,
+      "unit": "ks",
+      "needsClarification": true
+    },
+    {
+      "name": "Vepřový bok",
+      "amount": 0.2,
+      "unit": "kg"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 2093,
+    "energyKcalApprox": 500,
+    "proteinG": 20.7,
+    "fatG": 26.1,
+    "carbohydratesG": 46.5,
+    "fiberG": 2.8
+  },
+  "nutritionReview": "Mikronutrienty ze zdroje nebyly převzaty jako ověřené, protože několik hodnot je zjevně nadhodnocených.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 6,
+      "name": "Sójové boby"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    },
+    {
+      "number": 10,
+      "name": "Hořčice"
+    },
+    {
+      "number": 12,
+      "name": "Oxid siřičitý a siřičitany"
+    }
+  ],
+  "instructions": null
+}

@@ -1,0 +1,79 @@
+{
+  "id": "docx-5b452654104383ae1ddd364b",
+  "name": "Káva bílá",
+  "sourceVariant": "00, 02, 03, 04, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "kávovina",
+      "amount": 0.05,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 668.38,
+    "energyKcalApprox": 160,
+    "proteinG": 6.81,
+    "fatG": 3.03,
+    "carbohydratesG": 25.94,
+    "fiberG": null,
+    "calciumMg": 226,
+    "ironMg": 1.25,
+    "vitaminAUg": 20,
+    "vitaminB1Mg": 0.09,
+    "vitaminB2Mg": 0.27,
+    "vitaminCMg": 2.2
+  },
+  "source": "DOCX",
+  "sourceFile": "Napoje_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:23:13.582Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,06.\nUpřesnit velikost balení / jednotku ks: mléko polotučné 1l, kávovina.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,06.",
+    "Upřesnit velikost balení / jednotku ks: mléko polotučné 1l, kávovina.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

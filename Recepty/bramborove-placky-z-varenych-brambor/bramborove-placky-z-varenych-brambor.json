@@ -1,0 +1,95 @@
+{
+  "image": "bramborove-placky.png",
+  "id": "bramborove-placky-z-varenych-brambor",
+  "name": "Bramborové placky z vařených brambor",
+  "alternativeNames": [
+    "Bramborové placky",
+    "Placky z vařených brambor"
+  ],
+  "description": "Smažené bramborové placky z vařených brambor, hrubé a hladké mouky a vejce.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 8.79,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Podzim",
+      "Zima"
+    ],
+    "recommendedDisplay": "Podzim–zima",
+    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "monthNumbers": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": null,
+  "lastServedAt": null,
+  "history": [],
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Smažené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Vařené brambory",
+      "amount": 3,
+      "unit": "kg",
+      "perServing": "300 g"
+    },
+    {
+      "name": "Olej",
+      "amount": 0.3,
+      "unit": "l",
+      "perServing": "30 ml"
+    },
+    {
+      "name": "Hladká mouka",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g"
+    },
+    {
+      "name": "Hrubá mouka",
+      "amount": 0.75,
+      "unit": "kg",
+      "perServing": "75 g"
+    },
+    {
+      "name": "Vejce",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": "0,1 ks"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 3440,
+    "energyKcalApprox": 822,
+    "proteinG": 17.8,
+    "fatG": 32.6,
+    "carbohydratesG": 117.9,
+    "fiberG": 8.0
+  },
+  "nutritionReview": "Energie a makroživiny odpovídají přibližnému propočtu ze zadaných surovin. Mikronutrienty ze zdroje nebyly převzaty jako ověřené.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    }
+  ],
+  "instructions": null
+}

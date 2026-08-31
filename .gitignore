@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+.recipe-backups/
+__pycache__/
+*.pyc

@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="cs">
+
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b4f9c"><link rel="stylesheet" href="styles.css"><title>Databáze receptů</title><link rel="stylesheet" href="value-filters.css?v=63"></head>
+
+<body class="detail-page">
+
+  <main class="recipe-detail">
+
+    <div class="detail-toolbar"><a class="back-link" href="index.html">← Zpět na úvod</a></div>
+
+    <section class="recipe-database" id="recipes">
+
+      <div class="database-heading"><div><span>📖</span><div><h2>Databáze receptů</h2><p id="recipeCount">Načítání receptů…</p></div></div></div>
+
+      <form class="database-search" id="databaseSearch" style="display:grid;grid-template-columns:1fr 150px;gap:12px;margin-top:20px"><label class="search-field"><span>⌕</span><input id="databaseQuery" placeholder="Hledat podle názvu, masa, přílohy, sezóny…"></label><button type="submit" style="border:0;border-radius:8px;background:#0a4f9c;color:#fff;font-weight:800">HLEDAT</button></form>
+
+      <div class="database-filters" style="margin-top:16px;padding:16px;border:1px solid #e1e7ee;border-radius:10px;background:#fafcfe">
+
+        <b style="display:block;margin-bottom:12px">Filtrovat recepty</b>
+
+        <div class="chips" id="mealFilters">
+          <button type="button" data-meal="K doplnění">✎ K doplnění</button>
+
+          <button type="button" data-meal="Snídaně">☕ Snídaně</button><button type="button" data-meal="Oběd">☀ Oběd</button><button type="button" data-meal="Polévka">🍲 Polévka</button><button type="button" data-meal="Příloha">🍽️ Přílohy</button><button type="button" data-meal="Svačina">🍏 Svačina</button><button type="button" data-meal="Večeře">☾ Večeře</button>
+
+          <label style="display:flex;align-items:center;gap:8px;margin-left:auto;font-size:13px;font-weight:700">Sezóna<select id="seasonFilter" style="padding:10px;border:1px solid #cbd6e1;border-radius:8px;background:#fff"><option value="">Všechny sezóny</option><option>Jaro</option><option>Léto</option><option>Podzim</option><option>Zima</option><option>Celoročně</option></select></label>
+
+          <label style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700">Oblíbenost<select id="popularityFilter" style="padding:10px;border:1px solid #cbd6e1;border-radius:8px;background:#fff"><option value="">Všechny</option><option value="1">1 – rotace 60 dní</option><option value="2">2 – rotace 90 dní</option><option value="3">3 – rotace 120 dní</option></select></label><label style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700">Rotace<select id="rotationFilter" style="padding:10px;border:1px solid #cbd6e1;border-radius:8px;background:#fff"><option value="">Všechny stavy</option><option value="ready">Lze použít nyní</option><option value="overdue">Dlouho nebylo</option><option value="forgotten">Zapomenuté</option><option value="soon">Brzy bude možné</option><option value="early">Používá se příliš často</option><option value="none">Bez historie</option></select></label>
+
+          <button type="button" id="clearFilters" style="border-color:transparent;color:#1765bd">Zrušit filtry</button>
+
+        </div>
+
+      </div>
+
+      <div class="value-filters">
+ <fieldset><legend>Cena za porci (Kč)</legend><div class="value-range"><label>Minimální cena<input id="priceMin" type="text" inputmode="decimal" placeholder="Bez minima"></label><label>Maximální cena<input id="priceMax" type="text" inputmode="decimal" placeholder="Bez maxima"></label></div></fieldset>
+ <fieldset><legend>Energie za porci</legend><div class="value-range"><label>Minimální energie<input id="energyMin" type="text" inputmode="decimal" placeholder="Bez minima"></label><label>Maximální energie<input id="energyMax" type="text" inputmode="decimal" placeholder="Bez maxima"></label><label>Jednotka energie<select id="energyUnit"><option value="kcal">kcal</option><option value="kJ">kJ</option></select></label></div></fieldset>
+ </div><p class="filter-help">Prázdné pole = bez omezení. Při omezení ceny či energie se normy bez dané hodnoty nezobrazí. Přepnutí kcal / kJ přepočítá i zadané meze (1 kcal = 4,184 kJ).</p><p id="valueFilterError" class="filter-error" role="alert" hidden></p><p id="filteredCount" class="filter-help" role="status" aria-live="polite"></p>
+<div class="recipe-results" id="recipeResults">
+
+        <a class="recipe-card" id="recipePreview" href="Recepty/zapecene-brambory-s-kurecim-masem-a-besamelem.html">
+
+          <span class="recipe-thumb"><img src="Recepty/zapecene-brambory-s-kurecim-masem-a-besamelem/pikantule.png" alt="Zapečené brambory s kuřecím masem a bešamelem"></span>
+
+          <div class="recipe-card-body"><div class="recipe-title"><h3 id="previewName"></h3><strong id="previewPrice"></strong></div><p id="previewDescription"></p><div class="recipe-tags" id="previewTags"></div><div class="recipe-meta"><span id="previewPopularity"></span><span id="previewRotation"></span></div></div><em>›</em>
+
+        </a>
+
+      </div>
+
+      <div class="no-results" id="noResults" hidden>Pro zadané hledání nebyl nalezen žádný recept.</div>
+
+    </section>
+
+  </main>
+
+  <script src="recipe-imports.js?v=66"></script><script src="recipe-filters.js?v=63"></script><script src="database.js?v=66"></script>
+
+<script src="demo-mode.js"></script></body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

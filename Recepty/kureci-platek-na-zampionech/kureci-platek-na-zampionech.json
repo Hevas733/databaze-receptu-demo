@@ -1,0 +1,108 @@
+{
+  "image": "kureci-platek-na-zampionech.png",
+  "id": "kureci-platek-na-zampionech",
+  "name": "Kuřecí plátek na čerstvých žampionech",
+  "alternativeNames": [
+    "Kuřecí plátek na žampionech",
+    "Kuře se žampiony"
+  ],
+  "description": "Kuřecí plátek v jemné smetanové omáčce s čerstvými žampiony, cibulí, bílým vínem a petrželí.",
+  "category": "Obědy",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 29.05,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Volitelná",
+  "preparationType": "Dušené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Kuřecí plátky",
+      "amount": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Čerstvé žampiony",
+      "amount": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Cibule",
+      "amount": 0.35,
+      "unit": "kg"
+    },
+    {
+      "name": "Smetana",
+      "amount": 0.5,
+      "unit": "l"
+    },
+    {
+      "name": "Sůl",
+      "amount": 0.05,
+      "unit": "kg"
+    },
+    {
+      "name": "Mletý pepř",
+      "amount": 0.15,
+      "unit": "ks"
+    },
+    {
+      "name": "Petržel hladkolistá",
+      "amount": 0.03,
+      "unit": "ks"
+    },
+    {
+      "name": "Bílé víno",
+      "amount": 0.15,
+      "unit": "l"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 588,
+    "energyKcalApprox": 141,
+    "proteinG": 26.3,
+    "fatG": 1.6,
+    "carbohydratesG": 6.3,
+    "fiberG": 2.4
+  },
+  "nutritionReview": "Hodnoty na jednu porci převzaté z dodaného podkladu.",
+  "allergens": [
+    {
+      "number": 6,
+      "name": "Sójové boby"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    }
+  ],
+  "instructions": null
+}

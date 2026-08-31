@@ -1,0 +1,101 @@
+{
+  "image": "polevka-kapustova-s-uzeninou.png",
+  "id": "polevka-kapustova-s-uzeninou",
+  "name": "Polévka kapustová s uzeninou",
+  "alternativeNames": [
+    "Kapustová polévka s uzeninou",
+    "Kapustová polévka"
+  ],
+  "description": "Sytá kapustová polévka s cibulí, česnekem a uzeninou, zahuštěná hladkou moukou.",
+  "category": "Polévka",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "sourceCode": "2029",
+  "pricePerServingCzk": 4.12,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Podzim",
+      "Zima"
+    ],
+    "recommendedDisplay": "Podzim–zima",
+    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "monthNumbers": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": null,
+  "lastServedAt": null,
+  "history": [],
+  "meatType": "Uzenina",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Kapusta",
+      "amount": 0.5,
+      "unit": "ks",
+      "needsClarification": true
+    },
+    {
+      "name": "Cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g"
+    },
+    {
+      "name": "Hladká mouka",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g"
+    },
+    {
+      "name": "Česnek",
+      "amount": 0.02,
+      "unit": "kg",
+      "perServing": "2 g"
+    },
+    {
+      "name": "Olej",
+      "amount": 0.06,
+      "unit": "l",
+      "perServing": "6 ml"
+    },
+    {
+      "name": "Uzenina Junior",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 900,
+    "energyKcalApprox": 215,
+    "proteinG": 7.8,
+    "fatG": 12.0,
+    "carbohydratesG": 19.6,
+    "fiberG": 0.9
+  },
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce – uvedeno ve zdroji, ověřit"
+    }
+  ],
+  "instructions": null
+}

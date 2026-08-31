@@ -1,0 +1,110 @@
+{
+  "image": "bramborovy-knedlik-plneny-uzenym.png",
+  "id": "bramborovy-knedlik-plneny-uzenym",
+  "name": "Bramborový knedlík plněný uzeným masem",
+  "alternativeNames": [
+    "Plněný bramborový knedlík",
+    "Bramborový knedlík s uzeným"
+  ],
+  "description": "Bramborové knedlíky plněné uzeným masem, podávané s opečenou cibulkou.",
+  "category": "Obědy",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 24.9,
+  "priceEstimate": true,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Podzim",
+      "Zima"
+    ],
+    "recommendedDisplay": "Podzim–zima",
+    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "monthNumbers": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Vepřové",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Uzené maso",
+      "amount": 0.6,
+      "unit": "kg"
+    },
+    {
+      "name": "Olej",
+      "amount": 0.1,
+      "unit": "l"
+    },
+    {
+      "name": "Cibule",
+      "amount": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Sádlo",
+      "amount": 0.12,
+      "unit": "kg"
+    },
+    {
+      "name": "Brambory",
+      "amount": 4.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Hrubá mouka",
+      "amount": 0.6,
+      "unit": "kg"
+    },
+    {
+      "name": "Vejce",
+      "amount": 3.0,
+      "unit": "ks"
+    },
+    {
+      "name": "Hladká mouka",
+      "amount": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Olej",
+      "amount": 0.05,
+      "unit": "l"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 4562,
+    "energyKcalApprox": 1090,
+    "proteinG": 30.1,
+    "fatG": 55.0,
+    "carbohydratesG": 123.1,
+    "fiberG": 9.6
+  },
+  "nutritionReview": "Hodnoty na jednu porci převzaté z podkladu. Cena 24,90 Kč je pouze orientační odhad, protože údaj o ceně byl na snímku zakrytý.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    }
+  ],
+  "instructions": null
+}

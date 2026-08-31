@@ -1,0 +1,92 @@
+{
+  "id": "docx-be50e168c82465852d90504e",
+  "name": "Tiramisu z tvarohu - Nové",
+  "sourceVariant": "O00, ZAM",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "tvaroh měkký",
+      "amount": 0.7,
+      "unit": "kg",
+      "perServing": "70 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana Master 1l",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "piškoty 120g",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "cukr moučka",
+      "amount": 0.09,
+      "unit": "kg",
+      "perServing": "9 g",
+      "needsClarification": false
+    },
+    {
+      "name": "kakao",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1058.48,
+    "energyKcalApprox": 253,
+    "proteinG": 11.79,
+    "fatG": 9.75,
+    "carbohydratesG": 29.68,
+    "fiberG": 0.88,
+    "calciumMg": 3172.91,
+    "ironMg": 2.57,
+    "vitaminAUg": 455,
+    "vitaminB1Mg": 0.25,
+    "vitaminB2Mg": 2.66,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:06:26.504Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,50.\nUpřesnit velikost balení / jednotku ks: smetana Master 1l, piškoty 120g, kakao.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,50.",
+    "Upřesnit velikost balení / jednotku ks: smetana Master 1l, piškoty 120g, kakao."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

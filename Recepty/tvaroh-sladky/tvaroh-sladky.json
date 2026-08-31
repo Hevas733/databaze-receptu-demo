@@ -1,0 +1,78 @@
+{
+  "id": "docx-6e3c64754dee2d59b74bcbc5",
+  "name": "Tvaroh sladký",
+  "sourceVariant": "00, 02, 03, 04, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "tvaroh měkký",
+      "amount": 0.8,
+      "unit": "kg",
+      "perServing": "80 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana ke šlehání 1L",
+      "amount": 0.2,
+      "unit": "l",
+      "perServing": "20 ml",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1069,
+    "energyKcalApprox": 255,
+    "proteinG": 10.52,
+    "fatG": 16.04,
+    "carbohydratesG": 17.39,
+    "fiberG": null,
+    "calciumMg": 3624,
+    "ironMg": 2.8,
+    "vitaminAUg": 520,
+    "vitaminB1Mg": 0.28,
+    "vitaminB2Mg": 3.04,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:06:26.504Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,56.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,56.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

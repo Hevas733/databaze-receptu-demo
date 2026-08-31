@@ -1,0 +1,90 @@
+{
+  "id": "kureci-rizek-smazeny",
+  "name": "Kuřecí řízek smažený",
+  "alternativeNames": [],
+  "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [],
+  "servings": 10,
+  "source": "CYGNUS – Domov sociální péče Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "00, 03, 09, 33",
+  "group": "",
+  "pricePerServingCzk": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "K doplnění: cena, zařazení, sezóna, měsíce, oblíbenost. Výživa převzata z Cygnusu bez nezávislého ověření; nezohledňuje zde ověřené skutečné využití oleje. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "CYGNUS – převzaté hodnoty na porci podle předchozího potvrzení základu exportu uživatelem, nikoli nezávisle ověřený výpočet. Výživa převzata z Cygnusu bez nezávislého ověření; nezohledňuje zde ověřené skutečné využití oleje.",
+  "nutritionPerServing": {
+    "energyKj": 2291.1,
+    "proteinG": 29.25,
+    "fatG": 33.12,
+    "carbohydratesG": 33.84,
+    "fiberG": 1.33,
+    "energyKcalApprox": 548
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "mraž. kuř. řízky",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 2.8,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "strouhanka",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.14,
+      "unit": "kg",
+      "perServing": "14,000000000000002 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.3,
+      "unit": "l",
+      "perServing": "30,0 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionStatus": "imported-unverified",
+  "allergensStatus": "not-provided"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "kureci-rolada-plnena-vejci-hraskem-a-sunkou",
+  "name": "Kuřecí roláda plněná vejci, hráškem a šunkou",
+  "alternativeNames": [],
+  "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [],
+  "servings": 10,
+  "source": "CYGNUS – Domov sociální péče Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "O00, O09, ZAM",
+  "group": "",
+  "pricePerServingCzk": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "K doplnění: cena, zařazení, sezóna, měsíce, oblíbenost. Výživový součet nezahrnuje celé kuře – hlavní surovinu. Chybí také hodnoty soli a koření. Hmotnost celého kuřete není uvedena. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "CYGNUS – převzaté hodnoty na porci podle předchozího potvrzení základu exportu uživatelem, nikoli nezávisle ověřený výpočet. Výživový součet nezahrnuje celé kuře – hlavní surovinu. Chybí také hodnoty soli a koření. Hmotnost celého kuřete není uvedena.",
+  "nutritionPerServing": {
+    "energyKj": 668.6,
+    "proteinG": 9.21,
+    "fatG": 9.52,
+    "carbohydratesG": 10.39,
+    "fiberG": 2.01,
+    "energyKcalApprox": 160
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "maso-kuře celé",
+      "amount": 1.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "vejce",
+      "amount": 5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "uzenina-šunka",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. hrášek",
+      "amount": 0.18,
+      "unit": "kg",
+      "perServing": "18,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.04,
+      "unit": "kg",
+      "perServing": "4,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.025,
+      "unit": "l",
+      "perServing": "2,5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "sůl",
+      "amount": 0.008,
+      "unit": "kg",
+      "perServing": "0,8 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.015,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.08,
+      "unit": "kg",
+      "perServing": "8,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-rozmarýn",
+      "amount": 0.015,
+      "unit": "kg",
+      "perServing": "1,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "Zelenina - Tymián",
+      "amount": 0.015,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "koření na kuře",
+      "amount": 0.7,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionStatus": "imported-unverified",
+  "allergensStatus": "not-provided"
+}

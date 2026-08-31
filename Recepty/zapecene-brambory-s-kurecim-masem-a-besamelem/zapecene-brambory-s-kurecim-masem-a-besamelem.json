@@ -1,0 +1,168 @@
+{
+  "image": "pikantule.png",
+  "id": "zapecene-brambory-s-kurecim-masem-a-besamelem",
+  "name": "Zapečené brambory s kuřecím masem a bešamelem",
+  "alternativeNames": [
+    "Zapečené brambory s kuřetem",
+    "Kuřecí brambory s bešamelem"
+  ],
+  "description": "Zapečené brambory s kuřecími prsy, smetanovým bešamelem, mozzarellou a balkánským sýrem, ochucené paprikou, kmínem, česnekem, bazalkou a oreganem.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Oběd",
+    "Večeře"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "group": "Zaměstnanci Chotěšov (ZAM)",
+  "pricePerServingCzk": 30.57,
+  "priceNeedsConfirmation": true,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Podzim",
+      "Zima"
+    ],
+    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "monthNumbers": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "lastServedAt": null,
+  "nextRotationAt": null,
+  "history": [],
+  "meatType": "Kuřecí",
+  "sideDish": "Brambory",
+  "preparationType": "Zapečené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Brambory",
+      "amount": 3,
+      "unit": "kg",
+      "perServing": "300 g"
+    },
+    {
+      "name": "Kuřecí prsa",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g"
+    },
+    {
+      "name": "Mletá paprika",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Mletý kmín",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Sušený česnek",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Olivový olej",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml"
+    },
+    {
+      "name": "Smetana Master 1 l",
+      "amount": 0.25,
+      "unit": "ks",
+      "perServing": "přibližně 25 ml"
+    },
+    {
+      "name": "Čerstvé máslo",
+      "amount": 0.08,
+      "unit": "kg",
+      "perServing": "8 g"
+    },
+    {
+      "name": "Hladká mouka",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g"
+    },
+    {
+      "name": "Mozzarella",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g"
+    },
+    {
+      "name": "Balkánský sýr",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g"
+    },
+    {
+      "name": "Bazalka",
+      "amount": 0.002,
+      "unit": "kg",
+      "perServing": "0,2 g"
+    },
+    {
+      "name": "Oregano",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 3092,
+    "energyKcalApprox": 739,
+    "proteinG": 44.6,
+    "fatG": 19.8,
+    "carbohydratesG": 79.5,
+    "fiberG": 5.3,
+    "linoleicAcidG": 0.11,
+    "calciumMg": 525,
+    "ironMg": 39.23,
+    "vitaminAUg": 450,
+    "vitaminB1Mg": 2.733,
+    "vitaminB2Mg": 1,
+    "vitaminCMg": 255
+  },
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 6,
+      "name": "Sójové boby"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    },
+    {
+      "number": 12,
+      "name": "Oxid siřičitý a siřičitany"
+    }
+  ],
+  "instructions": null,
+  "preparationTimeMinutes": null,
+  "bakingTimeMinutes": null,
+  "bakingTemperatureC": null,
+  "difficulty": null
+}

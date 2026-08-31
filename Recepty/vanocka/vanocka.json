@@ -1,0 +1,73 @@
+{
+  "image": "vanocka.png",
+  "id": "vanocka",
+  "name": "Vánočka",
+  "alternativeNames": [
+    "Vánočka pečivo"
+  ],
+  "description": "Balená vánočka podávaná jako sladké snídaňové pečivo.",
+  "category": "Snídaně",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 14.52,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Vánočka – balené pečivo",
+      "amount": 3.3,
+      "unit": "ks",
+      "perServing": "přibližně 132 g při 400g balení"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1760,
+    "energyKcalApprox": 420,
+    "proteinG": 10.8,
+    "fatG": 7.9,
+    "carbohydratesG": 73.9,
+    "fiberG": 3.0
+  },
+  "nutritionReview": "Orientační odhad na porci 132 g. Vychází z běžné 400g vánočky a referenčních hodnot přibližně 1 334 kJ, 8,2 g bílkovin, 6 g tuků, 56 g sacharidů a 2,3 g vlákniny na 100 g.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 8,
+      "name": "Skořápkové plody"
+    }
+  ],
+  "instructions": null
+}

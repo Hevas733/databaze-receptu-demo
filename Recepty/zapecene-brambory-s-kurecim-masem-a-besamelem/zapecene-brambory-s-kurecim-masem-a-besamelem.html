@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b4f9c">
+  <link rel="stylesheet" href="../../styles.css?v=24">
+  <title>Zapečené brambory s kuřecím masem a bešamelem</title>
+<link rel="stylesheet" href="../../icon-fix.css?v=26"></head>
+<body class="detail-page">
+  <main class="recipe-detail">
+    <div class="detail-toolbar">
+      <a class="back-link" href="../../databaze.html">← Zpět do databáze</a>
+      <button class="edit-button" id="editButton" type="button">✎ Upravit</button>
+    </div>
+
+    <header class="detail-hero">
+      <span><img src="pikantule.png" alt="Zapečené brambory s kuřecím masem a bešamelem"></span>
+      <div><p>Hlavní jídlo · <span id="heroServings">10</span> porcí</p><h1 id="recipeName">Zapečené brambory s kuřecím masem a bešamelem</h1><div class="recipe-tags" id="heroTags"></div></div>
+    </header>
+
+    <div class="detail-grid">
+      <section>
+        <h2>Popis</h2><p id="recipeDescription"></p>
+        <h2>Pracovní poznámka</h2><div class="pending" id="planningNote"></div>
+        <h2>Historie použití</h2><div class="history-summary" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px"><div class="pending"><small>Použití za 12 měsíců</small><b id="historyYear" style="display:block;margin-top:5px"></b></div><div class="pending"><small>Průměrný odstup</small><b id="historyAverage" style="display:block;margin-top:5px"></b></div><div class="pending"><small>Nejkratší odstup</small><b id="historyShortest" style="display:block;margin-top:5px"></b></div><div class="pending"><small>Vyhodnocení</small><b id="historyAssessment" style="display:block;margin-top:5px"></b></div></div><div id="historyList"></div>
+        <h2>Suroviny na <span id="ingredientServings">10</span> porcí</h2><div id="ingredients"></div>
+        <h2>Postup</h2><div class="pending">Postup přípravy zatím nebyl doplněn.</div>
+      </section>
+      <aside>
+        <div class="info-box"><h3>Zařazení</h3><p><span>Sezóna</span><b id="seasonAvailability"></b></p><p><span>Doporučeno</span><b id="seasonRecommended"></b></p><p><span>Měsíce</span><b id="seasonMonths"></b></p><p><span>Oblíbenost</span><b id="popularity"></b></p><p><span>Rotace</span><b id="rotation"></b></p><p><span>Poslední použití</span><b id="lastServed"></b></p><p><span>Další možná rotace</span><b id="nextRotation"></b></p><p><span>Cena porce</span><b id="price"></b></p><small>* Cena vyžaduje potvrzení.</small></div>
+        <div class="info-box"><h3>Výživa na porci</h3><p><span>Energie</span><b>3 092 kJ</b></p><p><span>Bílkoviny</span><b>44,6 g</b></p><p><span>Tuky</span><b>19,8 g</b></p><p><span>Sacharidy</span><b>79,5 g</b></p><p><span>Vláknina</span><b>5,3 g</b></p></div>
+        <div class="info-box"><h3>Alergeny</h3><p>1 · Lepek</p><p>6 · Sója</p><p>7 · Mléko a laktóza</p><p>12 · Siřičitany</p></div>
+      </aside>
+    </div>
+  </main>
+
+  <dialog class="edit-dialog" id="editDialog">
+    <form id="editForm" method="dialog">
+      <div class="dialog-heading"><div><h2>Upravit recept</h2><p>Změny se uloží v tomto zařízení.</p></div><button type="button" class="close-button" id="closeEdit" aria-label="Zavřít">×</button></div>
+      <div class="form-grid">
+        <label class="full">Název<input name="name" required></label>
+        <label class="full">Popis<textarea name="description" rows="4"></textarea></label>
+        <label class="full">Alternativní názvy<input name="alternativeNames" placeholder="oddělte čárkou"></label>
+        <label class="full">Pracovní poznámka<textarea name="planningNote" rows="3" placeholder="např. vhodné na pátek, příště jiná příloha"></textarea></label>
+        <label>Počet porcí<input name="servings" type="number" min="1" step="1" required></label>
+        <label>Cena jedné porce (Kč)<input name="price" type="number" min="0" step="0.01"></label>
+        <label>Druh masa<select name="meatType"><option>Kuřecí</option><option>Vepřové</option><option>Hovězí</option><option>Ryba</option><option>Bezmasé</option><option>Jiné</option></select></label>
+        <label>Příloha<input name="sideDish" placeholder="např. brambory"></label>
+        <label>Způsob úpravy<select name="preparationType"><option>Zapečené</option><option>Pečené</option><option>Vařené</option><option>Dušené</option><option>Smažené</option><option>Studené</option></select></label>
+        <label>Stav jídla<select name="status"><option value="active">Aktivní</option><option value="paused">Dočasně vyřazené</option><option value="archived">Archivované</option></select></label>
+        <label>Celoroční dostupnost<select name="availability"><option>Celoročně</option><option>Sezónní</option></select></label>
+        <label>Doporučená sezóna<select name="recommended"><option>Jaro</option><option>Léto</option><option>Podzim</option><option>Zima</option><option>Podzim–zima</option><option>Jaro–léto</option><option>Celoročně</option></select></label>
+        <label>Období / měsíce<input name="months" placeholder="např. září–březen"></label>
+        <label>Oblíbenost<select name="popularity"><option value="">Neurčena</option><option value="1">1 – rotace za 60 dní</option><option value="2">2 – rotace za 90 dní</option><option value="3">3 – rotace za 120 dní</option></select></label>
+        <label>Datum posledního použití<input name="lastServedAt" type="date"></label>
+      </div>
+      <div class="rotation-note" id="rotationNote">Rotační interval se vypočítá automaticky podle oblíbenosti.</div>
+      <div class="dialog-actions"><button type="button" class="secondary-button" id="cancelEdit">Zrušit</button><button type="submit" class="save-button">Uložit změny</button></div>
+    </form>
+  </dialog>
+  <div class="toast" id="detailToast" role="status"></div>
+  <script src="recipe-detail.js?v=24"></script>
+<script src="../../demo-mode.js"></script></body>
+</html>

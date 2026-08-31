@@ -1,0 +1,61 @@
+{
+  "id": "sterilovane-okurky",
+  "name": "Sterilované okurky",
+  "alternativeNames": [],
+  "description": "Sterilované okurky z balení označeného 4 l, podávané jako příloha.",
+  "category": "Příloha",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceDescription": "",
+  "sourceVariant": "00, 03, 07, 09…",
+  "group": "Ostatní",
+  "pricePerServingCzk": 3.83,
+  "season": {
+    "recommended": [],
+    "months": "",
+    "recommendedDisplay": "",
+    "availability": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Sterilované okurky",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026.",
+  "instructions": null,
+  "planningNote": "Norma 0,400 ks čtyřlitrového balení na 10 porcí, tj. 0,040 balení na porci. Hmotnost pevného podílu není známa; nepřevedeno na gramy okurek. Mikronutrienty ze zdroje vyžadují ověření. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "Věrný přepis CYGNUS, nezávisle neověřeno. Cena a výživa použity na porci podle návrhu následovaného pokynem k vložení; základ není na screenshotu explicitně uveden. Chybějící hodnoty nejsou odhadnuty.",
+  "nutritionPerServing": {
+    "fatG": 0,
+    "carbohydratesG": 3.8,
+    "energyKcalApprox": 21.0,
+    "energyKj": 86,
+    "fiberG": 0.8,
+    "proteinG": 0.5
+  },
+  "allergens": [
+    {
+      "name": "Hořčice",
+      "number": 10
+    }
+  ],
+  "allergensIncomplete": false,
+  "ingredients": [
+    {
+      "perServing": "0,040 balení",
+      "needsClarification": true,
+      "amount": 0.4,
+      "name": "Sterilované okurky 4 l",
+      "unit": "ks"
+    }
+  ]
+}

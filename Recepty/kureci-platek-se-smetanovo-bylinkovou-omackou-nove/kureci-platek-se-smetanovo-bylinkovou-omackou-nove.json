@@ -1,0 +1,162 @@
+{
+  "id": "kureci-platek-se-smetanovo-bylinkovou-omackou-nove",
+  "name": "Kuřecí plátek se smetanovo-bylinkovou omáčkou",
+  "alternativeNames": [],
+  "description": "Kuřecí plátek se smetanou, tymiánem a čerstvým rozmarýnem.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Domov sociální péče Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "O00, O09, ZAM",
+  "group": "",
+  "pricePerServingCzk": 26.16,
+  "season": {
+    "availability": "",
+    "recommended": [
+      "Jaro",
+      "Léto",
+      "Podzim"
+    ],
+    "recommendedDisplay": "Jaro–Léto–Podzim",
+    "months": "Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad",
+    "monthNumbers": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "popularity": 2,
+  "rotationDays": 90,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "completionStatus": "reviewed-with-user",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "Tymián: 0,013 svazku × 100 g = 1,3 g na 10 porcí (0,13 g na porci). Rozmarýn čerstvý: 13 g na dávku. Smetana: 500 ml na dávku. Diety: O00, O09, ZAM. Alergeny ponechány nevyplněné na přání uživatele; neznamená to bezalergenní pokrm. Příprava se nedoplňuje. Obrázek je AI ilustrace.",
+  "nutritionReview": "CYGNUS – hodnoty potvrzené uživatelem na jednu porci. Věrný přepis, nikoli nezávisle ověřený nebo nový výpočet. V exportu chybí výživa smetany a rozmarýnu; doplněná etiketa smetany nebyla do těchto součtů přičtena. Prázdné buňky nejsou považovány za nulu.",
+  "nutritionPerServing": {
+    "energyKj": 1766.17,
+    "energyKcalApprox": 422.0,
+    "proteinG": 39.49,
+    "fatG": 13.88,
+    "carbohydratesG": 13.79,
+    "fiberG": 1.4
+  },
+  "sourceNutrition": {
+    "basis": "na jednu porci – potvrzeno uživatelem",
+    "totals": {
+      "energyKj": 1766.17,
+      "proteinG": 39.49,
+      "fatG": 13.88,
+      "carbohydratesG": 13.79,
+      "linoleicAcidG": 0.29,
+      "calciumMg": 90.57,
+      "fiberG": 1.4,
+      "vitaminAUg": 36.4,
+      "vitaminB1Mg": 0.12,
+      "vitaminB2Mg": 0.11,
+      "vitaminCMg": 14.92,
+      "ironMg": 1.64
+    },
+    "verified": false,
+    "userConfirmed": true
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "Tymián čerstvý",
+      "amount": 0.0013,
+      "unit": "kg",
+      "perServing": "0,13 g",
+      "needsClarification": false,
+      "sourceAmount": 0.013,
+      "sourceUnit": "ks",
+      "packageWeightG": 100
+    },
+    {
+      "name": "Rozmarýn čerstvý",
+      "amount": 0.013,
+      "unit": "kg",
+      "perServing": "1.3 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana Master 1l",
+      "amount": 0.5,
+      "unit": "l",
+      "perServing": "50 ml",
+      "needsClarification": false,
+      "nutritionPer100g": {
+        "energyKj": 1091,
+        "energyKcal": 260.7,
+        "fatG": 26,
+        "saturatedFatG": 25,
+        "carbohydratesG": 5,
+        "sugarsG": 4.1,
+        "proteinG": 0,
+        "fiberG": 2.6,
+        "saltG": 0.21
+      },
+      "nutritionSource": "podklady/smetana-vyziva.png"
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.012,
+      "unit": "kg",
+      "perServing": "1.2 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso - kuřecí prsa",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml",
+      "needsClarification": false
+    }
+  ],
+  "nutritionStatus": "user-confirmed-cygnus",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen; návrh servírování, nikoli fotografie normované porce.",
+  "allergensStatus": "omitted-by-user"
+}

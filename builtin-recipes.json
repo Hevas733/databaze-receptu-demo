@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bramborova-kase",
+    "name": "Bramborová kaše",
+    "sourceVariant": "00, 03, 33"
+  },
+  {
+    "id": "bramborove-noky-s-kurecim-masem-a-spenatem",
+    "name": "Bramborové noky s kuřecím masem a špenátem",
+    "sourceVariant": ""
+  },
+  {
+    "id": "bramborove-placky-z-varenych-brambor",
+    "name": "Bramborové placky z vařených brambor",
+    "sourceVariant": ""
+  },
+  {
+    "id": "bramborovy-knedlik-plneny-uzenym",
+    "name": "Bramborový knedlík plněný uzeným masem",
+    "sourceVariant": ""
+  },
+  {
+    "id": "chleb-100-g",
+    "name": "Chléb 100 g",
+    "sourceVariant": ""
+  },
+  {
+    "id": "chleb-150-g",
+    "name": "Chléb 150 g",
+    "sourceVariant": ""
+  },
+  {
+    "id": "houskove-knedliky",
+    "name": "Houskové knedlíky",
+    "sourceVariant": ""
+  },
+  {
+    "id": "hovezi-gulas",
+    "name": "Hovězí guláš",
+    "sourceVariant": "00, 03, 33"
+  },
+  {
+    "id": "hovezi-na-cesneku",
+    "name": "Hovězí pečeně na česneku",
+    "sourceVariant": ""
+  },
+  {
+    "id": "kremova-kureci-polevka",
+    "name": "Krémová kuřecí polévka",
+    "sourceVariant": "000, 009, Z… (zkráceno)"
+  },
+  {
+    "id": "kureci-platek-na-zampionech",
+    "name": "Kuřecí plátek na čerstvých žampionech",
+    "sourceVariant": ""
+  },
+  {
+    "id": "kureci-platek-se-smetanovo-bylinkovou-omackou-nove",
+    "name": "Kuřecí plátek se smetanovo-bylinkovou omáčkou",
+    "sourceVariant": "O00, O09, ZAM"
+  },
+  {
+    "id": "kureci-prirodni-rizek",
+    "name": "Kuřecí přírodní řízek",
+    "sourceVariant": "3,9,33"
+  },
+  {
+    "id": "kureci-prsa-s-nivou-a-slaninou",
+    "name": "Kuřecí prsa s nivou a slaninou",
+    "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL"
+  },
+  {
+    "id": "kureci-rizek-smazeny",
+    "name": "Kuřecí řízek smažený",
+    "sourceVariant": "00, 03, 09, 33"
+  },
+  {
+    "id": "kureci-rolada-plnena-vejci-hraskem-a-sunkou",
+    "name": "Kuřecí roláda plněná vejci, hráškem a šunkou",
+    "sourceVariant": "O00, O09, ZAM"
+  },
+  {
+    "id": "kureci-stehna-uzena",
+    "name": "Kuřecí stehna uzená",
+    "sourceVariant": "00, 03, 09, 33"
+  },
+  {
+    "id": "kureci-zavitek-s-nivou-a-slaninou",
+    "name": "Kuřecí závitek s nivou a slaninou",
+    "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL"
+  },
+  {
+    "id": "polevka-borsc",
+    "name": "Polévka boršč",
+    "sourceVariant": ""
+  },
+  {
+    "id": "polevka-gulasova-vecere",
+    "name": "Gulášová polévka – večeře",
+    "sourceVariant": "00, 03, 33"
+  },
+  {
+    "id": "polevka-kapustova-s-uzeninou",
+    "name": "Polévka kapustová s uzeninou",
+    "sourceVariant": ""
+  },
+  {
+    "id": "polevka-porkova",
+    "name": "Pórková polévka",
+    "sourceVariant": "00, 03, 33"
+  },
+  {
+    "id": "sterilovane-okurky",
+    "name": "Sterilované okurky",
+    "sourceVariant": "00, 03, 07, 09…"
+  },
+  {
+    "id": "testovinova-ryze",
+    "name": "Těstovinová rýže",
+    "sourceVariant": "000, 009, Z…"
+  },
+  {
+    "id": "toustovy-chleb",
+    "name": "Toustový chléb",
+    "sourceVariant": ""
+  },
+  {
+    "id": "vanocka",
+    "name": "Vánočka",
+    "sourceVariant": ""
+  },
+  {
+    "id": "vanocka-dia",
+    "name": "Vánočka DIA",
+    "sourceVariant": ""
+  },
+  {
+    "id": "veprovy-rizek-holandsky",
+    "name": "Vepřový řízek holandský",
+    "sourceVariant": "00, 03, 09, 33"
+  },
+  {
+    "id": "vysocina-snidane",
+    "name": "Salám Vysočina – snídaně",
+    "sourceVariant": ""
+  },
+  {
+    "id": "zapecene-brambory-s-kurecim-masem-a-besamelem",
+    "name": "Zapečené brambory s kuřecím masem a bešamelem",
+    "sourceVariant": ""
+  }
+]

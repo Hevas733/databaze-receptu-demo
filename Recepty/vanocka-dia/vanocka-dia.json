@@ -1,0 +1,81 @@
+{
+  "image": "vanocka-dia.png",
+  "id": "vanocka-dia",
+  "name": "Vánočka DIA",
+  "alternativeNames": [
+    "Vánočka dia pečivo"
+  ],
+  "description": "DIA varianta balené vánočky podávaná jako sladké snídaňové pečivo.",
+  "category": "Snídaně",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 15.97,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Vánočka DIA – balené pečivo",
+      "amount": 3.3,
+      "unit": "ks",
+      "perServing": "přibližně 132 g při 400g balení"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1650,
+    "energyKcalApprox": 394,
+    "proteinG": 11.0,
+    "fatG": 8.0,
+    "carbohydratesG": 68.0,
+    "fiberG": 4.0
+  },
+  "nutritionReview": "Orientační odhad na porci 132 g. Přesné hodnoty závisejí na výrobci a použitém sladidle; označení DIA samo o sobě neznamená výrazně nižší energetickou hodnotu.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    },
+    {
+      "number": 8,
+      "name": "Skořápkové plody"
+    },
+    {
+      "number": 13,
+      "name": "Vlčí bob (Lupina)"
+    }
+  ],
+  "instructions": null
+}

@@ -1,0 +1,105 @@
+{
+  "id": "bramborove-noky-s-kurecim-masem-a-spenatem",
+  "name": "Bramborové noky s kuřecím masem a špenátem",
+  "alternativeNames": [],
+  "description": "Bramborové noky z brambor, hrubé mouky a vajec s kuřecími prsy, špenátem a smetanou.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "group": "Obědy",
+  "pricePerServingCzk": 26.83,
+  "season": {
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "availability": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bramborové noky",
+  "preparationType": "",
+  "status": "active",
+  "image": "noky-ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "Výživa převzata ze zdroje s výhradou – viz kontrola výživy. Smetana Master: 150 ml na 10 porcí, tučnost nedoložena. Postup není dodán. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "Přepis CYGNUS, základ na jednu porci potvrzen uživatelem. Orientační kontrola zjistila vyšší bílkoviny a nesoulad energie s makroživinami; hodnoty zdroje zachovány na výslovné schválení. Tučnost smetany není doložena. Nejde o nezávisle ověřenou výživu.",
+  "nutritionPerServing": {
+    "energyKj": 3569,
+    "carbohydratesG": 126.4,
+    "fiberG": 8.8,
+    "proteinG": 52.6,
+    "fatG": 8.3,
+    "energyKcalApprox": 853
+  },
+  "allergens": [
+    {
+      "name": "Obiloviny obsahující lepek",
+      "number": 1
+    },
+    {
+      "name": "Vejce",
+      "number": 3
+    },
+    {
+      "name": "Sójové boby",
+      "number": 6
+    },
+    {
+      "name": "Mléko včetně laktózy",
+      "number": 7
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Brambory",
+      "perServing": "300 g",
+      "unit": "kg",
+      "amount": 3
+    },
+    {
+      "name": "Mouka hrubá",
+      "perServing": "100 g",
+      "unit": "kg",
+      "amount": 1
+    },
+    {
+      "name": "Vejce",
+      "perServing": "0,5 ks",
+      "unit": "ks",
+      "amount": 5
+    },
+    {
+      "name": "Sůl",
+      "perServing": "2 g",
+      "unit": "kg",
+      "amount": 0.02
+    },
+    {
+      "name": "Kuřecí prsa",
+      "perServing": "100 g",
+      "unit": "kg",
+      "amount": 1
+    },
+    {
+      "name": "Mražený špenát",
+      "perServing": "15 g",
+      "unit": "kg",
+      "amount": 0.15
+    },
+    {
+      "name": "Smetana Master 1 l",
+      "perServing": "15 ml",
+      "unit": "l",
+      "amount": 0.15
+    }
+  ],
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026; návrh servírování."
+}

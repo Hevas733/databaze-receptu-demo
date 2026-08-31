@@ -1,0 +1,85 @@
+{
+  "id": "docx-b68cfccafc1e5dd73e3d3081",
+  "name": "Tvaroh sladký s džemem",
+  "sourceVariant": "00, 02, 03, 04, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "tvaroh měkký",
+      "amount": 0.8,
+      "unit": "kg",
+      "perServing": "80 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "džem",
+      "amount": 0.11,
+      "unit": "kg",
+      "perServing": "11 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 846.51,
+    "energyKcalApprox": 202,
+    "proteinG": 10.82,
+    "fatG": 9.95,
+    "carbohydratesG": 17.22,
+    "fiberG": 0.19,
+    "calciumMg": 3648.58,
+    "ironMg": 2.98,
+    "vitaminAUg": 522.88,
+    "vitaminB1Mg": 0.29,
+    "vitaminB2Mg": 3.07,
+    "vitaminCMg": 0.63
+  },
+  "source": "DOCX",
+  "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:06:26.504Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,57.\nUpřesnit velikost balení / jednotku ks: mléko polotučné 1l.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,57.",
+    "Upřesnit velikost balení / jednotku ks: mléko polotučné 1l."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -1,0 +1,74 @@
+{
+  "id": "docx-551c22900cf0ca0e1bea4068",
+  "name": "Čaj ovocný",
+  "sourceVariant": "00, 02, 03, 04, 07, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "čaj ovocný",
+      "amount": 0.05,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.101,
+      "unit": "kg",
+      "perServing": "10,1 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 171.7,
+    "energyKcalApprox": 41,
+    "proteinG": null,
+    "fatG": null,
+    "carbohydratesG": 10.09,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Napoje_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:23:13.582Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = —.\nUpřesnit velikost balení / jednotku ks: čaj ovocný.\nChybí bílkoviny.\nChybí tuky.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Upřesnit velikost balení / jednotku ks: čaj ovocný.",
+    "Chybí bílkoviny.",
+    "Chybí tuky.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -1,0 +1,78 @@
+{
+  "id": "docx-b6c464f0c1e9ee8027d46594",
+  "name": "Kakao",
+  "sourceVariant": "00, 02, 03, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "kakao",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 866.1,
+    "energyKcalApprox": 207,
+    "proteinG": 10.34,
+    "fatG": 4.91,
+    "carbohydratesG": 30.25,
+    "fiberG": 0.59,
+    "calciumMg": 341.54,
+    "ironMg": 1.96,
+    "vitaminAUg": 30,
+    "vitaminB1Mg": 0.13,
+    "vitaminB2Mg": 0.4,
+    "vitaminCMg": 3.3
+  },
+  "source": "DOCX",
+  "sourceFile": "Napoje_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:23:13.582Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,11.\nUpřesnit velikost balení / jednotku ks: mléko polotučné 1l, kakao.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,11.",
+    "Upřesnit velikost balení / jednotku ks: mléko polotučné 1l, kakao."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "kureci-prirodni-rizek",
+  "name": "Kuřecí přírodní řízek",
+  "alternativeNames": [],
+  "description": "Kuřecí přírodní řízek s cibulí a kořenicí směsí na kuře.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Oběd",
+    "Večeře"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Domov sociální péče Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "3,9,33",
+  "group": "",
+  "pricePerServingCzk": 11.91,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 2,
+  "rotationDays": 90,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "completionStatus": "reviewed-with-user",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "Koření: 0,5 balíčku po přibližně 20 g = cca 10 g na 10 porcí (cca 1 g na porci); hmotnost je odhad podle uživatele, konkrétní směs není doložena. Příprava se na přání uživatele neřeší. Diety: 3,9,33. Alergeny ponechány nevyplněné na přání uživatele; neznamená to bezalergenní pokrm. Příprava se nedoplňuje. Obrázek je AI ilustrace.",
+  "nutritionReview": "CYGNUS – hodnoty potvrzené uživatelem na jednu porci. Věrný přepis, nikoli nezávisle ověřený nebo nový výpočet. V exportu chybí výživa koření na kuře. Prázdné buňky nejsou považovány za nulu.",
+  "nutritionPerServing": {
+    "energyKj": 960.7,
+    "energyKcalApprox": 230.0,
+    "proteinG": 24.13,
+    "fatG": 11.38,
+    "carbohydratesG": 8.07,
+    "fiberG": 0.52
+  },
+  "sourceNutrition": {
+    "basis": "na jednu porci – potvrzeno uživatelem",
+    "totals": {
+      "energyKj": 960.7,
+      "proteinG": 24.13,
+      "fatG": 11.38,
+      "carbohydratesG": 8.07,
+      "linoleicAcidG": 0.16,
+      "calciumMg": 43.9,
+      "fiberG": 0.52,
+      "vitaminAUg": 17,
+      "vitaminB1Mg": 0.06,
+      "vitaminB2Mg": 0.05,
+      "vitaminCMg": 6.9,
+      "ironMg": 0.78
+    },
+    "verified": false,
+    "userConfirmed": true
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "mraž. kuř. řízky",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "Koření na kuře (cca 20g balíček)",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": "cca 1 g",
+      "needsClarification": false,
+      "packageWeightGApprox": 20,
+      "totalWeightGApprox": 10
+    }
+  ],
+  "nutritionStatus": "user-confirmed-cygnus",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen; návrh servírování, nikoli fotografie normované porce.",
+  "allergensStatus": "omitted-by-user"
+}

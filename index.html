@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="cs">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="theme-color" content="#0b4f9c" />
+
+  <meta name="description" content="Osobní databáze receptů a plánovač jídelníčku." />
+
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Receptář – můj pomocník</title>
+
+</head>
+
+<body>
+
+  <div class="app-shell">
+
+    <aside class="sidebar" id="sidebar">
+
+      <div class="brand"><span class="brand-mark">♨</span><div><strong>RECEPTÁŘ</strong><small>můj pomocník</small></div></div>
+
+      <nav aria-label="Hlavní navigace">
+
+        <a class="active" href="#"><span>⌂</span>Domů</a>
+
+        <a href="databaze.html"><span>♨</span>Databáze receptů</a>
+
+        <a href="#planner"><span>▦</span>Jídelníček</a>
+
+        <a href="import.html?v=56"><span>⇧</span>Import norem</a>
+
+        <a href="#stats"><span>▥</span>Statistiky</a>
+
+        <a href="#settings"><span>⚙</span>Nastavení</a>
+
+      </nav>
+
+      <div class="overview">
+
+        <strong>Rychlý přehled</strong>
+
+        <p><span>Receptů v databázi</span><b>30</b></p>
+
+        <p><span>Poslední import</span><b>26. 8. 2026</b></p>
+
+        <p><span>Průměrná cena porce</span><b>30,57 Kč</b></p>
+
+      </div>
+
+    </aside>
+
+
+
+    <main>
+
+      <header>
+
+        <button class="menu-button" id="menuButton" aria-label="Otevřít nabídku">☰</button>
+
+        <div class="header-spacer" aria-hidden="true"></div>
+
+        <div class="profile"><span class="avatar">👨‍🍳</span><div><b>Šéfkuchař</b><small>Kuchyně DSP</small></div></div>
+
+      </header>
+
+
+
+      <section class="search-card">
+
+        <h2>Najít vhodné jídlo</h2>
+
+        <form id="searchForm"><label class="search-field"><span>⌕</span><input id="searchInput" placeholder="Napište, co hledáte… (např. kuře, levné, bez brambor…)" /></label><button>HLEDAT</button></form>
+
+        <p class="hint">Zkuste například: „lehčí oběd s kuřetem“ nebo „jídlo do 35 Kč“</p>
+
+        <div class="quick"><b>Rychlý výběr</b><div class="chips"><button data-quick-meal="Snídaně">☕ Snídaně</button><button data-quick-meal="Oběd">☀ Oběd</button><button data-quick-meal="Polévka">🍲 Polévka</button><button data-quick-meal="Příloha">🍽️ Přílohy</button><button data-quick-meal="Svačina">🍏 Svačina</button><button data-quick-meal="Večeře">☾ Večeře</button><label style="display:flex;align-items:center;gap:8px;margin-left:auto;font-size:13px;font-weight:700">Sezóna<select id="quickSeasonFilter" style="padding:10px;border:1px solid #cbd6e1;border-radius:8px;background:#fff"><option value="">Všechny sezóny</option><option>Jaro</option><option>Léto</option><option>Podzim</option><option>Zima</option><option>Celoročně</option></select></label><label style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700">Oblíbenost<select id="quickPopularityFilter" style="padding:10px;border:1px solid #cbd6e1;border-radius:8px;background:#fff"><option value="">Všechny</option><option value="1">1 – rotace 60 dní</option><option value="2">2 – rotace 90 dní</option><option value="3">3 – rotace 120 dní</option></select></label><button data-quick-all class="more">☷ Další filtry</button></div></div>
+
+      </section>
+
+
+
+      <section class="actions">
+
+        <a href="databaze.html" class="blue"><span>📖</span><b>Databáze receptů</b><small>Prohlížejte a spravujte všechna jídla.</small><em>›</em></a>
+
+        <a href="#planner" class="green"><span>▦</span><b>Jídelníček</b><small>Zobrazit plán, historii a exporty.</small><em>›</em></a>
+
+        <a href="import.html?v=56" class="purple"><span>⇧</span><b>Importovat normy z DOCX</b><small>Vyberte soubor Word a přidejte normy do databáze.</small><em>›</em></a>
+
+        
+
+      </section>
+
+      <div class="lists" style="grid-template-columns:1fr">
+
+        <section class="list-card repeat"><div class="card-heading"><div><h3>💡 Přehled rotace</h3><p>Rychlé skupiny podle historie použití</p></div><span>›</span></div><div class="chips" style="margin:14px 0"><button onclick="location.href='databaze.html?rotation=ready'">Lze použít nyní</button><button onclick="location.href='databaze.html?rotation=overdue'">Dlouho nebylo</button><button onclick="location.href='databaze.html?rotation=forgotten'">Zapomenuté</button><button onclick="location.href='databaze.html?rotation=soon'">Brzy bude možné</button><button onclick="location.href='databaze.html?rotation=early'">Používá se příliš často</button><button onclick="location.href='databaze.html?rotation=none'">Bez historie</button></div><div id="repeatList"></div><a href="databaze.html">Zobrazit celou databázi</a></section>
+
+      </div>
+
+      <footer>Receptář – můj pomocník &nbsp;|&nbsp; Návrh PWA</footer>
+
+    </main>
+
+  </div>
+
+  <dialog class="edit-dialog quick-info-dialog" id="quickInfoDialog">
+
+    <div class="quick-info-content" style="padding:24px">
+
+      <div class="dialog-heading"><div><h2 id="quickInfoName">Rychlé info</h2><p>Hodnoty na jednu porci</p></div><button type="button" class="close-button" id="closeQuickInfo" aria-label="Zavřít">×</button></div>
+
+      <div class="quick-price" style="display:flex;justify-content:space-between;align-items:center;margin:20px 0 10px;padding:16px;border-radius:10px;background:#edf7ef"><span>Cena jedné porce</span><strong id="quickPrice" style="font-size:22px;color:#13843b">—</strong></div>
+
+      <div class="quick-nutrition"><p style="display:flex;justify-content:space-between;border-bottom:1px solid #e5eaf0;padding:10px 0;margin:0"><span>Energie</span><b>3 092 kJ</b></p><p style="display:flex;justify-content:space-between;border-bottom:1px solid #e5eaf0;padding:10px 0;margin:0"><span>Bílkoviny</span><b>44,6 g</b></p><p style="display:flex;justify-content:space-between;border-bottom:1px solid #e5eaf0;padding:10px 0;margin:0"><span>Tuky</span><b>19,8 g</b></p><p style="display:flex;justify-content:space-between;border-bottom:1px solid #e5eaf0;padding:10px 0;margin:0"><span>Sacharidy</span><b>79,5 g</b></p><p style="display:flex;justify-content:space-between;border-bottom:1px solid #e5eaf0;padding:10px 0;margin:0"><span>Vláknina</span><b>5,3 g</b></p></div>
+
+      <div id="quickNoteWrap" style="margin-top:14px;padding:13px;border-radius:9px;background:#fff8e8"><b>Pracovní poznámka</b><p id="quickNote" style="margin:6px 0 0;color:#66552f"></p></div>
+
+      <div class="dialog-actions"><button type="button" class="secondary-button" id="openRecipeFromInfo">Otevřít recept</button><button type="button" class="save-button" id="closeQuickInfoBottom">Zavřít</button></div>
+
+    </div>
+
+  </dialog>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="recipe-imports.js?v=66"></script><script src="app.js?v=61"></script>
+
+<script src="demo-mode.js"></script></body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

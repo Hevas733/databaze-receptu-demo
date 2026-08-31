@@ -1,0 +1,108 @@
+{
+  "id": "polevka-porkova",
+  "name": "Pórková polévka",
+  "alternativeNames": [],
+  "description": "Pórková polévka s polotučným mlékem, vejci, hladkou moukou a olejem.",
+  "category": "Polévka",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceDescription": "2032",
+  "sourceVariant": "00, 03, 33",
+  "group": "Polévky",
+  "pricePerServingCzk": 3.15,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": 60,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026.",
+  "instructions": null,
+  "planningNote": "Pór ve zdroji 0,500 ks na 10 porcí. Jednotka a odpovídající hmotnost nevyjasněny, nepřevedeno na kg. Mléko 1 ks litrového balení = 1 l. Postup a objem hotové porce nejsou doloženy. Obrázek je AI ilustrace – návrh servírování.",
+  "nutritionReview": "Přepis zdroje CYGNUS, bez nezávislého ověření. Hodnoty na porci převzaty podle předloženého návrhu a následného pokynu k vložení; základ není na screenshotu explicitně uveden.",
+  "nutritionPerServing": {
+    "energyKj": 770,
+    "energyKcalApprox": 184,
+    "proteinG": 7,
+    "fatG": 8.8,
+    "carbohydratesG": 19.7,
+    "fiberG": 0.8
+  },
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    }
+  ],
+  "allergensIncomplete": false,
+  "ingredients": [
+    {
+      "name": "Pór",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Mouka hladká",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g"
+    },
+    {
+      "name": "Mléko polotučné 1 l",
+      "amount": 1,
+      "unit": "l",
+      "perServing": "100 ml"
+    },
+    {
+      "name": "Vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": "0,2 ks"
+    },
+    {
+      "name": "Olej Forte",
+      "amount": 0.06,
+      "unit": "l",
+      "perServing": "6 ml"
+    }
+  ]
+}

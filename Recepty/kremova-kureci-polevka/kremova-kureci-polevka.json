@@ -1,0 +1,181 @@
+{
+  "id": "kremova-kureci-polevka",
+  "name": "Krémová kuřecí polévka",
+  "alternativeNames": [],
+  "description": "Krémová polévka z normované mražené slepice, zeleniny, másla, smetany a bylinek.",
+  "category": "Polévka",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceDescription": "",
+  "sourceVariant": "000, 009, Z… (zkráceno)",
+  "group": "Polévky",
+  "pricePerServingCzk": 17.26,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": 60,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026.",
+  "instructions": null,
+  "planningNote": "ALERGENY NEÚPLNÉ: viditelná pouze čísla 1–7; seznam může pokračovat mimo screenshot. Nutno ověřit před podáváním. Cena 17,26 Kč pochází z názvu přílohy. Zdroj uvádí mraženou slepici, nikoli čisté maso. Neznámá balení pepře a bylinek i tučnost smetany. Vitamín A 8 965 μg dle zdroje vyžaduje ověření. Postup a objem hotové porce nejsou doloženy. Obrázek je AI ilustrace – návrh servírování.",
+  "nutritionReview": "Přepis zdroje CYGNUS, bez nezávislého ověření. Hodnoty na porci převzaty podle předloženého návrhu a následného pokynu k vložení; základ není na screenshotu explicitně uveden.",
+  "nutritionPerServing": {
+    "energyKj": 1964,
+    "energyKcalApprox": 469,
+    "proteinG": 22.7,
+    "fatG": 32.8,
+    "carbohydratesG": 23.3,
+    "fiberG": 3.4
+  },
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 2,
+      "name": "Korýši"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    },
+    {
+      "number": 4,
+      "name": "Ryby"
+    },
+    {
+      "number": 5,
+      "name": "Arašídy"
+    },
+    {
+      "number": 6,
+      "name": "Sójové boby"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    }
+  ],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "Cibule",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g"
+    },
+    {
+      "name": "Česnek",
+      "amount": 0.01,
+      "unit": "kg",
+      "perServing": "1 g"
+    },
+    {
+      "name": "Máslo čerstvé 200 g",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g"
+    },
+    {
+      "name": "Mouka hladká",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g"
+    },
+    {
+      "name": "Smetana Master 1 l",
+      "amount": 0.4,
+      "unit": "l",
+      "perServing": "40 ml"
+    },
+    {
+      "name": "Sůl",
+      "amount": 0.02,
+      "unit": "kg",
+      "perServing": "2 g"
+    },
+    {
+      "name": "Koření mletý pepř",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Mrkev",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g"
+    },
+    {
+      "name": "Cuketa",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g"
+    },
+    {
+      "name": "Brambory",
+      "amount": 0.22,
+      "unit": "kg",
+      "perServing": "22 g"
+    },
+    {
+      "name": "Tymián",
+      "amount": 0.015,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Petržel hladkolistá",
+      "amount": 0.015,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Pažitka",
+      "amount": 0.015,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "Mražená slepice",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g"
+    }
+  ]
+}

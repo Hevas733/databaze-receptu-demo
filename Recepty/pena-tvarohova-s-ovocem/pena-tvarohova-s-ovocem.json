@@ -1,0 +1,79 @@
+{
+  "id": "docx-7300981716396b5b0ddfb210",
+  "name": "Pěna tvarohová s ovocem",
+  "sourceVariant": "00, 02, 03, 04, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "tvaroh měkký",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "ovoce banány",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 807.5,
+    "energyKcalApprox": 193,
+    "proteinG": 6.85,
+    "fatG": 6.05,
+    "carbohydratesG": 28.09,
+    "fiberG": 1.15,
+    "calciumMg": 2265,
+    "ironMg": 1.75,
+    "vitaminAUg": 325,
+    "vitaminB1Mg": 0.18,
+    "vitaminB2Mg": 1.9,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:06:26.504Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,35.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,35."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

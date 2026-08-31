@@ -1,0 +1,55 @@
+{
+  "id": "kureci-stehna-uzena",
+  "name": "Kuřecí stehna uzená",
+  "alternativeNames": [],
+  "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [],
+  "servings": 10,
+  "source": "CYGNUS – Domov sociální péče Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "00, 03, 09, 33",
+  "group": "",
+  "pricePerServingCzk": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "K doplnění: cena, zařazení, sezóna, měsíce, oblíbenost. Vláknina a mikronutrienty nejsou v exportu uvedeny; prázdné buňky nejsou nuly. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "CYGNUS – převzaté hodnoty na porci podle předchozího potvrzení základu exportu uživatelem, nikoli nezávisle ověřený výpočet. Vláknina a mikronutrienty nejsou v exportu uvedeny; prázdné buňky nejsou nuly.",
+  "nutritionPerServing": {
+    "energyKj": 1430,
+    "proteinG": 34,
+    "fatG": 22,
+    "carbohydratesG": 2,
+    "fiberG": null,
+    "energyKcalApprox": 342
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "kuřecí stehna uzená",
+      "amount": 2,
+      "unit": "kg",
+      "perServing": "200 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionStatus": "imported-unverified",
+  "allergensStatus": "not-provided"
+}

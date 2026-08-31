@@ -1,0 +1,10 @@
+{
+  "name": "Receptář – můj pomocník",
+  "short_name": "Receptář",
+  "description": "Osobní databáze receptů a plánovač jídelníčku.",
+  "lang": "cs",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#0b4f9c"
+}

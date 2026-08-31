@@ -1,0 +1,86 @@
+{
+  "image": "chleb-150-g.png",
+  "id": "chleb-150-g",
+  "name": "Chléb 150 g",
+  "alternativeNames": [
+    "Chléb večeře",
+    "Pečivo chléb 150 g"
+  ],
+  "description": "Větší 150g porce běžného chleba podávaná jako pečivo k večeři.",
+  "category": "Pečivo",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 5.99,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Chléb",
+      "amount": 1.5,
+      "unit": "kg",
+      "perServing": "150 g"
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1725,
+    "energyKcalApprox": 412,
+    "proteinG": 13.8,
+    "fatG": 3.5,
+    "carbohydratesG": 82.8,
+    "fiberG": 5.2
+  },
+  "nutritionReview": "Hodnoty na porci 150 g převzaté z dodaného podkladu.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    },
+    {
+      "number": 11,
+      "name": "Sezamová semena"
+    },
+    {
+      "number": 13,
+      "name": "Vlčí bob (Lupina)"
+    }
+  ],
+  "instructions": null
+}

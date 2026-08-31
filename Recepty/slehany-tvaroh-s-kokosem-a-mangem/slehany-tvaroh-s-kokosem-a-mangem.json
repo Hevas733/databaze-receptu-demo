@@ -1,0 +1,100 @@
+{
+  "id": "docx-8b999c5664c191fc0ef5c170",
+  "name": "Šlehaný tvaroh s kokosem a mangem",
+  "sourceVariant": "O00, ZAM",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "tvaroh měkký",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana Master 1l",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.08,
+      "unit": "kg",
+      "perServing": "8 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. mango",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "Agar",
+      "amount": 0.004,
+      "unit": "kg",
+      "perServing": "0,4 g",
+      "needsClarification": false
+    },
+    {
+      "name": "kokos strouhaný 200g",
+      "amount": 0.06,
+      "unit": "kg",
+      "perServing": "6 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 826,
+    "energyKcalApprox": 197,
+    "proteinG": 12.6,
+    "fatG": 11.8,
+    "carbohydratesG": 10.29,
+    "fiberG": null,
+    "calciumMg": 4530,
+    "ironMg": 3.5,
+    "vitaminAUg": 650,
+    "vitaminB1Mg": 0.35,
+    "vitaminB2Mg": 3.8,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:06:26.504Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,70.\nUpřesnit velikost balení / jednotku ks: smetana Master 1l.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,70.",
+    "Upřesnit velikost balení / jednotku ks: smetana Master 1l.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

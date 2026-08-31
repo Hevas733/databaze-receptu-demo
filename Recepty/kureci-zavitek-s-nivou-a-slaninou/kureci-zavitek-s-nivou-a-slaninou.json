@@ -1,0 +1,104 @@
+{
+  "id": "kureci-zavitek-s-nivou-a-slaninou",
+  "name": "Kuřecí závitek s nivou a slaninou",
+  "alternativeNames": [],
+  "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [],
+  "servings": 10,
+  "source": "CYGNUS – Domov sociální péče Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL",
+  "group": "",
+  "pricePerServingCzk": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "popularity": null,
+  "rotationDays": null,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Kuřecí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "",
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "K doplnění: cena, zařazení, sezóna, měsíce, oblíbenost. Možná duplicita: Kuřecí prsa s nivou a slaninou mají stejnou exportovanou normu a součty. Zatím samostatný záznam, nesloučeno. V součtech chybí smetana, sůl a pepř. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "CYGNUS – převzaté hodnoty na porci podle předchozího potvrzení základu exportu uživatelem, nikoli nezávisle ověřený výpočet. Možná duplicita: Kuřecí prsa s nivou a slaninou mají stejnou exportovanou normu a součty. Zatím samostatný záznam, nesloučeno. V součtech chybí smetana, sůl a pepř.",
+  "nutritionPerServing": {
+    "energyKj": 1646.7,
+    "proteinG": 34.84,
+    "fatG": 19.9,
+    "carbohydratesG": 1.1,
+    "fiberG": 0.21,
+    "energyKcalApprox": 394
+  },
+  "allergens": [],
+  "allergensIncomplete": true,
+  "ingredients": [
+    {
+      "name": "maso - kuřecí prsa",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "uzenina-angl.slanina",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "sýr Niva",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10,0 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10,0 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana 215ml",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "sůl",
+      "amount": 0.001,
+      "unit": "kg",
+      "perServing": "0,1 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.001,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionStatus": "imported-unverified",
+  "allergensStatus": "not-provided"
+}

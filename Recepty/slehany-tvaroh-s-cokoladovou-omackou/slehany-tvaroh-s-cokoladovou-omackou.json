@@ -1,0 +1,106 @@
+{
+  "id": "docx-b81919e683fd46b9a7affa6f",
+  "name": "Šlehaný tvaroh s čokoládovou omáčkou",
+  "sourceVariant": "00, 03, 33, 02",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "tvaroh měkký",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr vanilkovy",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "čokoláda na vař.100g",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana Master 1l",
+      "amount": 0.6,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1750.37,
+    "energyKcalApprox": 418,
+    "proteinG": 15.12,
+    "fatG": 25.49,
+    "carbohydratesG": 30.67,
+    "fiberG": 2.22,
+    "calciumMg": 4558.6,
+    "ironMg": 4.27,
+    "vitaminAUg": 654.7,
+    "vitaminB1Mg": 0.37,
+    "vitaminB2Mg": 3.86,
+    "vitaminCMg": 0.22
+  },
+  "source": "DOCX",
+  "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-08-31T16:06:26.504Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 1,01.\nUpřesnit velikost balení / jednotku ks: cukr vanilkovy, mléko polotučné 1l, čokoláda na vař.100g, smetana Master 1l.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,01.",
+    "Upřesnit velikost balení / jednotku ks: cukr vanilkovy, mléko polotučné 1l, čokoláda na vař.100g, smetana Master 1l."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -1,0 +1,74 @@
+{
+  "image": "vysocina-snidane.png",
+  "id": "vysocina-snidane",
+  "name": "Salám Vysočina – snídaně",
+  "alternativeNames": [
+    "Salám Vysočina 50 g",
+    "Vysočina"
+  ],
+  "description": "Porce trvanlivého salámu Vysočina podávaná ke snídani.",
+  "category": "Snídaně",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "servings": 10,
+  "source": "Stravovací provoz Chotěšov",
+  "pricePerServingCzk": 27.88,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Uzenina",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studené",
+  "status": "active",
+  "ingredients": [
+    {
+      "name": "Salám Vysočina",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1770,
+    "energyKcalApprox": 423,
+    "proteinG": 18.0,
+    "fatG": 38.0,
+    "carbohydratesG": 1.0
+  },
+  "nutritionReview": "Název zdroje uvádí 50 g, ale receptura 1 kg na 10 porcí odpovídá 100 g na porci; množství je třeba ověřit.",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek – uvedeno ve zdroji"
+    },
+    {
+      "number": 3,
+      "name": "Vejce – uvedeno ve zdroji"
+    }
+  ],
+  "instructions": null
+}

@@ -1,0 +1,91 @@
+{
+  "id": "hovezi-gulas",
+  "name": "Hovězí guláš",
+  "alternativeNames": [],
+  "description": "Hovězí přední s cibulí, olejem a hladkou moukou podle dodané normy, bez přílohy.",
+  "category": "Hlavní jídlo",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "servings": 10,
+  "source": "CYGNUS – Stravovací provoz Chotěšov",
+  "sourceCode": "",
+  "sourceVariant": "00, 03, 33",
+  "group": "Obědy",
+  "pricePerServingCzk": 28.64,
+  "season": {
+    "recommendedDisplay": "Celoročně",
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "popularity": 1,
+  "rotationDays": 60,
+  "history": [],
+  "lastServedAt": null,
+  "meatType": "Hovězí",
+  "sideDish": "Volitelná",
+  "preparationType": "",
+  "status": "active",
+  "image": "ai-ilustrace.png",
+  "instructions": null,
+  "planningNote": "Norma pro variantu 00, 03, 33. Rajský protlak má ve vybraném sloupci prázdnou buňku a není započten. Koření ani jeho množství nejsou doloženy. Zdrojový popis: „3“, význam neznámý. Postup není dodán. Obrázek je AI ilustrace – návrh servírování, nikoli fotografie skutečného jídla.",
+  "nutritionReview": "Přepis výživy ze screenshotu CYGNUS. Cena a výživa použity na porci podle návrhu následovaného pokynem uživatele k vložení. Správnost výživy nebyla nezávisle ověřena; ostatní varianty nebyly sloučeny.",
+  "nutritionPerServing": {
+    "carbohydratesG": 13.4,
+    "fiberG": 1.1,
+    "energyKj": 1372,
+    "fatG": 21.3,
+    "energyKcalApprox": 328,
+    "proteinG": 21.5
+  },
+  "allergens": [
+    {
+      "name": "Obiloviny obsahující lepek",
+      "number": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "perServing": "100 g",
+      "amount": 1,
+      "unit": "kg",
+      "name": "Hovězí přední"
+    },
+    {
+      "perServing": "10 ml",
+      "amount": 0.1,
+      "unit": "l",
+      "name": "Olej Forte"
+    },
+    {
+      "perServing": "15 g",
+      "amount": 0.15,
+      "unit": "kg",
+      "name": "Mouka hladká"
+    },
+    {
+      "perServing": "30 g",
+      "amount": 0.3,
+      "unit": "kg",
+      "name": "Cibule"
+    }
+  ],
+  "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026."
+}
