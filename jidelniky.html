@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b4f9c">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="jidelniky.css?v=84">
+  <title>Jídelníčky – Receptář</title>
+</head>
+<body>
+<main class="menus-page">
+  <div class="detail-toolbar"><a class="back-link" href="index.html">← Zpět na úvod</a><a class="secondary-button" href="import.html#menu-import">Importovat jídelníček</a></div>
+  <header class="menus-hero"><div><span class="menus-icon">▦</span><div><h1>Jídelníčky</h1><p>Všechny uložené jídelníčky – minulé, aktuální i budoucí.</p></div></div><div class="menus-today"><small>Dnes</small><b id="todayLabel"></b></div></header>
+  <section class="menus-toolbar">
+    <label>Období<select id="periodFilter"><option value="all">Všechny</option><option value="current">Aktuální</option><option value="future">Budoucí</option><option value="past">Minulé</option></select></label>
+    <label>Jídelní lístek<select id="importFilter"><option value="">Načítám…</option></select></label>
+    <span id="menuCount"></span>
+  </section>
+  <p id="menusStatus" role="status">Načítám uložené jídelníčky…</p>
+  <section id="menusOverview" class="menus-overview"></section>
+  <section id="menuDays" class="menu-days"></section>
+</main>
+<script src="jidelniky.js?v=84"></script>
+</body>
+</html>

@@ -6,6 +6,18 @@ window.RecipeImports=(()=>{
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const text=(v,max=1000)=>{if(typeof v!=='string'||v.length>max)throw Error('Neplatný text v normě.');return v};
  const num=v=>{if(v!==null&&(typeof v!=='number'||!Number.isFinite(v)||v<0))throw Error('Neplatné číslo v normě.');return v};
+ function completionIssues(r){
+  const issues=[];
+  if(!Array.isArray(r.mealTypes)||!r.mealTypes.length)issues.push('denní jídlo');
+  if(r.pricePerServingCzk==null||r.pricePerServingCzk<=0)issues.push('cena porce');
+  if(!String(r.meatType||'').trim())issues.push('druh masa');
+  if(!String(r.sideDish||'').trim())issues.push('příloha nebo „Bez přílohy“');
+  if(!String(r.preparationType||'').trim())issues.push('způsob úpravy');
+  if(!String(r.season?.availability||'').trim()||(!String(r.season?.months||'').trim()&&!(r.season?.monthNumbers||[]).length))issues.push('sezóna a měsíce');
+  if(![1,2,3].includes(Number(r.popularity)))issues.push('oblíbenost');
+  return issues;
+ }
+ const needsCompletion=r=>completionIssues(r).length>0;
  function clean(r){
   if(!r||typeof r!=='object')throw Error('Neplatná norma.');
   const id=text(r.id,150);if(!/^docx-[a-z0-9-]+$/.test(id))throw Error('Neplatné ID normy.');
@@ -25,7 +37,7 @@ window.RecipeImports=(()=>{
    popularity:[1,2,3].includes(r.popularity)?r.popularity:null,
    season:{availability:text(r.season?.availability||'',80),recommended:(r.season?.recommended||[]).map(v=>text(v,80)),recommendedDisplay:text(r.season?.recommendedDisplay||'',150),months:text(r.season?.months||'',150),monthNumbers:(r.season?.monthNumbers||[]).filter(v=>Number.isInteger(v)&&v>=1&&v<=12)},
    history:(r.history||[]).filter(v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)),lastServedAt:r.lastServedAt?text(r.lastServedAt,10):null,rotationDays:{1:60,2:90,3:120}[r.popularity]||null,
-   status:['active','paused','archived'].includes(r.status)?r.status:'active',completionStatus:'needs-completion',image:/^[a-zA-Z0-9._-]+$/.test(r.image||'')?r.image:null,allergens:[],allergensIncomplete:true,alternativeNames:(r.alternativeNames||[]).map(v=>text(v,250)),_imported:true};
+   status:['active','paused','archived'].includes(r.status)?r.status:'active',completionStatus:needsCompletion(r)?'needs-completion':'complete',image:/^[a-zA-Z0-9._-]+$/.test(r.image||'')?r.image:null,allergens:[],allergensIncomplete:true,alternativeNames:(r.alternativeNames||[]).map(v=>text(v,250)),_imported:true};
  }
  function localList(){const raw=localStorage.getItem(KEY);if(!raw)return [];let data;try{data=JSON.parse(raw)}catch{throw Error('Uložený katalog importů je poškozený. Nic se nepřepsalo.');}if(data.version!==1||!Array.isArray(data.recipes))throw Error('Nepodporovaná verze katalogu.');return data.recipes.map(clean)}
  const identity=r=>norm(r.name)+'|'+norm(r.sourceVariant).split(' ').sort().join(' ');
@@ -78,5 +90,5 @@ window.RecipeImports=(()=>{
  function diskStatus(){return diskMessage}
  async function setSourceFile(file){if(file.size>8*1024*1024)throw Error('Podklad smí mít nejvýše 8 MB.');sourceDocument={name:file.name,base64:await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result.split(',')[1]);reader.onerror=()=>reject(Error('Nelze načíst podklad.'));reader.readAsDataURL(file)})}}
  function exportCatalog(){return JSON.stringify({version:1,revision,recipes:list()},null,2)}
- return {imageHref,ready,setSourceFile,syncDisk,diskStatus,exportCatalog,list,combine,save:lockedSave,backup,restore,update,esc,display,href,norm,clean,signature,identity};
+ return {imageHref,ready,setSourceFile,syncDisk,diskStatus,exportCatalog,list,combine,save:lockedSave,backup,restore,update,esc,display,href,norm,clean,signature,identity,completionIssues,needsCompletion};
 })();

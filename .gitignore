@@ -3,3 +3,5 @@ Thumbs.db
 .recipe-backups/
 __pycache__/
 *.pyc
+Recepty/*/IMPORT.md
+Recepty/*/podklady/

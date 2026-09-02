@@ -50,29 +50,50 @@
     "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
     "Upřesnit velikost balení / jednotku ks: čaj černý."
   ],
-  "pricePerServingCzk": null,
+  "pricePerServingCzk": 0.55,
   "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
-  "mealTypes": [],
-  "category": "",
-  "meatType": "",
-  "sideDish": "",
-  "preparationType": "",
-  "popularity": null,
+  "mealTypes": [
+    "Snídaně",
+    "Svačina"
+  ],
+  "category": "Nápoj",
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Příprava nápoje",
+  "popularity": 1,
   "season": {
-    "availability": "",
-    "recommended": [],
-    "recommendedDisplay": "",
-    "months": "",
-    "monthNumbers": []
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "history": [],
   "lastServedAt": null,
-  "rotationDays": null,
+  "rotationDays": 60,
   "status": "active",
-  "completionStatus": "needs-completion",
+  "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
-  "alternativeNames": [],
-  "_imported": true
+  "alternativeNames": [
+    "čaj"
+  ],
+  "_imported": true,
+  "menuHistory": []
 }

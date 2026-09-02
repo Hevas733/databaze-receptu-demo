@@ -4,7 +4,8 @@
   "name": "Chléb 100 g",
   "alternativeNames": [
     "Chléb snídaně",
-    "Pečivo chléb 100 g"
+    "Pečivo chléb 100 g",
+    "chléb l00 g"
   ],
   "description": "Porce běžného konzumního chleba určená ke snídani nebo přesnídávce.",
   "category": "Pečivo",
@@ -66,5 +67,6 @@
       "name": "Obiloviny obsahující lepek"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "menuHistory": []
 }

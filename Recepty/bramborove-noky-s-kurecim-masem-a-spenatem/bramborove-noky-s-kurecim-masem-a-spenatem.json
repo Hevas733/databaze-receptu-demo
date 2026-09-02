@@ -13,11 +13,26 @@
   "group": "Obědy",
   "pricePerServingCzk": 26.83,
   "season": {
-    "recommended": [],
-    "recommendedDisplay": "",
-    "months": "",
-    "availability": "",
-    "monthNumbers": []
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "availability": "Celoročně",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "popularity": null,
   "rotationDays": null,
@@ -25,7 +40,7 @@
   "lastServedAt": null,
   "meatType": "Kuřecí",
   "sideDish": "Bramborové noky",
-  "preparationType": "",
+  "preparationType": "Vaření",
   "status": "active",
   "image": "noky-ai-ilustrace.png",
   "instructions": null,

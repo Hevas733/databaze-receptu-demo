@@ -41,7 +41,7 @@
   "lastServedAt": null,
   "meatType": "Vepřové",
   "sideDish": "Volitelná",
-  "preparationType": "",
+  "preparationType": "Smažení",
   "status": "active",
   "image": "ai-ilustrace.png",
   "instructions": "Maso umeleme, přidáme nastrouhaný sýr, vejce, mléko, pepř a sůl. Dobře propracujeme a dáme na hodinku odležet do chladu. Z prochladlé směsi… [Zbytek postupu na screenshotu není čitelný.]",
@@ -131,5 +131,6 @@
       "name": "Olej Forte"
     }
   ],
-  "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026."
+  "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026.",
+  "menuHistory": []
 }

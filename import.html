@@ -1,2 +1,44 @@
-<!doctype html><html lang="cs"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b4f9c"><link rel="stylesheet" href="styles.css"><title>Import norem a jídelníčku</title><link rel="stylesheet" href="norm-import.css?v=55"></head><body class="detail-page"><main class="recipe-detail"><div class="detail-toolbar"><a class="back-link" href="index.html">← Zpět na úvod</a></div><section class="import-panel"><h1>Import norem z Wordu</h1><p>Vyber DOCX. Rozpoznané normy se automaticky uloží do databáze bez AI a bez dalšího potvrzování. Nové normy se zařadí do skupiny „K doplnění“. Existující normy se nepřepisují.</p><div class="norm-actions"><label class="norm-upload">Vybrat DOCX a importovat<input id="docxFile" type="file" accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></label><a href="databaze.html?v=58">Otevřít databázi →</a></div><p class="norm-local-note">Místní import ukládá každou normu do vlastní složky Recepty/&lt;název&gt;/: JSON, stránku detailu, IMPORT.md a původní DOCX do podklady/. Soubor imported-index.json obsahuje jen rejstřík. Na GitHub nahraj změněné složky společně s rejstříkem. Import přes web zůstává v prohlížeči; zálohu obnov na místním PC a potom nahraj soubory. Podklady zveřejňuj jen pokud je chceš sdílet.</p><p id="diskStatus" role="status">Zjišťuji způsob ukládání…</p><div class="norm-actions"><button type="button" id="saveDisk" class="secondary-button">Uložit normy na disk</button></div><details><summary>Jaký DOCX lze importovat?</summary><p>Formát jako Tvaroh_normy_a_nutricni_hodnoty.docx: název jídla, Diety, „Norma na 10 porcí“, tabulka „Surovina | Množství“, „Nutriční hodnoty na 1 porci“ a tabulka dvojic údaj/hodnota. Podporováno je více norem a jiný počet porcí. Použij textové tabulky Wordu, ne obrázky. Ceny, alergeny, obrázky a jiné rozložení tabulek tato verze automaticky nečte.</p></details><div class="norm-actions"><button type="button" id="backupNorms" class="secondary-button">Stáhnout zálohu importovaných norem</button><label>Obnovit zálohu <input id="restoreFile" type="file" accept=".json,application/json"></label></div><p id="normStatus" role="status" aria-live="polite">Připraveno k importu.</p><div id="normResults"></div></section><details class="import-panel"><summary>Starší import historie jídelníčku (TXT/CSV)</summary><section class="import-panel"><div class="import-heading"><div><span>⇧</span><div><h2>Import jídelního lístku</h2><p>Vložte text nebo nahrajte soubor TXT či CSV. Každý řádek může obsahovat datum a název jídla.</p></div></div></div><div class="import-grid"><div><label class="file-drop" for="menuFile"><span>📄</span><b>Vybrat jídelní lístek</b><small>TXT nebo CSV</small><input id="menuFile" type="file" accept=".txt,.csv,text/plain,text/csv"></label></div><div><label class="import-label" for="menuText">Nebo vložte obsah jídelního lístku</label><textarea id="menuText" rows="8" placeholder="26. 8. 2026; Zapečené brambory s kuřecím masem a bešamelem"></textarea><button class="analyze-button" id="analyzeMenu" type="button">Analyzovat jídelní lístek</button></div></div><div class="import-results" id="importResults" hidden><div class="import-summary" id="importSummary"></div><div id="matchedMeals"></div><button class="save-import" id="saveImport" type="button">Uložit rozpoznaná použití</button></div></section></details></main><div class="toast" id="toast" role="status"></div><script src="import.js?v=55"></script><script src="vendor/jszip.min.js?v=55"></script><script src="recipe-imports.js?v=68"></script><script src="docx-parser.js?v=55"></script><script src="norm-import-ui.js?v=61"></script><script src="demo-mode.js"></script></body></html>
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b4f9c">
+  <title>Import dat – Receptář</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="norm-import.css?v=72">
+  <link rel="stylesheet" href="menu-import.css?v=82">
+</head>
+<body class="detail-page">
+<main class="recipe-detail import-page">
+  <div class="detail-toolbar"><a class="back-link" href="index.html">← Zpět na úvod</a></div>
+  <section class="import-panel menu-import-panel" id="menu-import">
+    <div class="import-heading"><div><span>▦</span><div><h1>Import jídelního lístku CYGNUS</h1><p>Nejdřív vznikne kontrolní náhled. Bez stisknutí „Uložit potvrzené“ se v databázi nic nezmění.</p></div></div></div>
+    <div class="menu-upload-grid">
+      <label class="file-drop" for="menuFile"><span>📄</span><b>Vybrat jídelní lístek</b><small>CYGNUS DOCX, TXT nebo CSV</small><input id="menuFile" type="file" accept=".docx,.txt,.csv,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/csv"></label>
+      <div><label class="import-label" for="menuText">Nebo vložit jednoduchý text</label><textarea id="menuText" rows="6" placeholder="1. 1.; Oběd; Vepřový řízek holandský, bramborová kaše"></textarea><button class="analyze-button" id="analyzeMenuText" type="button">Analyzovat text</button></div>
+    </div>
+    <p id="menuStorageStatus" class="norm-local-note" role="status">Načítám katalog receptů…</p>
+    <details class="menu-import-database" open><summary>Naimportované jídelní lístky</summary><p>Každý uložený soubor je vedený jako samostatná dávka. Po odstranění můžete upravený export z CYGNUSU vložit znovu.</p><div id="savedMenuImports"></div><p id="savedMenuImportsStatus" role="status"></p></details>
+    <p id="menuImportStatus" role="status" aria-live="polite">Vyberte soubor. Import zatím nic neukládá.</p>
+    <section id="menuResults" class="menu-results" hidden>
+      <div class="menu-results-toolbar"><div id="menuSummary" class="menu-summary"></div><div class="norm-actions"><label>Zobrazit <select id="menuFilter"><option value="">Všechny položky</option><option value="strong">Jisté shody</option><option value="possible">Ke kontrole</option><option value="unmatched">Nenalezené</option></select></label><button id="selectStrong" type="button" class="secondary-button">Vybrat jisté shody</button><button id="clearMenuDraft" type="button" class="secondary-button">Zahodit rozpracovaný import</button></div></div>
+      <div class="menu-column-head"><span></span><b>Položka z jídelníčku</b><b>Přiřazený recept</b><b>Pravidlo pro příště</b></div>
+      <div id="menuRows"></div>
+      <div class="menu-save-bar"><p>Uloží se pouze zaškrtnuté řádky. Stejný recept ve stejný den a chod se podruhé neuloží.</p><button id="saveMenuImport" type="button" class="save-import">Uložit potvrzené</button></div>
+    </section>
+  </section>
+  <details class="import-panel" id="norm-import">
+    <summary>Import nových norem z Wordu</summary>
+    <section><p>Vyber DOCX s normami. Rozpoznané normy se uloží do skupiny „K doplnění“; existující normy se nepřepisují.</p><div class="norm-actions"><label class="norm-upload">Vybrat DOCX a importovat<input id="docxFile" type="file" accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></label><a href="databaze.html?v=72">Otevřít databázi →</a></div><p class="norm-local-note">Místní import ukládá každou normu do vlastní složky Recepty/&lt;název&gt;/. Podklady zveřejňujte jen tehdy, pokud je chcete sdílet.</p><p id="diskStatus" role="status">Zjišťuji způsob ukládání…</p><div class="norm-actions"><button type="button" id="saveDisk" class="secondary-button">Uložit normy na disk</button></div><details><summary>Jaký DOCX lze importovat?</summary><p>Podporovaný dokument obsahuje název jídla, diety, normu na zadaný počet porcí, tabulku surovin a volitelnou tabulku výživy na jednu porci.</p></details><div class="norm-actions"><button type="button" id="backupNorms" class="secondary-button">Stáhnout zálohu importovaných norem</button><label>Obnovit zálohu <input id="restoreFile" type="file" accept=".json,application/json"></label></div><p id="normStatus" role="status" aria-live="polite">Připraveno k importu.</p><div id="normResults"></div></section>
+  </details>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script src="vendor/jszip.min.js?v=55"></script>
+<script src="recipe-imports.js?v=70"></script>
+<script src="docx-parser.js?v=55"></script>
+<script src="norm-import-ui.js?v=61"></script>
+<script src="menu-importer-v86.js?v=87"></script>
+</body>
+</html>
 

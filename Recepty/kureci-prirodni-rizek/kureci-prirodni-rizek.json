@@ -42,7 +42,7 @@
   "lastServedAt": null,
   "meatType": "Kuřecí",
   "sideDish": "Bez přílohy",
-  "preparationType": "",
+  "preparationType": "Opékání",
   "status": "active",
   "completionStatus": "reviewed-with-user",
   "image": "ai-ilustrace.png",
@@ -119,5 +119,6 @@
   ],
   "nutritionStatus": "user-confirmed-cygnus",
   "imageCredit": "AI ilustrace vytvořená vestavěným image_gen; návrh servírování, nikoli fotografie normované porce.",
-  "allergensStatus": "omitted-by-user"
+  "allergensStatus": "omitted-by-user",
+  "menuHistory": []
 }

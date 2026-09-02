@@ -1,0 +1,68 @@
+{
+  "id": "docx-c09b5d556eea26b03a9d6366",
+  "name": "Salám 50 g",
+  "sourceVariant": "00, 03, 09, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "uzenina-Vysočina vak.",
+      "amount": 5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 885,
+    "energyKcalApprox": 212,
+    "proteinG": 9,
+    "fatG": 19,
+    "carbohydratesG": 0.5,
+    "fiberG": null,
+    "calciumMg": 6.5,
+    "ironMg": 2.66,
+    "vitaminAUg": 1.5,
+    "vitaminB1Mg": 0.14,
+    "vitaminB2Mg": 0.08,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Receptury_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-01T18:21:10.494Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,60.\nUpřesnit velikost balení / jednotku ks: uzenina-Vysočina vak..\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,60.",
+    "Upřesnit velikost balení / jednotku ks: uzenina-Vysočina vak..",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "salám 50 g"
+  ],
+  "_imported": true,
+  "menuHistory": []
+}

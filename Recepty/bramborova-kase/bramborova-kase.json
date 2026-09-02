@@ -15,11 +15,26 @@
   "group": "Přílohy",
   "pricePerServingCzk": 13.69,
   "season": {
-    "recommended": [],
-    "months": "",
-    "recommendedDisplay": "",
-    "availability": "",
-    "monthNumbers": []
+    "recommended": [
+      "Celoročně"
+    ],
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "recommendedDisplay": "Celoročně",
+    "availability": "Celoročně",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "popularity": null,
   "rotationDays": null,
@@ -27,7 +42,7 @@
   "lastServedAt": null,
   "meatType": "Bezmasé",
   "sideDish": "Bramborová kaše",
-  "preparationType": "",
+  "preparationType": "Vaření",
   "status": "active",
   "image": "ai-ilustrace.png",
   "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026.",
@@ -68,5 +83,6 @@
       "name": "Máslo čerstvé 200 g",
       "unit": "kg"
     }
-  ]
+  ],
+  "menuHistory": []
 }

@@ -92,7 +92,7 @@ function recipeMonths(recipe){
 
 
 
-function needsCompletion(recipe){return ['needs-completion','needs-review'].includes(recipe.completionStatus)}
+function needsCompletion(recipe){return ['needs-completion','needs-review'].includes(recipe.completionStatus)&&RecipeImports.needsCompletion(recipe)}
 let recipes=[],activeMeal='',rotationFilter='';
 
 function rotationState(recipe){const last=[...(recipe.history||[]),recipe.lastServedAt].filter(Boolean).sort().at(-1),interval=rotationIntervals[recipe.popularity]||null;if(!last)return'none';if(!interval)return'unset';const next=new Date(new Date(`${last}T12:00:00`).getTime()+interval*86400000),remaining=Math.ceil((next-new Date())/86400000),overdue=Math.abs(remaining);if(remaining>14)return'early';if(remaining>0)return'soon';if(overdue>interval)return'forgotten';if(overdue>30)return'overdue';return'ready'}

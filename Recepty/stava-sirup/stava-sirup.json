@@ -1,0 +1,68 @@
+{
+  "id": "docx-cec43b9e7df6d5ea014f8677",
+  "name": "Šťáva-sirup",
+  "sourceVariant": "00, 02, 03, 04, 07, 09, 33, 94",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "šťáva-sirup",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 206.8,
+    "energyKcalApprox": 49,
+    "proteinG": 0.06,
+    "fatG": 0.02,
+    "carbohydratesG": 12.38,
+    "fiberG": null,
+    "calciumMg": 1.6,
+    "ironMg": 0.06,
+    "vitaminAUg": 0.8,
+    "vitaminB1Mg": 0,
+    "vitaminB2Mg": 0,
+    "vitaminCMg": 0.78
+  },
+  "source": "DOCX",
+  "sourceFile": "Receptury_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-01T18:21:10.494Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = —.\nUpřesnit velikost balení / jednotku ks: šťáva-sirup.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Upřesnit velikost balení / jednotku ks: šťáva-sirup.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "štáva-sirup"
+  ],
+  "_imported": true,
+  "menuHistory": []
+}

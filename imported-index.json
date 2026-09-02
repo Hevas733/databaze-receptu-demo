@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": "abfaa31ded5040a389746a4af882026c",
+  "revision": "8e1bd8c9ed064d18847a2ebcf872d044",
   "recipes": [
     {
       "id": "docx-7300981716396b5b0ddfb210",
@@ -73,6 +73,24 @@
       "name": "Káva bílá",
       "file": "Recepty/kava-bila/kava-bila.json",
       "page": "Recepty/kava-bila/kava-bila.html"
+    },
+    {
+      "id": "docx-aecdb8fba26a175315c0fb18",
+      "name": "Knedlíky kynuté s ovocem",
+      "file": "Recepty/knedliky-kynute-s-ovocem/knedliky-kynute-s-ovocem.json",
+      "page": "Recepty/knedliky-kynute-s-ovocem/knedliky-kynute-s-ovocem.html"
+    },
+    {
+      "id": "docx-c09b5d556eea26b03a9d6366",
+      "name": "Salám 50 g",
+      "file": "Recepty/salam-50-g/salam-50-g.json",
+      "page": "Recepty/salam-50-g/salam-50-g.html"
+    },
+    {
+      "id": "docx-cec43b9e7df6d5ea014f8677",
+      "name": "Šťáva-sirup",
+      "file": "Recepty/stava-sirup/stava-sirup.json",
+      "page": "Recepty/stava-sirup/stava-sirup.html"
     }
   ]
 }

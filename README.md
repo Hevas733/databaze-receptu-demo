@@ -1,7 +1,7 @@
-# Databáze receptů – ukázka
+# Databáze receptů
 
-Prezentační PWA: databáze 42 receptur, vyhledávání, filtry ceny a energie, označení K doplnění, detail a editor norem, import DOCX.
+PWA pro správu receptur a jídelních lístků. Obsahuje databázi 45 receptur, vyhledávání a filtry, detail a editor norem, import receptur z DOCX, import jídelních lístků z CYGNUSU a přehled naimportovaných jídelníčků.
 
-GitHub Pages zveřejňuje soubory z větve main. Úpravy a importy návštěvníků se ukládají pouze v jejich prohlížeči; nemění veřejné receptury ani GitHub. Nejde o sdílený serverový systém. Část receptur čeká na doplnění a ověření. Obrázky jsou ilustrační.
+GitHub Pages zveřejňuje soubory z větve main. Úpravy a importy provedené na webové verzi se ukládají pouze v daném prohlížeči; samy nemění veřejné receptury ani obsah GitHubu. Část receptur čeká na doplnění a ověření. Obrázky jsou ilustrační.
 
-Zveřejněné soubory: webové rozhraní, Recepty a imported-index.json. Zálohy, lokální server a původní DOCX podklady nejsou součástí ukázky. Místní pracovní aplikace je samostatně na disku F:.
+Zveřejněné jsou pouze soubory webového rozhraní a receptur. Zálohy, lokální diskový server a původní DOCX podklady nejsou součástí repozitáře.

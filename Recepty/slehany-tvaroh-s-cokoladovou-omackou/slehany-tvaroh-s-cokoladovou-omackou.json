@@ -78,29 +78,47 @@
     "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,01.",
     "Upřesnit velikost balení / jednotku ks: cukr vanilkovy, mléko polotučné 1l, čokoláda na vař.100g, smetana Master 1l."
   ],
-  "pricePerServingCzk": null,
+  "pricePerServingCzk": 22.04,
   "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
-  "mealTypes": [],
-  "category": "",
-  "meatType": "",
-  "sideDish": "",
-  "preparationType": "",
-  "popularity": null,
+  "mealTypes": [
+    "Svačina"
+  ],
+  "category": "Dezert",
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studená kuchyně",
+  "popularity": 3,
   "season": {
-    "availability": "",
-    "recommended": [],
-    "recommendedDisplay": "",
-    "months": "",
-    "monthNumbers": []
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "history": [],
   "lastServedAt": null,
-  "rotationDays": null,
+  "rotationDays": 120,
   "status": "active",
-  "completionStatus": "needs-completion",
+  "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],
-  "_imported": true
+  "_imported": true,
+  "menuHistory": []
 }

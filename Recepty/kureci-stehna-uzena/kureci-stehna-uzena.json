@@ -4,7 +4,9 @@
   "alternativeNames": [],
   "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
   "category": "Hlavní jídlo",
-  "mealTypes": [],
+  "mealTypes": [
+    "Oběd"
+  ],
   "servings": 10,
   "source": "CYGNUS – Domov sociální péče Chotěšov",
   "sourceCode": "",
@@ -12,11 +14,26 @@
   "group": "",
   "pricePerServingCzk": null,
   "season": {
-    "availability": "",
-    "recommended": [],
-    "recommendedDisplay": "",
-    "months": "",
-    "monthNumbers": []
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "popularity": null,
   "rotationDays": null,
@@ -24,7 +41,7 @@
   "lastServedAt": null,
   "meatType": "Kuřecí",
   "sideDish": "Bez přílohy",
-  "preparationType": "",
+  "preparationType": "Ohřev",
   "status": "active",
   "completionStatus": "needs-completion",
   "image": "ai-ilustrace.png",

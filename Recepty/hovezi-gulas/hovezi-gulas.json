@@ -41,7 +41,7 @@
   "lastServedAt": null,
   "meatType": "Hovězí",
   "sideDish": "Volitelná",
-  "preparationType": "",
+  "preparationType": "Dušení",
   "status": "active",
   "image": "ai-ilustrace.png",
   "instructions": null,
@@ -87,5 +87,6 @@
       "name": "Cibule"
     }
   ],
-  "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026."
+  "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026.",
+  "menuHistory": []
 }

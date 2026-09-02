@@ -1,0 +1,137 @@
+{
+  "id": "docx-aecdb8fba26a175315c0fb18",
+  "name": "Knedlíky kynuté s ovocem",
+  "sourceVariant": "00, 03, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mouka polohrubá",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "droždí porce",
+      "amount": 1.7,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr moučka",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. jahody",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana ke šlehání 1L",
+      "amount": 0.5,
+      "unit": "l",
+      "perServing": "50 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "tvaroh měkký",
+      "amount": 0.7,
+      "unit": "kg",
+      "perServing": "70 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 4645.02,
+    "energyKcalApprox": 1110,
+    "proteinG": 28.28,
+    "fatG": 55.27,
+    "carbohydratesG": 128,
+    "fiberG": 7.09,
+    "calciumMg": 3249,
+    "ironMg": 4.23,
+    "vitaminAUg": 469,
+    "vitaminB1Mg": 0.35,
+    "vitaminB2Mg": 2.93,
+    "vitaminCMg": 0.55
+  },
+  "source": "DOCX",
+  "sourceFile": "Receptury_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-01T18:21:10.494Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 1,24.\nUpřesnit velikost balení / jednotku ks: mléko polotučné 1l, droždí porce, vejce.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,24.",
+    "Upřesnit velikost balení / jednotku ks: mléko polotučné 1l, droždí porce, vejce."
+  ],
+  "pricePerServingCzk": null,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [],
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": null,
+  "status": "active",
+  "completionStatus": "needs-completion",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "knedlíky kynuté s ovocem"
+  ],
+  "_imported": true,
+  "menuHistory": []
+}
