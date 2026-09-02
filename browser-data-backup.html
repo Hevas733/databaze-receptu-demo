@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Záloha dat prohlížeče – Databáze receptů</title>
+  <style>
+    :root{font-family:system-ui,sans-serif;color:#1f2937;background:#f3f4f6}
+    body{margin:0;padding:32px 16px}.card{max-width:760px;margin:auto;background:white;border-radius:16px;padding:28px;box-shadow:0 12px 32px #0001}
+    h1{margin-top:0;color:#16324f}button{border:0;border-radius:10px;padding:12px 18px;background:#176b55;color:white;font-weight:700;cursor:pointer}
+    button:disabled{opacity:.55;cursor:wait}.status{margin:20px 0;padding:14px;border-radius:10px;background:#eef4f8}.ok{background:#e8f7ef;color:#145c3f}.error{background:#fdecec;color:#8d2020}
+    code{overflow-wrap:anywhere}ul{padding-left:22px}.muted{color:#667085;font-size:.94rem}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Záloha dat prohlížeče</h1>
+    <p>Tato kontrola uloží bezpečnostní snímek dat PWA začínajících <code>receptar:</code>. Nic nemaže a neupravuje recepty.</p>
+    <button id="createBackup" type="button">Vytvořit bezpečnostní snímek</button>
+    <div id="status" class="status" role="status">Připraveno k vytvoření snímku.</div>
+    <section id="details" hidden>
+      <h2>Nalezené položky</h2>
+      <ul id="keys"></ul>
+      <p class="muted">Staré překryvy budou odstraněny až po samostatné migraci a kontrole. Tato stránka je nemaže.</p>
+    </section>
+  </main>
+  <script>
+  (()=>{
+    const button=document.getElementById('createBackup');
+    const status=document.getElementById('status');
+    const details=document.getElementById('details');
+    const keys=document.getElementById('keys');
+    async function create(){
+      button.disabled=true;
+      status.className='status';
+      status.textContent='Načítám data PWA a ukládám snímek…';
+      try{
+        const items={};
+        for(let index=0;index<localStorage.length;index++){
+          const key=localStorage.key(index);
+          if(key&&key.startsWith('receptar:'))items[key]=localStorage.getItem(key)??'';
+        }
+        const response=await fetch('__browser_snapshot',{
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({version:1,items})
+        });
+        const result=await response.json();
+        if(!response.ok)throw new Error(result.error||'Snímek se nepodařilo uložit.');
+        keys.replaceChildren(...Object.keys(items).sort().map(key=>{
+          const item=document.createElement('li');item.textContent=key;return item;
+        }));
+        details.hidden=false;
+        status.className='status ok';
+        status.textContent=`Snímek byl uložen. Počet položek: ${result.itemCount}. Soubor: ${result.file}`;
+      }catch(error){
+        status.className='status error';
+        status.textContent='Chyba: '+error.message;
+      }finally{button.disabled=false}
+    }
+    button.addEventListener('click',create);
+  })();
+  </script>
+</body>
+</html>

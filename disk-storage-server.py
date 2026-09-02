@@ -16,6 +16,7 @@ CATALOG = 'imported-index.json'
 BUILTINS = 'builtin-recipes.json'
 MENU_ALIASES = 'menu-aliases.json'
 MENU_IMPORTS = 'menu-imports.json'
+BROWSER_SNAPSHOTS = '.recipe-backups/browser-snapshots'
 LOCK = threading.Lock()
 
 def normalized(value):
@@ -187,7 +188,7 @@ def handler_for(root):
 
         def do_POST(self):
             endpoint = urlsplit(self.path).path
-            if endpoint not in {'/__recipe_storage','/__menu_import'}:
+            if endpoint not in {'/__recipe_storage','/__menu_import','/__browser_snapshot'}:
                 return self.send_error(404)
             origin = self.headers.get('Origin')
             if not self.local_host() or origin != 'http://' + self.headers.get('Host', ''):
@@ -199,6 +200,40 @@ def handler_for(root):
                 if not 0 < length <= 20 * 1024 * 1024:
                     raise ValueError('Katalog smí mít nejvýše 20 MB.')
                 raw = json.loads(self.rfile.read(length), parse_constant=lambda x: (_ for _ in ()).throw(ValueError('Neplatné číslo.')))
+                if endpoint == '/__browser_snapshot':
+                    if not isinstance(raw, dict) or raw.get('version') != 1:
+                        raise ValueError('Nepodporovaný formát snímku.')
+                    items = raw.get('items')
+                    if not isinstance(items, dict) or len(items) > 200:
+                        raise ValueError('Neplatný nebo příliš velký seznam položek.')
+                    cleaned = {}
+                    for key, value in items.items():
+                        if not isinstance(key, str) or not key.startswith('receptar:') or len(key) > 200:
+                            raise ValueError('Snímek obsahuje nepovolený klíč.')
+                        if not isinstance(value, str) or len(value.encode('utf-8')) > 2 * 1024 * 1024:
+                            raise ValueError('Hodnota ve snímku je příliš velká.')
+                        cleaned[key] = value
+                    created = __import__('datetime').datetime.now().astimezone()
+                    snapshot = {
+                        'version': 1,
+                        'createdAt': created.isoformat(timespec='seconds'),
+                        'origin': origin,
+                        'itemCount': len(cleaned),
+                        'items': cleaned,
+                    }
+                    filename = f"browser-{created.strftime('%Y%m%d-%H%M%S')}-{uuid.uuid4().hex[:8]}.json"
+                    with LOCK:
+                        directory = (root/BROWSER_SNAPSHOTS).resolve()
+                        if not directory.is_relative_to(root):
+                            raise ValueError('Neplatné umístění snímku.')
+                        directory.mkdir(parents=True, exist_ok=True)
+                        target = directory/filename
+                        with tempfile.NamedTemporaryFile('w', encoding='utf-8', dir=directory, delete=False) as handle:
+                            json.dump(snapshot, handle, ensure_ascii=False, indent=2, allow_nan=False)
+                            handle.write('\n')
+                            temporary = Path(handle.name)
+                        os.replace(temporary, target)
+                    return self.json_response(200, {'saved':True,'file':f'{BROWSER_SNAPSHOTS}/{filename}','itemCount':len(cleaned)})
                 if endpoint == '/__menu_import':
                     if raw.get('action') == 'delete':
                         import_id = raw.get('importId', '')
