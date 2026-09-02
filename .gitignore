@@ -3,5 +3,12 @@ Thumbs.db
 .recipe-backups/
 __pycache__/
 *.pyc
+imported-norms.json
 Recepty/*/IMPORT.md
 Recepty/*/podklady/
+menu-importer.js
+menu-importer-v77.js
+menu-importer-v79.js
+menu-importer-v80.js
+menu-importer-v81.js
+menu-importer-v85.js
