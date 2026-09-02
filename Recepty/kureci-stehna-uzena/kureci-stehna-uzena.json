@@ -12,7 +12,7 @@
   "sourceCode": "",
   "sourceVariant": "00, 03, 09, 33",
   "group": "",
-  "pricePerServingCzk": null,
+  "pricePerServingCzk": 22.38,
   "season": {
     "availability": "Celoročně",
     "recommended": [
@@ -35,8 +35,8 @@
       12
     ]
   },
-  "popularity": null,
-  "rotationDays": null,
+  "popularity": 3,
+  "rotationDays": 120,
   "history": [],
   "lastServedAt": null,
   "meatType": "Kuřecí",
