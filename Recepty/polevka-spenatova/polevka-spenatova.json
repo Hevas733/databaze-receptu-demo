@@ -1,0 +1,110 @@
+{
+  "id": "docx-3913dc1dc29b93737f435c85",
+  "name": "Polévka špenátová",
+  "sourceVariant": "00, 03, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mouka hladká",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "česneková pasta 720 g",
+      "amount": 0.02,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. špenát",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 654.22,
+    "energyKcalApprox": 156,
+    "proteinG": 7.22,
+    "fatG": 7.81,
+    "carbohydratesG": 15.13,
+    "fiberG": 1.62,
+    "calciumMg": 161.51,
+    "ironMg": 1.49,
+    "vitaminAUg": 36.14,
+    "vitaminB1Mg": 0.11,
+    "vitaminB2Mg": 0.2,
+    "vitaminCMg": 8.07
+  },
+  "source": "DOCX",
+  "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-05T09:38:37.169Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,32.",
+    "Upřesnit velikost balení / jednotku ks: mléko polotučné 1l, vejce, česneková pasta 720 g."
+  ],
+  "pricePerServingCzk": 4.83,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -130,7 +130,7 @@ rotationFilter=document.getElementById('rotationFilter').value;document.querySel
 window.addEventListener('pagehide',saveFilterState);document.getElementById('databaseQuery').addEventListener('input',saveFilterState);
 
 
-Promise.all(sources.map(async source=>{const base=await fetch(`Recepty/${encodeURIComponent(source.folder)}/${source.file}?v=55`).then(response=>response.json());let saved={};try{saved=JSON.parse(localStorage.getItem(source.storage)||'{}')}catch{}return {...base,...saved,_folder:source.folder,season:{...base.season,...(saved.season||{})}}})).then(async data=>{await RecipeImports.ready;recipes=RecipeImports.combine(data);document.querySelector('#recipeCount').textContent=`${recipes.length} uložené recepty`;applyFilters()}).catch(()=>{document.querySelector('#recipeCount').textContent='Recepty se nepodařilo načíst';document.querySelector('#noResults').hidden=false});
+Promise.all(sources.map(async source=>({...await BuiltinStorage.load(`Recepty/${encodeURIComponent(source.folder)}/${source.file}?v=88`,source.storage),_folder:source.folder}))).then(async data=>{await RecipeImports.ready;recipes=RecipeImports.combine(data);document.querySelector('#recipeCount').textContent=`${recipes.length} uložené recepty`;applyFilters()}).catch(error=>{document.querySelector('#recipeCount').textContent=error.message||'Recepty se nepodařilo načíst';document.querySelector('#noResults').hidden=false});
 
 
 

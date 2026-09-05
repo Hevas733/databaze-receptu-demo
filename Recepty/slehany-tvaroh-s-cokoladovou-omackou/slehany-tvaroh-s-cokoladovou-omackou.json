@@ -110,15 +110,18 @@
       12
     ]
   },
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-07"
+  ],
+  "lastServedAt": "2026-01-07",
   "rotationDays": 120,
   "status": "active",
   "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
-  "alternativeNames": [],
-  "_imported": true,
-  "menuHistory": []
+  "alternativeNames": [
+    "šlehaný tvaroh s čokoládovou omáčkou"
+  ],
+  "_imported": true
 }

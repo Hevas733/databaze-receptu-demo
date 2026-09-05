@@ -1,7 +1,9 @@
 {
   "id": "polevka-porkova",
   "name": "Pórková polévka",
-  "alternativeNames": [],
+  "alternativeNames": [
+    "polévka pórková"
+  ],
   "description": "Pórková polévka s polotučným mlékem, vejci, hladkou moukou a olejem.",
   "category": "Polévka",
   "mealTypes": [
@@ -38,8 +40,10 @@
   },
   "popularity": 1,
   "rotationDays": 60,
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-31"
+  ],
+  "lastServedAt": "2026-01-31",
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Vaření",
@@ -105,5 +109,14 @@
       "perServing": "6 ml"
     }
   ],
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-31",
+      "meal": "Oběd",
+      "originalName": "polévka pórková",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    }
+  ]
 }

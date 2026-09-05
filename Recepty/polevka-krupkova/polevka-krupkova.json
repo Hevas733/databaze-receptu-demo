@@ -1,0 +1,88 @@
+{
+  "id": "docx-52ca016901ec93ffc929ab89",
+  "name": "Polévka krupková",
+  "sourceVariant": "00, 02, 03, 33, 09",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-vepř.bok",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.03,
+      "unit": "l",
+      "perServing": "3 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "krupky",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 535.29,
+    "energyKcalApprox": 128,
+    "proteinG": 3.56,
+    "fatG": 7.87,
+    "carbohydratesG": 11.37,
+    "fiberG": 1.11,
+    "calciumMg": 3.15,
+    "ironMg": 0.54,
+    "vitaminAUg": null,
+    "vitaminB1Mg": 0.04,
+    "vitaminB2Mg": 0.01,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-05T09:38:37.169Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,70."
+  ],
+  "pricePerServingCzk": 3.07,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Vepřové",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 90,
+  "status": "paused",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

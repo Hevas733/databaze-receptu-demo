@@ -37,32 +37,37 @@
     "Upřesnit velikost balení / jednotku ks: uzenina-Vysočina vak..",
     "Chybí vláknina."
   ],
-  "pricePerServingCzk": null,
+  "pricePerServingCzk": 10.58,
   "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
-  "mealTypes": [],
+  "mealTypes": [
+    "Snídaně"
+  ],
   "category": "",
-  "meatType": "",
-  "sideDish": "",
-  "preparationType": "",
-  "popularity": null,
+  "meatType": "Uzenina",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Studené",
+  "popularity": 1,
   "season": {
-    "availability": "",
-    "recommended": [],
-    "recommendedDisplay": "",
-    "months": "",
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": []
   },
-  "history": [],
-  "lastServedAt": null,
-  "rotationDays": null,
+  "history": [
+    "2026-01-02"
+  ],
+  "lastServedAt": "2026-01-02",
+  "rotationDays": 60,
   "status": "active",
-  "completionStatus": "needs-completion",
+  "completionStatus": "complete",
   "image": null,
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [
     "salám 50 g"
   ],
-  "_imported": true,
-  "menuHistory": []
+  "_imported": true
 }

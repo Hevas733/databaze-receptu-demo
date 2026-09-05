@@ -9,8 +9,9 @@ import threading
 import unicodedata
 import uuid
 import folder_store
+import builtin_store
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, parse_qs
 
 CATALOG = 'imported-index.json'
 BUILTINS = 'builtin-recipes.json'
@@ -171,6 +172,14 @@ def handler_for(root):
             if not self.local_host():
                 return self.json_response(403, {'error': 'Nepovolený host.'})
             path = urlsplit(self.path).path
+            if path == '/__builtin_recipe':
+                try:
+                    rid = parse_qs(urlsplit(self.path).query).get('id', [''])[0]
+                    with LOCK:
+                        data = builtin_store.load(root, rid)
+                    return self.json_response(200, data)
+                except (ValueError, TypeError, OSError) as exc:
+                    return self.json_response(400, {'error': str(exc)})
             if path == '/__recipe_storage':
                 return self.json_response(200, {'storage': 'recipe-disk-v1', 'file': CATALOG})
             if path == '/__menu_import':
@@ -188,7 +197,7 @@ def handler_for(root):
 
         def do_POST(self):
             endpoint = urlsplit(self.path).path
-            if endpoint not in {'/__recipe_storage','/__menu_import','/__browser_snapshot'}:
+            if endpoint not in {'/__recipe_storage','/__menu_import','/__browser_snapshot','/__builtin_recipe'}:
                 return self.send_error(404)
             origin = self.headers.get('Origin')
             if not self.local_host() or origin != 'http://' + self.headers.get('Host', ''):
@@ -200,6 +209,14 @@ def handler_for(root):
                 if not 0 < length <= 20 * 1024 * 1024:
                     raise ValueError('Katalog smí mít nejvýše 20 MB.')
                 raw = json.loads(self.rfile.read(length), parse_constant=lambda x: (_ for _ in ()).throw(ValueError('Neplatné číslo.')))
+                if endpoint == '/__builtin_recipe':
+                    if not isinstance(raw, dict):
+                        raise ValueError('Neplatná úprava receptu.')
+                    with LOCK:
+                        result = builtin_store.save(root, raw.get('id'), raw.get('patch'), raw.get('baseRevision'))
+                    if result is None:
+                        return self.json_response(409, {'error': 'Recept mezitím změnilo jiné okno nebo import. Zápis byl odmítnut. Poznamenejte si rozepsané změny a načtěte stránku znovu.'})
+                    return self.json_response(200, result)
                 if endpoint == '/__browser_snapshot':
                     if not isinstance(raw, dict) or raw.get('version') != 1:
                         raise ValueError('Nepodporovaný formát snímku.')
@@ -335,6 +352,18 @@ def handler_for(root):
                         return self.json_response(409, {'error': 'Normy mezitím změnilo jiné okno. Obnovte stránku.'})
                     if not {r['id'] for r in current['recipes']}.issubset({r['id'] for r in data['recipes']}):
                         raise ValueError('Zápis by odstranil existující normy; odmítnuto.')
+                    # Menu history belongs to the menu importer, not to the norm editor.
+                    # Older clients omit it and may send stale history after a menu import.
+                    existing = {r['id']: r for r in current['recipes']}
+                    for recipe in data['recipes']:
+                        previous = existing.get(recipe['id'], {})
+                        if 'menuHistory' in previous:
+                            recipe['menuHistory'] = previous['menuHistory']
+                            dates = set(recipe.get('history') or [])
+                            dates.update(e['date'] for e in previous['menuHistory'] if e.get('date'))
+                            recipe['history'] = sorted(dates)
+                            if dates:
+                                recipe['lastServedAt'] = max(dates | {recipe.get('lastServedAt') or ''})
                     template = (root/'imported-recipe.html').read_text(encoding='utf-8')
                     files, index = folder_store.plan(root, data, template, current['index'])
                     folder_store.commit(root, files)

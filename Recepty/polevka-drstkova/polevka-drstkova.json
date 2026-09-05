@@ -1,0 +1,124 @@
+{
+  "id": "docx-4de5ff770a48bc9bc9e041d1",
+  "name": "Polévka drštková",
+  "sourceVariant": "00, 03, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.16,
+      "unit": "kg",
+      "perServing": "16 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.03,
+      "unit": "kg",
+      "perServing": "3 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletá paprika",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "koření majoránka",
+      "amount": 0.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "maso-žaludky",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-kosti",
+      "amount": 0.45,
+      "unit": "kg",
+      "perServing": "45 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 2839.38,
+    "energyKcalApprox": 679,
+    "proteinG": 39.97,
+    "fatG": 26.37,
+    "carbohydratesG": 70.84,
+    "fiberG": 0.79,
+    "calciumMg": 445.74,
+    "ironMg": 38.17,
+    "vitaminAUg": 23,
+    "vitaminB1Mg": 0.45,
+    "vitaminB2Mg": 0.51,
+    "vitaminCMg": 9.69
+  },
+  "source": "DOCX",
+  "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-05T09:38:37.169Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,24.\nUpřesnit velikost balení / jednotku ks: koření mletá paprika, koření majoránka.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,24.",
+    "Upřesnit velikost balení / jednotku ks: koření mletá paprika, koření majoránka."
+  ],
+  "pricePerServingCzk": 10.43,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Vepřové",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

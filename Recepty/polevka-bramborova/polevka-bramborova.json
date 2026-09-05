@@ -1,0 +1,110 @@
+{
+  "id": "docx-eb2d6c25c162fee2624aa9bd",
+  "name": "Polévka bramborová",
+  "sourceVariant": "00, 03, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-brambory",
+      "amount": 1.25,
+      "unit": "kg",
+      "perServing": "125 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.07,
+      "unit": "l",
+      "perServing": "7 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "koření houbové",
+      "amount": 0.35,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "koření majoránka",
+      "amount": 0.75,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-kosti",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 890.01,
+    "energyKcalApprox": 213,
+    "proteinG": 4.79,
+    "fatG": 7.62,
+    "carbohydratesG": 32.3,
+    "fiberG": 2.47,
+    "calciumMg": 190.35,
+    "ironMg": 12.1,
+    "vitaminAUg": 187.5,
+    "vitaminB1Mg": 1.16,
+    "vitaminB2Mg": 0.42,
+    "vitaminCMg": 106.25
+  },
+  "source": "DOCX",
+  "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-05T09:38:37.169Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,11.",
+    "Upřesnit velikost balení / jednotku ks: koření houbové, koření majoránka."
+  ],
+  "pricePerServingCzk": 3.99,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

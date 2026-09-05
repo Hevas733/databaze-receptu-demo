@@ -34,6 +34,7 @@ function renderHistory(){const dates=[...(recipe.history||[]),recipe.lastServedA
 
 function openEditor(){
   const form=document.querySelector('#editForm');
+  BuiltinStorage.keepOptions(form,recipe);
   form.elements.name.value=recipe.name;
   form.elements.description.value=recipe.description;
   form.elements.alternativeNames.value=(recipe.alternativeNames||[]).join(', ');
@@ -58,24 +59,33 @@ function updateRotationNote(){
   document.querySelector('#rotationNote').textContent=value?`Oblíbenost ${value}: další zařazení bude možné za ${rotationByPopularity[value]} dní od posledního použití.`:'Rotační interval se vypočítá automaticky podle oblíbenosti.';
 }
 
-fetch(DATA_URL).then(response=>response.json()).then(source=>{
-  let saved={};
-  try{saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}')}catch{}
-  recipe={...source,...saved,season:{...source.season,...(saved.season||{})}};
-  render();
-});
+document.querySelector('#editButton').disabled=true;
+BuiltinStorage.status(BuiltinStorage.label);
+BuiltinStorage.load(DATA_URL,STORAGE_KEY).then(source=>{
+  recipe=source;render();document.querySelector('#editButton').disabled=false;
+}).catch(error=>BuiltinStorage.status(error.message,true));
 
 document.querySelector('#editButton').addEventListener('click',openEditor);
 document.querySelector('#closeEdit').addEventListener('click',()=>document.querySelector('#editDialog').close());
 document.querySelector('#cancelEdit').addEventListener('click',()=>document.querySelector('#editDialog').close());
 document.querySelector('#editForm').elements.popularity.addEventListener('change',updateRotationNote);
-document.querySelector('#editForm').addEventListener('submit',event=>{
+document.querySelector('#editForm').addEventListener('submit',async event=>{
   event.preventDefault();
   const fields=event.currentTarget.elements;
   const popularity=fields.popularity.value?Number(fields.popularity.value):null;
   const saved={name:fields.name.value.trim(),description:fields.description.value.trim(),alternativeNames:fields.alternativeNames.value.split(',').map(value=>value.trim()).filter(Boolean),planningNote:fields.planningNote.value.trim(),servings:Number(fields.servings.value),pricePerServingCzk:fields.price.value===''?null:Number(fields.price.value),meatType:fields.meatType.value,sideDish:fields.sideDish.value.trim(),preparationType:fields.preparationType.value,status:fields.status.value,popularity,lastServedAt:fields.lastServedAt.value||null,history:recipe.history||[],rotationDays:rotationByPopularity[popularity]||null,season:{availability:fields.availability.value,recommendedDisplay:fields.recommended.value,recommended:fields.recommended.value.includes('–')?fields.recommended.value.split('–'):[fields.recommended.value],months:fields.months.value.trim()}};
-  localStorage.setItem(STORAGE_KEY,JSON.stringify(saved));
-  recipe={...recipe,...saved,season:{...recipe.season,...saved.season}};
-  render();document.querySelector('#editDialog').close();showToast('Změny byly uloženy.');
+  const form=event.currentTarget,button=form.querySelector('[type="submit"]');
+  if(button.disabled)return;
+  button.disabled=true;
+  let errorNode=form.querySelector('[data-save-error]');
+  if(!errorNode){errorNode=document.createElement('p');errorNode.dataset.saveError='';errorNode.setAttribute('role','alert');errorNode.style.color='#a21919';form.append(errorNode)}
+  errorNode.textContent='';
+  try{
+    recipe=await BuiltinStorage.save(STORAGE_KEY,saved,recipe);
+    render();document.querySelector('#editDialog').close();
+    BuiltinStorage.status(BuiltinStorage.savedMessage);showToast(BuiltinStorage.savedMessage);
+  }catch(error){errorNode.textContent=error.message;BuiltinStorage.status(error.message,true)}
+  finally{button.disabled=false}
+
 });
 

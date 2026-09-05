@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": "8e1bd8c9ed064d18847a2ebcf872d044",
+  "revision": "06344ed0d1734bf987412428f153b2ac",
   "recipes": [
     {
       "id": "docx-7300981716396b5b0ddfb210",
@@ -91,6 +91,192 @@
       "name": "Šťáva-sirup",
       "file": "Recepty/stava-sirup/stava-sirup.json",
       "page": "Recepty/stava-sirup/stava-sirup.html"
+    },
+    {
+      "id": "docx-31531c512bf505fe9450a52b",
+      "name": "Polévka hovězí s bylinkovým kapáním",
+      "file": "Recepty/polevka-hovezi-s-bylinkovym-kapanim/polevka-hovezi-s-bylinkovym-kapanim.json",
+      "page": "Recepty/polevka-hovezi-s-bylinkovym-kapanim/polevka-hovezi-s-bylinkovym-kapanim.html"
+    },
+    {
+      "id": "docx-4be311d2e64688e2ccf5c28a",
+      "name": "Polévka hovězí s drobením",
+      "file": "Recepty/polevka-hovezi-s-drobenim/polevka-hovezi-s-drobenim.json",
+      "page": "Recepty/polevka-hovezi-s-drobenim/polevka-hovezi-s-drobenim.html"
+    },
+    {
+      "id": "docx-b214477266b5bdc259a1e37a",
+      "name": "Polévka hovězí s droždovými nočky",
+      "file": "Recepty/polevka-hovezi-s-drozdovymi-nocky/polevka-hovezi-s-drozdovymi-nocky.json",
+      "page": "Recepty/polevka-hovezi-s-drozdovymi-nocky/polevka-hovezi-s-drozdovymi-nocky.html"
+    },
+    {
+      "id": "docx-31f5016eef47e91b5b74bde4",
+      "name": "Polévka hovězí s fridátovými nudlemi",
+      "file": "Recepty/polevka-hovezi-s-fridatovymi-nudlemi/polevka-hovezi-s-fridatovymi-nudlemi.json",
+      "page": "Recepty/polevka-hovezi-s-fridatovymi-nudlemi/polevka-hovezi-s-fridatovymi-nudlemi.html"
+    },
+    {
+      "id": "docx-4bedb80d0fd9704494548c0d",
+      "name": "Polévka hovězí s játr. knedlíčky",
+      "file": "Recepty/polevka-hovezi-s-jatr-knedlicky/polevka-hovezi-s-jatr-knedlicky.json",
+      "page": "Recepty/polevka-hovezi-s-jatr-knedlicky/polevka-hovezi-s-jatr-knedlicky.html"
+    },
+    {
+      "id": "docx-170deee485b4da1beb789df0",
+      "name": "Polévka hovězí s játrovou rýží",
+      "file": "Recepty/polevka-hovezi-s-jatrovou-ryzi/polevka-hovezi-s-jatrovou-ryzi.json",
+      "page": "Recepty/polevka-hovezi-s-jatrovou-ryzi/polevka-hovezi-s-jatrovou-ryzi.html"
+    },
+    {
+      "id": "docx-1bdfb2e64c0220cdfc016926",
+      "name": "Polévka hovězí s kapáním",
+      "file": "Recepty/polevka-hovezi-s-kapanim/polevka-hovezi-s-kapanim.json",
+      "page": "Recepty/polevka-hovezi-s-kapanim/polevka-hovezi-s-kapanim.html"
+    },
+    {
+      "id": "docx-993e56c222c5fa12dbffd1f2",
+      "name": "Polévka hovězí s krupicovými nočky",
+      "file": "Recepty/polevka-hovezi-s-krupicovymi-nocky/polevka-hovezi-s-krupicovymi-nocky.json",
+      "page": "Recepty/polevka-hovezi-s-krupicovymi-nocky/polevka-hovezi-s-krupicovymi-nocky.html"
+    },
+    {
+      "id": "docx-8b1d016554ac6c07f6622e6f",
+      "name": "Polévka hovězí s kuskusem",
+      "file": "Recepty/polevka-hovezi-s-kuskusem/polevka-hovezi-s-kuskusem.json",
+      "page": "Recepty/polevka-hovezi-s-kuskusem/polevka-hovezi-s-kuskusem.html"
+    },
+    {
+      "id": "docx-459d095fa1f63ab78318ffdb",
+      "name": "Polévka hovězí s mas. rýží",
+      "file": "Recepty/polevka-hovezi-s-mas-ryzi/polevka-hovezi-s-mas-ryzi.json",
+      "page": "Recepty/polevka-hovezi-s-mas-ryzi/polevka-hovezi-s-mas-ryzi.html"
+    },
+    {
+      "id": "docx-95332c246869860f2a79c7ae",
+      "name": "Polévka hovězí s nudlemi",
+      "file": "Recepty/polevka-hovezi-s-nudlemi/polevka-hovezi-s-nudlemi.json",
+      "page": "Recepty/polevka-hovezi-s-nudlemi/polevka-hovezi-s-nudlemi.html"
+    },
+    {
+      "id": "docx-788c4494c44d341245ab20fc",
+      "name": "Polévka hovězí s rýží",
+      "file": "Recepty/polevka-hovezi-s-ryzi/polevka-hovezi-s-ryzi.json",
+      "page": "Recepty/polevka-hovezi-s-ryzi/polevka-hovezi-s-ryzi.html"
+    },
+    {
+      "id": "docx-6eace2f02e952a82fef185fc",
+      "name": "Polévka hovězí s vaječným svítkem",
+      "file": "Recepty/polevka-hovezi-s-vajecnym-svitkem/polevka-hovezi-s-vajecnym-svitkem.json",
+      "page": "Recepty/polevka-hovezi-s-vajecnym-svitkem/polevka-hovezi-s-vajecnym-svitkem.html"
+    },
+    {
+      "id": "docx-eb2d6c25c162fee2624aa9bd",
+      "name": "Polévka bramborová",
+      "file": "Recepty/polevka-bramborova/polevka-bramborova.json",
+      "page": "Recepty/polevka-bramborova/polevka-bramborova.html"
+    },
+    {
+      "id": "docx-720c5596c8b64332e0273641",
+      "name": "Polévka brokolicová",
+      "file": "Recepty/polevka-brokolicova/polevka-brokolicova.json",
+      "page": "Recepty/polevka-brokolicova/polevka-brokolicova.html"
+    },
+    {
+      "id": "docx-6b5c1f3631f02df5b81b050e",
+      "name": "Polévka bulharská",
+      "file": "Recepty/polevka-bulharska/polevka-bulharska.json",
+      "page": "Recepty/polevka-bulharska/polevka-bulharska.html"
+    },
+    {
+      "id": "docx-934fc7c33ec30030a798280a",
+      "name": "Polévka celestýnská",
+      "file": "Recepty/polevka-celestynska-2/polevka-celestynska-2.json",
+      "page": "Recepty/polevka-celestynska-2/polevka-celestynska-2.html"
+    },
+    {
+      "id": "docx-1cc2c36754c9b6f31a39b50c",
+      "name": "Polévka cuketový krém se špenátem a krutony",
+      "file": "Recepty/polevka-cuketovy-krem-se-spenatem-a-krutony/polevka-cuketovy-krem-se-spenatem-a-krutony.json",
+      "page": "Recepty/polevka-cuketovy-krem-se-spenatem-a-krutony/polevka-cuketovy-krem-se-spenatem-a-krutony.html"
+    },
+    {
+      "id": "docx-0d9815b29bcba29ad4b5912e",
+      "name": "Polévka čočková",
+      "file": "Recepty/polevka-cockova/polevka-cockova.json",
+      "page": "Recepty/polevka-cockova/polevka-cockova.html"
+    },
+    {
+      "id": "docx-ef15250687422a52e0ec9405",
+      "name": "Polévka čočková s párkem",
+      "file": "Recepty/polevka-cockova-s-parkem/polevka-cockova-s-parkem.json",
+      "page": "Recepty/polevka-cockova-s-parkem/polevka-cockova-s-parkem.html"
+    },
+    {
+      "id": "docx-4de5ff770a48bc9bc9e041d1",
+      "name": "Polévka drštková",
+      "file": "Recepty/polevka-drstkova/polevka-drstkova.json",
+      "page": "Recepty/polevka-drstkova/polevka-drstkova.html"
+    },
+    {
+      "id": "docx-e7020e9fd166028cc3b20452",
+      "name": "Polévka drůbeží kaldoun",
+      "file": "Recepty/polevka-drubezi-kaldoun-2/polevka-drubezi-kaldoun-2.json",
+      "page": "Recepty/polevka-drubezi-kaldoun-2/polevka-drubezi-kaldoun-2.html"
+    },
+    {
+      "id": "docx-b963138bbd2000a7154c5384",
+      "name": "Polévka dýňová",
+      "file": "Recepty/polevka-dynova/polevka-dynova.json",
+      "page": "Recepty/polevka-dynova/polevka-dynova.html"
+    },
+    {
+      "id": "docx-b6d640f27f8292837b2db4b5",
+      "name": "Polévka frankfurtská",
+      "file": "Recepty/polevka-frankfurtska/polevka-frankfurtska.json",
+      "page": "Recepty/polevka-frankfurtska/polevka-frankfurtska.html"
+    },
+    {
+      "id": "docx-4f079c80eb2be46330d38d00",
+      "name": "Polévka gulášová",
+      "file": "Recepty/polevka-gulasova/polevka-gulasova.json",
+      "page": "Recepty/polevka-gulasova/polevka-gulasova.html"
+    },
+    {
+      "id": "docx-45b0700a28925eff27c3a077",
+      "name": "Polévka hrstková",
+      "file": "Recepty/polevka-hrstkova/polevka-hrstkova.json",
+      "page": "Recepty/polevka-hrstkova/polevka-hrstkova.html"
+    },
+    {
+      "id": "docx-4d72c160d849f77a32e74f68",
+      "name": "Polévka italská",
+      "file": "Recepty/polevka-italska/polevka-italska.json",
+      "page": "Recepty/polevka-italska/polevka-italska.html"
+    },
+    {
+      "id": "docx-52ca016901ec93ffc929ab89",
+      "name": "Polévka krupková",
+      "file": "Recepty/polevka-krupkova/polevka-krupkova.json",
+      "page": "Recepty/polevka-krupkova/polevka-krupkova.html"
+    },
+    {
+      "id": "docx-141cd6e17a75c3c9474c0f86",
+      "name": "Polévka kulajda večeře",
+      "file": "Recepty/polevka-kulajda-vecere/polevka-kulajda-vecere.json",
+      "page": "Recepty/polevka-kulajda-vecere/polevka-kulajda-vecere.html"
+    },
+    {
+      "id": "docx-2be73aa3cf939b001adfd7eb",
+      "name": "Polévka ragú",
+      "file": "Recepty/polevka-ragu/polevka-ragu.json",
+      "page": "Recepty/polevka-ragu/polevka-ragu.html"
+    },
+    {
+      "id": "docx-3913dc1dc29b93737f435c85",
+      "name": "Polévka špenátová",
+      "file": "Recepty/polevka-spenatova/polevka-spenatova.json",
+      "page": "Recepty/polevka-spenatova/polevka-spenatova.html"
     }
   ]
 }

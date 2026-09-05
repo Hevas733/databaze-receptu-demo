@@ -1,0 +1,89 @@
+{
+  "id": "docx-4be311d2e64688e2ccf5c28a",
+  "name": "Polévka hovězí s drobením",
+  "sourceVariant": "00, 02, 03, 04, 09, 33, 94",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-hov.před.s kost",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hrubá",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 667.2,
+    "energyKcalApprox": 159,
+    "proteinG": 9.25,
+    "fatG": 7.05,
+    "carbohydratesG": 14.91,
+    "fiberG": 0.74,
+    "calciumMg": 8.4,
+    "ironMg": 1.21,
+    "vitaminAUg": 9,
+    "vitaminB1Mg": 0.05,
+    "vitaminB2Mg": 0.06,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-02T17:26:01.486Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,37.",
+    "Upřesnit velikost balení / jednotku ks: vejce."
+  ],
+  "pricePerServingCzk": 7.55,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Hovězí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

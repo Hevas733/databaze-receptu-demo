@@ -1,0 +1,96 @@
+{
+  "id": "docx-1bdfb2e64c0220cdfc016926",
+  "name": "Polévka hovězí s kapáním",
+  "sourceVariant": "00, 02, 03, 04, 33, 94, 09",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "mouka hrubá",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-hov.před.s kost",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.03,
+      "unit": "l",
+      "perServing": "3 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 619.14,
+    "energyKcalApprox": 148,
+    "proteinG": 6.34,
+    "fatG": 7.12,
+    "carbohydratesG": 14.91,
+    "fiberG": 0.74,
+    "calciumMg": 6.9,
+    "ironMg": 0.75,
+    "vitaminAUg": 9,
+    "vitaminB1Mg": 0.03,
+    "vitaminB2Mg": 0.04,
+    "vitaminCMg": null
+  },
+  "source": "DOCX",
+  "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-02T17:26:01.486Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,31.\nUpřesnit velikost balení / jednotku ks: vejce.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,31.",
+    "Upřesnit velikost balení / jednotku ks: vejce."
+  ],
+  "pricePerServingCzk": 6.2,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Hovězí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -83,15 +83,21 @@
       12
     ]
   },
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-06",
+    "2026-01-13",
+    "2026-01-20",
+    "2026-01-27"
+  ],
+  "lastServedAt": "2026-01-27",
   "rotationDays": 60,
   "status": "active",
   "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
-  "alternativeNames": [],
-  "_imported": true,
-  "menuHistory": []
+  "alternativeNames": [
+    "káva bílá"
+  ],
+  "_imported": true
 }

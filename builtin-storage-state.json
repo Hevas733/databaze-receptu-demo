@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "overlays": {
+    "receptar:kureci-rizek-smazeny": "ab459aa7ea39767d96120b5f6f23a7e39dc03a91071b499372740f9ac35f7808",
+    "receptar:kureci-rolada-plnena-vejci-hraskem-a-sunkou": "4195f4db5c961930c4d45fdd5e700597b6af12d4db6991d1454297d425b2b0b9",
+    "receptar:kureci-stehna-uzena": "a3ca91311eccd06ab2ff1f98001f90a6e304f9f04792850a2d22eb7dc97e6182",
+    "receptar:kureci-zavitek-s-nivou-a-slaninou": "798bfc0485ebcfec7b9fce3b91c75e04b3206cb5011d354d614149f52e633337"
+  }
+}

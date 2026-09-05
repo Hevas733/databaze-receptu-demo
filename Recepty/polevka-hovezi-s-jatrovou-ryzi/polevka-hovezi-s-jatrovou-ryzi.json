@@ -1,0 +1,131 @@
+{
+  "id": "docx-170deee485b4da1beb789df0",
+  "name": "Polévka hovězí s játrovou rýží",
+  "sourceVariant": "00, 03, 09, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-hov.před.s kost",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "rostlinné máslo",
+      "amount": 0.035,
+      "unit": "kg",
+      "perServing": "3,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "strouhanka",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.02,
+      "unit": "kg",
+      "perServing": "2 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-játra vepřová",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "rostlinné máslo",
+      "amount": 0.07,
+      "unit": "kg",
+      "perServing": "7 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "koření majoránka",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 543.41,
+    "energyKcalApprox": 130,
+    "proteinG": 11.01,
+    "fatG": 5.17,
+    "carbohydratesG": 9.65,
+    "fiberG": 0.36,
+    "calciumMg": 13.4,
+    "ironMg": 5.7,
+    "vitaminAUg": 1337.8,
+    "vitaminB1Mg": 0.16,
+    "vitaminB2Mg": 0.83,
+    "vitaminCMg": 9.33
+  },
+  "source": "DOCX",
+  "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-02T17:26:01.486Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,35.\nUpřesnit velikost balení / jednotku ks: vejce, koření mletý pepř, koření majoránka.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,35.",
+    "Upřesnit velikost balení / jednotku ks: vejce, koření mletý pepř, koření majoránka."
+  ],
+  "pricePerServingCzk": 7.96,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Hovězí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -1,0 +1,117 @@
+{
+  "id": "docx-b214477266b5bdc259a1e37a",
+  "name": "Polévka hovězí s droždovými nočky",
+  "sourceVariant": "00, 03, 33, 02, 09",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-hov.před.s kost",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "droždí porce",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "strouhanka",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 924.69,
+    "energyKcalApprox": 221,
+    "proteinG": 11.03,
+    "fatG": 12.38,
+    "carbohydratesG": 17.26,
+    "fiberG": 2.15,
+    "calciumMg": 52.9,
+    "ironMg": 2.39,
+    "vitaminAUg": 26,
+    "vitaminB1Mg": 0.09,
+    "vitaminB2Mg": 0.36,
+    "vitaminCMg": 6.9
+  },
+  "source": "DOCX",
+  "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-02T17:26:01.486Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,41.",
+    "Upřesnit velikost balení / jednotku ks: droždí porce, vejce."
+  ],
+  "pricePerServingCzk": 7.34,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Hovězí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

@@ -100,38 +100,43 @@
   "sourceFile": "Receptury_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-01T18:21:10.494Z",
   "description": "Norma importovaná z DOCX.",
-  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 1,24.\nUpřesnit velikost balení / jednotku ks: mléko polotučné 1l, droždí porce, vejce.",
+  "planningNote": "",
   "importWarnings": [
     "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
     "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,24.",
     "Upřesnit velikost balení / jednotku ks: mléko polotučné 1l, droždí porce, vejce."
   ],
-  "pricePerServingCzk": null,
+  "pricePerServingCzk": 21.12,
   "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
-  "mealTypes": [],
+  "mealTypes": [
+    "Oběd"
+  ],
   "category": "",
-  "meatType": "",
-  "sideDish": "",
-  "preparationType": "",
-  "popularity": null,
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
   "season": {
-    "availability": "",
-    "recommended": [],
-    "recommendedDisplay": "",
-    "months": "",
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": []
   },
-  "history": [],
-  "lastServedAt": null,
-  "rotationDays": null,
+  "history": [
+    "2026-01-02"
+  ],
+  "lastServedAt": "2026-01-02",
+  "rotationDays": 60,
   "status": "active",
-  "completionStatus": "needs-completion",
+  "completionStatus": "complete",
   "image": null,
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [
     "knedlíky kynuté s ovocem"
   ],
-  "_imported": true,
-  "menuHistory": []
+  "_imported": true
 }

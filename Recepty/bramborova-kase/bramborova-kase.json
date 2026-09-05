@@ -1,7 +1,9 @@
 {
   "id": "bramborova-kase",
   "name": "Bramborová kaše",
-  "alternativeNames": [],
+  "alternativeNames": [
+    "bramborová kaše"
+  ],
   "description": "Bramborová kaše z brambor, polotučného mléka a másla.",
   "category": "Příloha",
   "mealTypes": [
@@ -38,8 +40,12 @@
   },
   "popularity": null,
   "rotationDays": null,
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-03",
+    "2026-01-05",
+    "2026-01-19"
+  ],
+  "lastServedAt": "2026-01-19",
   "meatType": "Bezmasé",
   "sideDish": "Bramborová kaše",
   "preparationType": "Vaření",
@@ -84,5 +90,30 @@
       "unit": "kg"
     }
   ],
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-03",
+      "meal": "Oběd",
+      "originalName": "bramborová kaše",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    },
+    {
+      "date": "2026-01-05",
+      "meal": "Večeře",
+      "originalName": "bramborová kaše",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    },
+    {
+      "date": "2026-01-19",
+      "meal": "Oběd",
+      "originalName": "bramborová kaše",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    }
+  ]
 }

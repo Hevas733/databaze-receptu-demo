@@ -1,0 +1,88 @@
+{
+  "id": "docx-8b1d016554ac6c07f6622e6f",
+  "name": "Polévka hovězí s kuskusem",
+  "sourceVariant": "00, 02, 03, 04, 09, 33, 94",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-hov.před.s kost",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "kuskus",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 175.25,
+    "energyKcalApprox": 42,
+    "proteinG": 3.05,
+    "fatG": 2.96,
+    "carbohydratesG": 0.87,
+    "fiberG": 0.21,
+    "calciumMg": 43.5,
+    "ironMg": 1.09,
+    "vitaminAUg": 17,
+    "vitaminB1Mg": 0.05,
+    "vitaminB2Mg": 0.07,
+    "vitaminCMg": 6.9
+  },
+  "source": "DOCX",
+  "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-02T17:26:01.487Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,15.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,15."
+  ],
+  "pricePerServingCzk": 6.99,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Hovězí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

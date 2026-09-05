@@ -1,7 +1,9 @@
 {
   "id": "veprovy-rizek-holandsky",
   "name": "Vepřový řízek holandský",
-  "alternativeNames": [],
+  "alternativeNames": [
+    "vepřový řízek holandský"
+  ],
   "description": "Vepřová plec se sýrem cihla 30 %, vejci a mlékem, s moukou, strouhankou a olejem podle dodané normy, bez přílohy.",
   "category": "Hlavní jídlo",
   "mealTypes": [
@@ -37,8 +39,10 @@
   },
   "popularity": 1,
   "rotationDays": 60,
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-03"
+  ],
+  "lastServedAt": "2026-01-03",
   "meatType": "Vepřové",
   "sideDish": "Volitelná",
   "preparationType": "Smažení",
@@ -132,5 +136,14 @@
     }
   ],
   "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026.",
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-03",
+      "meal": "Oběd",
+      "originalName": "vepřový řízek holandský",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    }
+  ]
 }

@@ -4,7 +4,8 @@
   "name": "Polévka boršč",
   "alternativeNames": [
     "Boršč",
-    "Borsč"
+    "Borsč",
+    "polévka boršč"
   ],
   "description": "Výrazná řepná polévka s hovězím, vepřovým a uzeným masem, bramborami, zelím, rajčaty a smetanou.",
   "category": "Polévka",
@@ -35,8 +36,10 @@
   },
   "popularity": 1,
   "rotationDays": null,
-  "lastServedAt": null,
-  "history": [],
+  "lastServedAt": "2026-01-27",
+  "history": [
+    "2026-01-27"
+  ],
   "meatType": "Hovězí a vepřové",
   "sideDish": "Bez přílohy",
   "preparationType": "Vařené",
@@ -151,5 +154,14 @@
     }
   ],
   "instructions": null,
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-27",
+      "meal": "Oběd",
+      "originalName": "polévka boršč",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    }
+  ]
 }

@@ -8,8 +8,7 @@ const defaultRecipe={
   season:{availability:'Celoročně',recommendedDisplay:'Podzim–zima',recommended:['Podzim','Zima'],months:'Září–březen'},nutritionPerServing:{energyKj:3092,proteinG:44.6,fatG:19.8,carbohydratesG:79.5,fiberG:5.3},
   popularity:null,lastServedAt:null,history:[]
 };
-let recipe=loadRecipe();
-let analyzedRows=[];
+let recipe=defaultRecipe;
 let dashboardRecipes=[];
 let selectedQuickRecipe=null;
 const dashboardSources=[
@@ -45,11 +44,6 @@ const dashboardSources=[
   {folder:'hovezi-na-cesneku',file:'hovezi-na-cesneku.json',storage:'receptar:hovezi-na-cesneku'}
 ];
 
-function loadRecipe(){
-  let saved={};try{saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}')}catch{}
-  return {...defaultRecipe,...saved,season:{...defaultRecipe.season,...(saved.season||{})},history:saved.history||[]};
-}
-function saveRecipe(){localStorage.setItem(STORAGE_KEY,JSON.stringify({...recipe,rotationDays:rotationIntervals[recipe.popularity]||null}))}
 function normalize(value=''){return value.toLocaleLowerCase('cs').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim()}
 function formatDate(value){return value?new Intl.DateTimeFormat('cs-CZ').format(new Date(`${value}T12:00:00`)):'—'}
 function addDays(value,days){const date=new Date(`${value}T12:00:00`);date.setDate(date.getDate()+days);return date}
@@ -68,13 +62,19 @@ function getRotationState(item=recipe){
 }
 
 async function loadDashboardRecipes(){
-  const baseRecipes=await Promise.all(dashboardSources.map(async source=>{const base=await fetch(`Recepty/${source.folder}/${source.file}?v=55`).then(response=>response.json());let saved={};try{saved=JSON.parse(localStorage.getItem(source.storage)||'{}')}catch{}return {...base,...saved,_folder:source.folder,_storage:source.storage,season:{...base.season,...(saved.season||{})}}}));
+  const baseRecipes=await Promise.all(dashboardSources.map(async source=>({...await BuiltinStorage.load(`Recepty/${source.folder}/${source.file}?v=88`,source.storage),_folder:source.folder,_storage:source.storage})));
   await RecipeImports.ready;return RecipeImports.combine(baseRecipes);
 }
 function rotationPriority(state){return({forgotten:0,overdue:1,ready:2,none:3,soon:4,early:5,unset:6})[state.key]??9}
 async function renderDashboard(){
-  recipe=loadRecipe();
-  try{dashboardRecipes=await loadDashboardRecipes()}catch{dashboardRecipes=[{...recipe,_folder:'zapecene-brambory-s-kurecim-masem-a-besamelem',id:'zapecene-brambory-s-kurecim-masem-a-besamelem',image:'pikantule.png'}]}
+  try{
+    dashboardRecipes=await loadDashboardRecipes();
+    recipe=dashboardRecipes.find(item=>item.id==='zapecene-brambory-s-kurecim-masem-a-besamelem')||defaultRecipe;
+  }catch(error){
+    document.querySelector('#repeatList').textContent=error.message||'Recepty se nepodařilo načíst.';
+    const row=Array.from(document.querySelectorAll('aside p')).find(p=>p.textContent.includes('Receptů v databázi'));if(row)row.lastElementChild.textContent='nedostupné';
+    return;
+  }
   const countRow=Array.from(document.querySelectorAll('aside p')).find(p=>p.textContent.includes('Receptů v databázi'));if(countRow)countRow.lastElementChild.textContent=dashboardRecipes.length;
   const repeat=document.querySelector('#repeatList');
   const eligible=dashboardRecipes.map(item=>({item,state:getRotationState(item)})).filter(entry=>['ready','overdue','forgotten','none'].includes(entry.state.key)).sort((a,b)=>rotationPriority(a.state)-rotationPriority(b.state)||a.item.name.localeCompare(b.item.name,'cs'));
@@ -121,33 +121,6 @@ document.querySelector('[data-quick-all]').addEventListener('click',()=>{window.
 document.querySelector('#menuButton').addEventListener('click',()=>document.querySelector('#sidebar').classList.toggle('open'));
 document.addEventListener('click',event=>{if(innerWidth<=760&&!event.target.closest('#sidebar')&&!event.target.closest('#menuButton'))document.querySelector('#sidebar').classList.remove('open')});
 
-function parseDate(line){
-  const iso=line.match(/\b(20\d{2})-(\d{1,2})-(\d{1,2})\b/);if(iso)return `${iso[1]}-${iso[2].padStart(2,'0')}-${iso[3].padStart(2,'0')}`;
-  const czech=line.match(/\b(\d{1,2})\.\s*(\d{1,2})\.\s*(20\d{2})\b/);if(czech)return `${czech[3]}-${czech[2].padStart(2,'0')}-${czech[1].padStart(2,'0')}`;
-  return null;
-}
-function mealNameFromLine(line){return line.replace(/\b20\d{2}-\d{1,2}-\d{1,2}\b/,'').replace(/\b\d{1,2}\.\s*\d{1,2}\.\s*20\d{2}\b/,'').replace(/^[\s;|,\-–]+/,'').trim()}
-function matchRecipe(name){
-  const candidate=normalize(name),aliases=[recipe.name,...(recipe.alternativeNames||[])].map(normalize);
-  if(aliases.some(alias=>candidate.includes(alias)||alias.includes(candidate)))return true;
-  const words=new Set(candidate.split(' ').filter(word=>word.length>3));
-  return aliases.some(alias=>{const aliasWords=new Set(alias.split(' ').filter(word=>word.length>3)),common=[...words].filter(word=>aliasWords.has(word)).length;return common>=2&&common/Math.max(words.size,aliasWords.size)>=.4});
-}
-function analyzeMenu(){
-  const lines=document.querySelector('#menuText').value.split(/\r?\n/).map(line=>line.trim()).filter(Boolean);
-  analyzedRows=lines.map((line,index)=>{const name=mealNameFromLine(line),date=parseDate(line),matched=matchRecipe(name);return {id:index,line,name,date,matched}});
-  const matched=analyzedRows.filter(row=>row.matched),unmatched=analyzedRows.length-matched.length;
-  document.querySelector('#importSummary').innerHTML=`<b>Rozpoznáno ${matched.length} z ${analyzedRows.length} řádků</b><span>${unmatched} neznámých jídel bude ponecháno ke kontrole.</span>`;
-  document.querySelector('#matchedMeals').innerHTML=analyzedRows.map(row=>`<div class="match-row ${row.matched?'matched':'unmatched'}"><span>${row.matched?'✓':'?'}</span><div><b>${row.name||row.line}</b><small>${row.date?formatDate(row.date):'Chybí datum'} · ${row.matched?'Přiřazeno: '+recipe.name:'Nenalezeno v databázi'}</small></div>${row.matched&&row.date?`<input type="checkbox" checked data-row="${row.id}" aria-label="Uložit použití">`:''}</div>`).join('');
-  document.querySelector('#importResults').hidden=false;
-}
-document.querySelector('#menuFile')?.addEventListener('change',event=>{const file=event.target.files[0];if(!file)return;const reader=new FileReader();reader.onload=()=>{document.querySelector('#menuText').value=reader.result;analyzeMenu()};reader.readAsText(file,'utf-8')});
-document.querySelector('#analyzeMenu')?.addEventListener('click',analyzeMenu);
-document.querySelector('#saveImport')?.addEventListener('click',()=>{
-  const selected=[...document.querySelectorAll('[data-row]:checked')].map(input=>analyzedRows[Number(input.dataset.row)]).filter(row=>row?.matched&&row.date);
-  if(!selected.length){showToast('Není vybráno žádné rozpoznané jídlo s datem.');return}
-  const history=new Set(recipe.history||[]);selected.forEach(row=>history.add(row.date));recipe.history=[...history].sort();recipe.lastServedAt=recipe.history.at(-1);saveRecipe();renderDashboard();showToast(`Uloženo použití: ${selected.length}`);
-});
 document.querySelector('#closeQuickInfo').addEventListener('click',()=>document.querySelector('#quickInfoDialog').close());
 document.querySelector('#closeQuickInfoBottom').addEventListener('click',()=>document.querySelector('#quickInfoDialog').close());
 document.querySelector('#openRecipeFromInfo').addEventListener('click',()=>{if(selectedQuickRecipe)window.location.href=`Recepty/${selectedQuickRecipe._folder}/${selectedQuickRecipe.id}.html?v=30`});

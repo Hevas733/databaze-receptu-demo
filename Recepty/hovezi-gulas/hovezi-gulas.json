@@ -1,7 +1,9 @@
 {
   "id": "hovezi-gulas",
   "name": "Hovězí guláš",
-  "alternativeNames": [],
+  "alternativeNames": [
+    "hovězí guláš"
+  ],
   "description": "Hovězí přední s cibulí, olejem a hladkou moukou podle dodané normy, bez přílohy.",
   "category": "Hlavní jídlo",
   "mealTypes": [
@@ -37,8 +39,10 @@
   },
   "popularity": 1,
   "rotationDays": 60,
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-30"
+  ],
+  "lastServedAt": "2026-01-30",
   "meatType": "Hovězí",
   "sideDish": "Volitelná",
   "preparationType": "Dušení",
@@ -88,5 +92,14 @@
     }
   ],
   "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026.",
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-30",
+      "meal": "Večeře",
+      "originalName": "hovězí guláš",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    }
+  ]
 }

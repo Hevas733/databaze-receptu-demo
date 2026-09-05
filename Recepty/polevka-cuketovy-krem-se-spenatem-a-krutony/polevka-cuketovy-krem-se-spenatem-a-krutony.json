@@ -1,0 +1,124 @@
+{
+  "id": "docx-1cc2c36754c9b6f31a39b50c",
+  "name": "Polévka cuketový krém se špenátem a krutony",
+  "sourceVariant": "00, 09, ZAM",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-cuketa",
+      "amount": 1.5,
+      "unit": "kg",
+      "perServing": "150 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. špenát",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "ovoce citrony",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana kysaná 1 l",
+      "amount": 0.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.27,
+      "unit": "l",
+      "perServing": "27 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "peč. veka 400g",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "sůl",
+      "amount": 0.01,
+      "unit": "kg",
+      "perServing": "1 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1156.81,
+    "energyKcalApprox": 276,
+    "proteinG": 2.2,
+    "fatG": 27.3,
+    "carbohydratesG": 7.76,
+    "fiberG": 2.7,
+    "calciumMg": 84,
+    "ironMg": 1.26,
+    "vitaminAUg": 34,
+    "vitaminB1Mg": 0.07,
+    "vitaminB2Mg": 0.09,
+    "vitaminCMg": 13.8
+  },
+  "source": "DOCX",
+  "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-05T09:38:37.169Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,18.",
+    "Upřesnit velikost balení / jednotku ks: smetana kysaná 1 l, peč. veka 400g, koření mletý pepř."
+  ],
+  "pricePerServingCzk": 12.6,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Bezmasé",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 1,
+  "season": {
+    "availability": "Sezónní",
+    "recommended": [
+      "Podzim"
+    ],
+    "recommendedDisplay": "Podzim",
+    "months": "Srpen, Září, Říjen",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

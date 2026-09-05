@@ -4,7 +4,8 @@
   "name": "Bramborové placky z vařených brambor",
   "alternativeNames": [
     "Bramborové placky",
-    "Placky z vařených brambor"
+    "Placky z vařených brambor",
+    "bramborové placky z vařených brambor"
   ],
   "description": "Smažené bramborové placky z vařených brambor, hrubé a hladké mouky a vejce.",
   "category": "Hlavní jídlo",
@@ -34,8 +35,10 @@
   },
   "popularity": 1,
   "rotationDays": null,
-  "lastServedAt": null,
-  "history": [],
+  "lastServedAt": "2026-01-08",
+  "history": [
+    "2026-01-08"
+  ],
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Smažené",
@@ -92,5 +95,14 @@
     }
   ],
   "instructions": null,
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-08",
+      "meal": "Večeře",
+      "originalName": "bramborové placky z vařených brambor",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "2bc25012-051f-424c-b492-6c384d884756"
+    }
+  ]
 }

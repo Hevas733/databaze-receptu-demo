@@ -1,0 +1,131 @@
+{
+  "id": "docx-2be73aa3cf939b001adfd7eb",
+  "name": "Polévka ragú",
+  "sourceVariant": "00, 02, 03, 04, 33",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-hov.přední",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.06,
+      "unit": "l",
+      "perServing": "6 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.16,
+      "unit": "kg",
+      "perServing": "16 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mušk.květ",
+      "amount": 0.01,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.8,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "rostlinné máslo",
+      "amount": 0.03,
+      "unit": "kg",
+      "perServing": "3 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    },
+    {
+      "name": "strouhanka",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "peč. veka 400g",
+      "amount": 0.67,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": true
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 901.52,
+    "energyKcalApprox": 215,
+    "proteinG": 10.44,
+    "fatG": 10.84,
+    "carbohydratesG": 19.28,
+    "fiberG": 0.65,
+    "calciumMg": 97.44,
+    "ironMg": 1.6,
+    "vitaminAUg": 12.5,
+    "vitaminB1Mg": 0.09,
+    "vitaminB2Mg": 0.16,
+    "vitaminCMg": 0.88
+  },
+  "source": "DOCX",
+  "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-05T09:38:37.169Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,26.",
+    "Upřesnit velikost balení / jednotku ks: koření mušk.květ, mléko polotučné 1l, vejce, peč. veka 400g."
+  ],
+  "pricePerServingCzk": 11.91,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "category": "",
+  "meatType": "Hovězí",
+  "sideDish": "Bez přílohy",
+  "preparationType": "Vařené",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": []
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 90,
+  "status": "paused",
+  "completionStatus": "complete",
+  "image": null,
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}
