@@ -40,13 +40,8 @@
   },
   "popularity": 1,
   "rotationDays": null,
-  "lastServedAt": "2026-01-25",
-  "history": [
-    "2026-01-04",
-    "2026-01-11",
-    "2026-01-18",
-    "2026-01-25"
-  ],
+  "lastServedAt": null,
+  "history": [],
   "meatType": "Bezmasé",
   "sideDish": "Houskový knedlík",
   "preparationType": "Vařené",
@@ -97,38 +92,5 @@
     }
   ],
   "instructions": null,
-  "menuHistory": [
-    {
-      "date": "2026-01-04",
-      "meal": "Oběd",
-      "originalName": "houskové knedlíky",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    },
-    {
-      "date": "2026-01-11",
-      "meal": "Oběd",
-      "originalName": "houskové knedlíky",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    },
-    {
-      "date": "2026-01-18",
-      "meal": "Oběd",
-      "originalName": "houskové knedlíky",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    },
-    {
-      "date": "2026-01-25",
-      "meal": "Oběd",
-      "originalName": "houskové knedlíky",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    }
-  ]
+  "menuHistory": []
 }

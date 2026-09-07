@@ -36,10 +36,8 @@
   },
   "popularity": 1,
   "rotationDays": null,
-  "lastServedAt": "2026-01-27",
-  "history": [
-    "2026-01-27"
-  ],
+  "lastServedAt": null,
+  "history": [],
   "meatType": "Hovězí a vepřové",
   "sideDish": "Bez přílohy",
   "preparationType": "Vařené",
@@ -154,14 +152,5 @@
     }
   ],
   "instructions": null,
-  "menuHistory": [
-    {
-      "date": "2026-01-27",
-      "meal": "Oběd",
-      "originalName": "polévka boršč",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    }
-  ]
+  "menuHistory": []
 }

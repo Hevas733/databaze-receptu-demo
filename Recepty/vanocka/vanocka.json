@@ -36,11 +36,8 @@
     ]
   },
   "popularity": 1,
-  "history": [
-    "2026-01-11",
-    "2026-01-25"
-  ],
-  "lastServedAt": "2026-01-25",
+  "history": [],
+  "lastServedAt": null,
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Studené",
@@ -73,22 +70,5 @@
     }
   ],
   "instructions": null,
-  "menuHistory": [
-    {
-      "date": "2026-01-11",
-      "meal": "Snídaně",
-      "originalName": "vánočka pečivo",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    },
-    {
-      "date": "2026-01-25",
-      "meal": "Snídaně",
-      "originalName": "vánočka pečivo",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    }
-  ]
+  "menuHistory": []
 }

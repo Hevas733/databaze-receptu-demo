@@ -35,10 +35,8 @@
   },
   "popularity": 1,
   "rotationDays": null,
-  "lastServedAt": "2026-01-08",
-  "history": [
-    "2026-01-08"
-  ],
+  "lastServedAt": null,
+  "history": [],
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Smažené",
@@ -95,14 +93,5 @@
     }
   ],
   "instructions": null,
-  "menuHistory": [
-    {
-      "date": "2026-01-08",
-      "meal": "Večeře",
-      "originalName": "bramborové placky z vařených brambor",
-      "dietCode": "O00",
-      "sourceFile": "Leden 2026.docx",
-      "importId": "2bc25012-051f-424c-b492-6c384d884756"
-    }
-  ]
+  "menuHistory": []
 }
