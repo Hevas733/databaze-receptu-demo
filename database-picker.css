@@ -1,0 +1,6 @@
+.database-picker .recipe-detail{max-width:none;padding:16px;margin:0}
+.database-picker .detail-toolbar[hidden]{display:none}
+.database-picker .recipe-database{padding:0}
+.database-picker .recipe-card em{font-style:normal;font-size:14px;color:#075ea9;font-weight:800}
+.database-picker .recipe-card:focus-visible{outline:3px solid #075ea9;outline-offset:2px}
+@media(max-width:650px){.database-picker .database-search{grid-template-columns:1fr!important}.database-picker .database-search>button{min-height:40px}.database-picker .chips label{flex-wrap:wrap;margin-left:0!important}.database-picker .recipe-card{flex-wrap:wrap}}

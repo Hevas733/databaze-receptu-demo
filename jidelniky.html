@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0b4f9c">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="jidelniky.css?v=84">
+  <link rel="stylesheet" href="jidelniky.css?v=90">
   <title>Jídelníčky – Receptář</title>
 </head>
 <body>
@@ -22,6 +22,11 @@
   <section id="menusOverview" class="menus-overview"></section>
   <section id="menuDays" class="menu-days"></section>
 </main>
-<script src="jidelniky.js?v=84"></script>
+<dialog id="recipePicker" aria-labelledby="pickerTitle" aria-describedby="pickerContext">
+  <header class="picker-heading"><div><h2 id="pickerTitle">Nahradit jídlo</h2><p id="pickerContext"></p></div><button type="button" id="pickerClose" aria-label="Zavřít výběr">Zavřít ×</button></header>
+  <iframe id="pickerFrame" title="Databáze receptů se všemi filtry"></iframe>
+  <footer class="picker-footer"><p id="pickerStatus" role="status" aria-live="polite">Vyberte jídlo z databáze.</p><button type="button" id="pickerSave" disabled>Nahradit a uložit</button></footer>
+</dialog>
+<script src="jidelniky.js?v=90"></script>
 </body>
 </html>

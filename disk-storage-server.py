@@ -9,6 +9,7 @@ import threading
 import unicodedata
 import uuid
 import folder_store
+import menu_replacements
 import builtin_store
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlsplit, parse_qs
@@ -182,6 +183,13 @@ def handler_for(root):
                     return self.json_response(400, {'error': str(exc)})
             if path == '/__recipe_storage':
                 return self.json_response(200, {'storage': 'recipe-disk-v1', 'file': CATALOG})
+            if path == '/__menu_replacements':
+                try:
+                    with LOCK:
+                        data = menu_replacements.load(root)
+                    return self.json_response(200, data)
+                except (ValueError, OSError) as exc:
+                    return self.json_response(400, {'error': str(exc)})
             if path == '/__menu_import':
                 try:
                     with LOCK:
@@ -197,7 +205,7 @@ def handler_for(root):
 
         def do_POST(self):
             endpoint = urlsplit(self.path).path
-            if endpoint not in {'/__recipe_storage','/__menu_import','/__browser_snapshot','/__builtin_recipe'}:
+            if endpoint not in {'/__recipe_storage','/__menu_import','/__browser_snapshot','/__builtin_recipe','/__menu_replacements'}:
                 return self.send_error(404)
             origin = self.headers.get('Origin')
             if not self.local_host() or origin != 'http://' + self.headers.get('Host', ''):
@@ -209,6 +217,10 @@ def handler_for(root):
                 if not 0 < length <= 20 * 1024 * 1024:
                     raise ValueError('Katalog smí mít nejvýše 20 MB.')
                 raw = json.loads(self.rfile.read(length), parse_constant=lambda x: (_ for _ in ()).throw(ValueError('Neplatné číslo.')))
+                if endpoint == '/__menu_replacements':
+                    with LOCK:
+                        output = menu_replacements.save(root, raw, dict(recipe_files(root)))
+                    return self.json_response(200, output)
                 if endpoint == '/__builtin_recipe':
                     if not isinstance(raw, dict):
                         raise ValueError('Neplatná úprava receptu.')
@@ -369,6 +381,8 @@ def handler_for(root):
                     folder_store.commit(root, files)
                     output = {'version':1,'revision':index['revision'],'recipes':data['recipes'],'index':index}
                 self.json_response(200, output)
+            except menu_replacements.Conflict as exc:
+                self.json_response(409, {'error': str(exc)})
             except (ValueError, TypeError, OSError) as exc:
                 self.json_response(400, {'error': str(exc)})
     return Handler

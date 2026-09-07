@@ -3,6 +3,7 @@ Thumbs.db
 .recipe-backups/
 __pycache__/
 *.pyc
+menu-replacements.json
 imported-norms.json
 Recepty/*/IMPORT.md
 Recepty/*/podklady/
