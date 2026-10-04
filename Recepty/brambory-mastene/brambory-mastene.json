@@ -1,0 +1,141 @@
+{
+  "id": "docx-23853cb78c3ea195bffb32c1",
+  "name": "brambory maštěné",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-brambory",
+      "amount": 5,
+      "unit": "kg",
+      "perServing": "500 g",
+      "needsClarification": false
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1959.5,
+    "energyKcalApprox": 468,
+    "proteinG": 12.06,
+    "fatG": 9.8,
+    "carbohydratesG": 86.08,
+    "fiberG": 8,
+    "calciumMg": 750,
+    "ironMg": 47.5,
+    "vitaminAUg": 750,
+    "vitaminB1Mg": 4.5,
+    "vitaminB2Mg": 1.65,
+    "vitaminCMg": 425
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_5.docx",
+  "importedAt": "2026-10-03T16:18:30.135Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = —.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —."
+  ],
+  "pricePerServingCzk": 10.54,
+  "nutritionReview": "Porovnáno s opraveným DOCX Leden_2026_normy_a_nutricni_hodnoty_cast_5-opraveny-1801d971b6.docx dne 3. 10. 2026. Hodnoty na 1 porci převzaty přesně ze zdroje; nejde o nezávislý nutriční výpočet. Prázdné údaje jsou neznámé, nikoli nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-10",
+    "2026-01-12",
+    "2026-02-06",
+    "2026-02-14",
+    "2026-02-23"
+  ],
+  "lastServedAt": "2026-02-23",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "brambory maštěné"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-10",
+      "meal": "Oběd",
+      "originalName": "brambory maštěné",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-12",
+      "meal": "Oběd",
+      "originalName": "brambory maštěné",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-06",
+      "meal": "Večeře",
+      "originalName": "brambory maštěné",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-14",
+      "meal": "Oběd",
+      "originalName": "brambory maštěné",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-23",
+      "meal": "Oběd",
+      "originalName": "brambory maštěné",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

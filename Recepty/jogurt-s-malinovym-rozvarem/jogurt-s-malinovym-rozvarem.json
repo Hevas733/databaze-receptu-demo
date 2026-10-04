@@ -1,0 +1,99 @@
+{
+  "id": "docx-2d1821bc8d118fa9f1d087e3",
+  "name": "jogurt s malinovým rozvarem",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "cukr krupice",
+      "amount": 0.065,
+      "unit": "kg",
+      "perServing": "6,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "jogurt bílý 1kg",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. maliny",
+      "amount": 0.488,
+      "unit": "kg",
+      "perServing": "48,8 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 610.5,
+    "energyKcalApprox": 146,
+    "proteinG": 3,
+    "fatG": 10,
+    "carbohydratesG": 10.49,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_02.docx",
+  "importedAt": "2026-09-28T14:24:28.427Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = .\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = .",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 12.7,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

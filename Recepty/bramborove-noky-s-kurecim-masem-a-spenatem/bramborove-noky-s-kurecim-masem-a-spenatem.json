@@ -34,8 +34,8 @@
       12
     ]
   },
-  "popularity": null,
-  "rotationDays": null,
+  "popularity": 2,
+  "rotationDays": 90,
   "history": [],
   "lastServedAt": null,
   "meatType": "Kuřecí",
@@ -116,5 +116,13 @@
       "amount": 0.15
     }
   ],
-  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026; návrh servírování."
+  "imageCredit": "AI ilustrace vytvořená vestavěným image_gen, 30. 8. 2026; návrh servírování.",
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

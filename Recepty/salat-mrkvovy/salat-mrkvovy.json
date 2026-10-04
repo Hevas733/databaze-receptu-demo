@@ -1,0 +1,121 @@
+{
+  "id": "docx-99b73545eeeb7e1240ccf5af",
+  "name": "salát mrkvový",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-mrkev",
+      "amount": 1.5,
+      "unit": "kg",
+      "perServing": "150 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "ovoce citrony",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 326.4,
+    "energyKcalApprox": 78,
+    "proteinG": 1.57,
+    "fatG": 0.34,
+    "carbohydratesG": 19.34,
+    "fiberG": 4.58,
+    "calciumMg": 735,
+    "ironMg": 22.2,
+    "vitaminAUg": 53070,
+    "vitaminB1Mg": 1.05,
+    "vitaminB2Mg": 0.98,
+    "vitaminCMg": 73.5
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_6.docx",
+  "importedAt": "2026-10-03T18:15:36.784Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,50."
+  ],
+  "pricePerServingCzk": 5.37,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Salát"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-24",
+    "2026-02-16"
+  ],
+  "lastServedAt": "2026-02-16",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "salát mrkvový"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-24",
+      "meal": "Oběd",
+      "originalName": "salát mrkvový",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-16",
+      "meal": "Večeře",
+      "originalName": "salát mrkvový",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

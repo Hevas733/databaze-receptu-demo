@@ -1,7 +1,6 @@
 {
   "id": "docx-4be311d2e64688e2ccf5c28a",
   "name": "Polévka hovězí s drobením",
-  "sourceVariant": "00, 02, 03, 04, 09, 33, 94",
   "servings": 10,
   "ingredients": [
     {
@@ -23,7 +22,7 @@
       "amount": 2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "mraž. Mochovská zelenina",
@@ -47,6 +46,8 @@
     "vitaminB2Mg": 0.06,
     "vitaminCMg": null
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-02T17:26:01.486Z",
@@ -62,6 +63,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Hovězí",
   "sideDish": "Bez přílohy",
@@ -74,14 +77,28 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "history": [],
   "lastServedAt": null,
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],

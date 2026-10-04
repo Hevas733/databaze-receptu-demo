@@ -13,7 +13,6 @@
   "servings": 10,
   "source": "CYGNUS – Domov sociální péče Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "3,9,33",
   "group": "",
   "pricePerServingCzk": 11.91,
   "season": {
@@ -38,22 +37,25 @@
       12
     ]
   },
-  "popularity": 2,
-  "rotationDays": 90,
-  "history": [],
-  "lastServedAt": null,
+  "popularity": 1,
+  "rotationDays": 60,
+  "history": [
+    "2026-01-17",
+    "2026-02-28"
+  ],
+  "lastServedAt": "2026-02-28",
   "meatType": "Kuřecí",
   "sideDish": "Bez přílohy",
   "preparationType": "Opékání",
   "status": "active",
-  "completionStatus": "reviewed-with-user",
+  "completionStatus": "needs-completion",
   "image": "ai-ilustrace.png",
   "instructions": null,
   "planningNote": "Koření: 0,5 balíčku po přibližně 20 g = cca 10 g na 10 porcí (cca 1 g na porci); hmotnost je odhad podle uživatele, konkrétní směs není doložena. Příprava se na přání uživatele neřeší. Diety: 3,9,33. Alergeny ponechány nevyplněné na přání uživatele; neznamená to bezalergenní pokrm. Příprava se nedoplňuje. Obrázek je AI ilustrace.",
   "nutritionReview": "CYGNUS – hodnoty potvrzené uživatelem na jednu porci. Věrný přepis, nikoli nezávisle ověřený nebo nový výpočet. V exportu chybí výživa koření na kuře. Prázdné buňky nejsou považovány za nulu.",
   "nutritionPerServing": {
     "energyKj": 960.7,
-    "energyKcalApprox": 230.0,
+    "energyKcalApprox": 230,
     "proteinG": 24.13,
     "fatG": 11.38,
     "carbohydratesG": 8.07,
@@ -122,5 +124,29 @@
   "nutritionStatus": "user-confirmed-cygnus",
   "imageCredit": "AI ilustrace vytvořená vestavěným image_gen; návrh servírování, nikoli fotografie normované porce.",
   "allergensStatus": "omitted-by-user",
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-17",
+      "meal": "Oběd",
+      "originalName": "kuřecí přírodní řízek",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-28",
+      "meal": "Oběd",
+      "originalName": "kuřecí přírodní řízek",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ],
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

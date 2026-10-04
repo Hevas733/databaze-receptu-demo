@@ -1,0 +1,158 @@
+{
+  "id": "docx-fa0982a9bbd0592e019d04c0",
+  "name": "Kuře na pivě a žampionech",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mraž. kuř. stehna",
+      "amount": 2.3,
+      "unit": "kg",
+      "perServing": "230 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-žampiony",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-anglická slanin",
+      "amount": 0.12,
+      "unit": "kg",
+      "perServing": "12 g",
+      "needsClarification": false
+    },
+    {
+      "name": "pivo světlé",
+      "amount": 0.1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "smetana Master 1l",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.025,
+      "unit": "kg",
+      "perServing": "2,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.15,
+      "unit": "l",
+      "perServing": "15 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.07,
+      "unit": "kg",
+      "perServing": "7 g",
+      "needsClarification": false
+    },
+    {
+      "name": "ovoce citrony",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 2787.1,
+    "energyKcalApprox": 666,
+    "proteinG": 44.82,
+    "fatG": 49.7,
+    "carbohydratesG": 12.29,
+    "fiberG": 2.83,
+    "calciumMg": 443.82,
+    "ironMg": 27.24,
+    "vitaminAUg": 170,
+    "vitaminB1Mg": 0.6,
+    "vitaminB2Mg": 1.31,
+    "vitaminCMg": 77
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_03.docx",
+  "importedAt": "2026-09-28T15:12:25.635Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 1,50.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,50."
+  ],
+  "pricePerServingCzk": 35.65,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Sezónní",
+    "recommended": [
+      "Jaro",
+      "Podzim",
+      "Zima"
+    ],
+    "recommendedDisplay": "Jaro, Podzim, Zima",
+    "months": "Leden, Únor, Březen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-08"
+  ],
+  "lastServedAt": "2026-01-08",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "Kuře na pivě a žampionech"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-08",
+      "meal": "Oběd",
+      "originalName": "Kuře na pivě a žampionech",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

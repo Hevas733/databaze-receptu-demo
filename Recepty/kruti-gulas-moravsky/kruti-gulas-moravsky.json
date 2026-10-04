@@ -1,0 +1,134 @@
+{
+  "id": "docx-b7285dc115a7c63f6f4ff296",
+  "name": "krůtí guláš moravský",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mraž. krůtí maso",
+      "amount": 0.8,
+      "unit": "kg",
+      "perServing": "80 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-brambory",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "rajský protlak 720g",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1005.49,
+    "energyKcalApprox": 240,
+    "proteinG": 20.83,
+    "fatG": 11.13,
+    "carbohydratesG": 14.82,
+    "fiberG": 1.34,
+    "calciumMg": 157.07,
+    "ironMg": 4.93,
+    "vitaminAUg": 1052.84,
+    "vitaminB1Mg": 0.34,
+    "vitaminB2Mg": 0.29,
+    "vitaminCMg": 82.95
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_20-40.docx",
+  "importedAt": "2026-10-02T13:31:33.386Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,25.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,25."
+  ],
+  "pricePerServingCzk": 20.76,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd",
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-20"
+  ],
+  "lastServedAt": "2026-01-20",
+  "rotationDays": 90,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "krůtí guláš moravský"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-20",
+      "meal": "Oběd",
+      "originalName": "krůtí guláš moravský",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

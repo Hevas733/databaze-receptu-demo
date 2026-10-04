@@ -1,17 +1,23 @@
-# Databáze receptů
+# Databáze receptů — prezentační verze v152
 
-PWA pro správu receptur a jídelních lístků. Obsahuje databázi 45 receptur, vyhledávání a filtry, detail a editor norem, import receptur z DOCX, import jídelních lístků z CYGNUSU a přehled naimportovaných jídelníčků.
+[Otevřít prezentaci](https://hevas733.github.io/databaze-receptu-demo/)
 
-GitHub Pages zveřejňuje soubory z větve main. Úpravy a importy provedené na webové verzi se ukládají pouze v daném prohlížeči; samy nemění veřejné receptury ani obsah GitHubu. Část receptur čeká na doplnění a ověření. Obrázky jsou ilustrační.
+PWA pro správu norem a jídelních lístků. Snímek aktuálních dat z 4. října 2026 včetně lednového a rozpracovaného únorového jídelníčku.
 
-Repozitář obsahuje webové rozhraní, receptury a zdrojový kód místního serveru. Zálohy, individuální náhrady jídel (`menu-replacements.json`) a původní DOCX podklady se nepublikují.
+## Aktuální funkce
 
-## Verze v90 — jídelníček a náhrady jídel
+- Databáze norem s obrázky, alternativními názvy a filtrem aktivních/neaktivních norem.
+- Oddělený import norem a jídelníčků. Jednoznačné shody se ukládají automaticky; nejasnosti vyžadují ruční kontrolu.
+- Denní a týdenní finanční i nutriční součty s porovnáním s nastavenými referenčními hodnotami.
+- Cena a nutriční hodnoty u jednotlivých jídel, nenápadné označení chybějících údajů.
+- Detail, úprava a náhrada normy v dialogu nad jídelníčkem.
 
-- Týdenní segmenty od pondělí do neděle, dny po načtení sbalené.
-- Cena a nutriční součty dne na osobu zůstávají viditelné v hlavičce. Chybějící hodnoty jsou označené jako neúplné součty.
-- Výběr náhradního jídla přes stávající databázi se všemi jejími filtry.
-- Místní server ukládá náhrady samostatně na disk se zálohou a kontrolou souběžných změn. Původní import zůstává dohledatelný.
-- GitHub Pages ukládá náhrady pouze do prohlížeče; neprovádí zápis na disk počítače ani do GitHubu.
+## Ukládání a omezení prezentace
 
-Kontroly: `python -m unittest discover -s tests`, `node tests/menu-ui.test.cjs`, `node tests/builtin-storage.test.cjs`.
+GitHub Pages je statický web: úpravy, náhrady a importy se ukládají pouze do daného prohlížeče. Nemění zdrojová data na GitHubu ani místní provozní databázi. Publikované jídelníčky a známá přiřazení slouží jako výchozí snímek pro prohlížeč. Pro předvedení původního snímku použijte soukromé okno.
+
+Část norem čeká na doplnění a ověření. Obrázky jsou ilustrační. Barevné porovnání živin není klinické hodnocení vhodnosti stravy.
+
+Místní provoz používá `disk-storage-server.py` a zapisuje do souborů se zálohou. Repo obsahuje i zdrojový kód serveru, ale zálohy, individuální náhrady jídel, migrační stav prohlížečů a původní DOCX/obrazové podklady se nepublikují.
+
+Změny ve větvi `main` publikuje workflow `.github/workflows/pages.yml`. Kontrola statické prezentace: `node tests/pages-smoke.test.cjs` (vyžaduje Playwright a Edge; cestu k Playwright lze zadat proměnnou `PLAYWRIGHT_MODULE`).

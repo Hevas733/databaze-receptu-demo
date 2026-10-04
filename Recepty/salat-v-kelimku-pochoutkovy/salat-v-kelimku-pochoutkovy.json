@@ -1,0 +1,85 @@
+{
+  "id": "docx-72c9f360aa427200ca43aec9",
+  "name": "salát v kelímku pochoutkový",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "salát pochoutkový",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 10200,
+    "energyKcalApprox": 2438,
+    "proteinG": 60,
+    "fatG": 224,
+    "carbohydratesG": 53,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_08.docx",
+  "importedAt": "2026-09-28T18:06:38.202Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = .\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = .",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 32,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

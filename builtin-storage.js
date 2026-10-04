@@ -1,7 +1,7 @@
 /* Local edits require a confirmed disk write. Static hosting retains browser-only edits. */
 window.BuiltinStorage=(()=>{
   const local=['127.0.0.1','localhost'].includes(location.hostname);
-  const editable=['name','description','alternativeNames','planningNote','servings','pricePerServingCzk','meatType','sideDish','preparationType','status','popularity','lastServedAt','season','mealTypes'];
+  const editable=['name','description','alternativeNames','planningNote','servings','ingredients','nutritionPerServing','pricePerServingCzk','meatType','sideDish','preparationType','status','popularity','lastServedAt','season','mealTypes','foodType','flavor','rotationIntervalDays'];
   const diskError='Diskové úložiště není dostupné. Spusťte místní server a načtěte stránku znovu. Změny nebyly uloženy.';
   const id=key=>key.replace(/^receptar:/,'');
   async function request(path,options={}){
@@ -45,7 +45,7 @@ window.BuiltinStorage=(()=>{
     // Keep the full legacy overlay so future partial edits cannot discard older browser edits.
     let previous={};try{previous=JSON.parse(overlay(key)||'{}')}catch{}
     const saved={...previous,...clean,season:{...base.season,...clean.season}};
-    if(Object.hasOwn(clean,'popularity'))saved.rotationDays=({1:60,2:90,3:120})[clean.popularity]||null;
+    if(Object.hasOwn(clean,'popularity')||Object.hasOwn(clean,'mealTypes')){const merged={...base,...saved};saved.rotationDays=(merged.mealTypes||[]).includes('Pečivo')?null:(merged.mealTypes||[]).some(meal=>['Snídaně','Svačina','Příloha'].includes(meal))?30:({1:60,2:90,3:120})[merged.popularity]||null;}
     localStorage.setItem(key,JSON.stringify(saved));
     return {...base,...saved};
   }
@@ -65,3 +65,4 @@ window.BuiltinStorage=(()=>{
   const label=local?'Ukládání: soubor receptu na disku přes místní server.':'Ukládání: pouze tento prohlížeč. GitHub Pages nepíše na váš disk.';
   return {local,load,save,status,keepOptions,label,savedMessage:local?'Změny byly uloženy na disk.':'Změny byly uloženy pouze v tomto prohlížeči.'};
 })();
+

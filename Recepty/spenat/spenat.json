@@ -1,0 +1,138 @@
+{
+  "id": "docx-827e5dc4644dce413306abff",
+  "name": "špenát",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "česneková pasta 720 g",
+      "amount": 0.14,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "strouhanka",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. špenát",
+      "amount": 1.25,
+      "unit": "kg",
+      "perServing": "125 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 653.4,
+    "energyKcalApprox": 156,
+    "proteinG": 7.47,
+    "fatG": 7.46,
+    "carbohydratesG": 16.35,
+    "fiberG": 3.26,
+    "calciumMg": 91.69,
+    "ironMg": 1.02,
+    "vitaminAUg": 34.51,
+    "vitaminB1Mg": 0.06,
+    "vitaminB2Mg": 0.11,
+    "vitaminCMg": 7.69
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_08.docx",
+  "importedAt": "2026-09-28T18:06:38.202Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,30.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,30."
+  ],
+  "pricePerServingCzk": 6.61,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-02-24"
+  ],
+  "lastServedAt": "2026-02-24",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-02-24",
+      "meal": "Oběd",
+      "originalName": "špenát",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

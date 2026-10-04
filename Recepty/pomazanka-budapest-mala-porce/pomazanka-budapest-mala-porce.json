@@ -1,0 +1,99 @@
+{
+  "id": "docx-abe737656122ad8df850ce7d",
+  "name": "pomazánka budapešť - malá porce",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "tvaroh měkký",
+      "amount": 0.4,
+      "unit": "kg",
+      "perServing": "40 g",
+      "needsClarification": false
+    },
+    {
+      "name": "rostlinné máslo",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. pažitka",
+      "amount": 0.03,
+      "unit": "kg",
+      "perServing": "3 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 302.13,
+    "energyKcalApprox": 72,
+    "proteinG": 5.12,
+    "fatG": 5.33,
+    "carbohydratesG": 1.09,
+    "fiberG": 0.07,
+    "calciumMg": 1818.57,
+    "ironMg": 1.67,
+    "vitaminAUg": 341.96,
+    "vitaminB1Mg": 0.14,
+    "vitaminB2Mg": 1.53,
+    "vitaminCMg": 1.99
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_06.docx",
+  "importedAt": "2026-09-28T16:49:51.300Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,28.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,28."
+  ],
+  "pricePerServingCzk": 23.48,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně",
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

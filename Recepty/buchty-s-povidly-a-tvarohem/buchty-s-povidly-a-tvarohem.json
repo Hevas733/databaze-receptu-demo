@@ -1,0 +1,168 @@
+{
+  "id": "docx-3173f72929557a746dd107b2",
+  "name": "buchty s povidly a tvarohem",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "Hera 250g",
+      "amount": 0.8,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.2,
+      "unit": "l",
+      "perServing": "20 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 1.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.35,
+      "unit": "kg",
+      "perServing": "35 g",
+      "needsClarification": false
+    },
+    {
+      "name": "droždí porce",
+      "amount": 1.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "tvaroh měkký tučný",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr moučka",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "povidla",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 5094.95,
+    "energyKcalApprox": 1218,
+    "proteinG": 26.94,
+    "fatG": 57.59,
+    "carbohydratesG": 149.09,
+    "fiberG": 4.28,
+    "calciumMg": 168.3,
+    "ironMg": 2.92,
+    "vitaminAUg": 141.5,
+    "vitaminB1Mg": 0.33,
+    "vitaminB2Mg": 0.36,
+    "vitaminCMg": 1.38
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-10-02T11:40:15.783Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 5,72.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 5,72."
+  ],
+  "pricePerServingCzk": 17.05,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-16"
+  ],
+  "lastServedAt": "2026-01-16",
+  "rotationDays": 90,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "buchty s povidly a tvarohem"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-16",
+      "meal": "Oběd",
+      "originalName": "buchty s povidly a tvarohem",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

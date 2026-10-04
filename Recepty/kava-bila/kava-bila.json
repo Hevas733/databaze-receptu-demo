@@ -1,7 +1,6 @@
 {
   "id": "docx-5b452654104383ae1ddd364b",
   "name": "Káva bílá",
-  "sourceVariant": "00, 02, 03, 04, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -9,7 +8,7 @@
       "amount": 2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "cukr krupice",
@@ -23,7 +22,7 @@
       "amount": 0.05,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     }
   ],
   "nutritionPerServing": {
@@ -40,6 +39,8 @@
     "vitaminB2Mg": 0.27,
     "vitaminCMg": 2.2
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Napoje_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-08-31T16:23:13.582Z",
@@ -56,11 +57,13 @@
   "mealTypes": [
     "Snídaně"
   ],
+  "foodType": "Nápoj",
+  "flavor": "Neutrální",
   "category": "Nápoj",
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Příprava nápoje",
-  "popularity": 1,
+  "popularity": null,
   "season": {
     "availability": "Celoročně",
     "recommended": [
@@ -87,11 +90,16 @@
     "2026-01-06",
     "2026-01-13",
     "2026-01-20",
-    "2026-01-27"
+    "2026-01-27",
+    "2026-02-03",
+    "2026-02-10",
+    "2026-02-17",
+    "2026-02-24"
   ],
-  "lastServedAt": "2026-01-27",
-  "rotationDays": 60,
+  "lastServedAt": "2026-02-24",
+  "rotationDays": 30,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],
@@ -99,5 +107,71 @@
   "alternativeNames": [
     "káva bílá"
   ],
-  "_imported": true
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-06",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-13",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-20",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-27",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-03",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-10",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-17",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-24",
+      "meal": "Snídaně",
+      "originalName": "káva bílá",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
 }

@@ -1,0 +1,117 @@
+{
+  "id": "docx-038c85de982ce5e4b5d0bf62",
+  "name": "šunka 50 g",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "uzenina-šunka",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 215,
+    "energyKcalApprox": 51,
+    "proteinG": 7.5,
+    "fatG": 2,
+    "carbohydratesG": 0.5,
+    "fiberG": null,
+    "calciumMg": 50,
+    "ironMg": 10.5,
+    "vitaminAUg": null,
+    "vitaminB1Mg": 2.6,
+    "vitaminB2Mg": 0.95,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Snidane_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-19T08:37:27.021Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 5,75.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 5,75.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 8.9,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-13",
+    "2026-01-30",
+    "2026-02-10"
+  ],
+  "lastServedAt": "2026-02-10",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "šunka 50 g"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-13",
+      "meal": "Svačina",
+      "originalName": "šunka 50 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-30",
+      "meal": "Snídaně",
+      "originalName": "šunka 50 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-10",
+      "meal": "Svačina",
+      "originalName": "šunka 50 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

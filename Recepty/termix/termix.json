@@ -1,0 +1,106 @@
+{
+  "id": "docx-e1437d3c75045b7b9838ebaf",
+  "name": "termix",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "termix",
+      "amount": 10,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 442.8,
+    "energyKcalApprox": 106,
+    "proteinG": 5.49,
+    "fatG": 2.25,
+    "carbohydratesG": 15.66,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_5.docx",
+  "importedAt": "2026-10-03T16:18:30.136Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 7.28,
+  "nutritionReview": "Porovnáno s opraveným DOCX Leden_2026_normy_a_nutricni_hodnoty_cast_5-opraveny-1801d971b6.docx dne 3. 10. 2026. Hodnoty na 1 porci převzaty přesně ze zdroje; nejde o nezávislý nutriční výpočet. Prázdné údaje jsou neznámé, nikoli nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-10",
+    "2026-02-14"
+  ],
+  "lastServedAt": "2026-02-14",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-10",
+      "meal": "Svačina",
+      "originalName": "termix",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-14",
+      "meal": "Svačina",
+      "originalName": "termix",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

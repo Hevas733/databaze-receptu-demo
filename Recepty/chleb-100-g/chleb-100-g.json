@@ -10,7 +10,7 @@
   "description": "Porce běžného konzumního chleba určená ke snídani nebo přesnídávce.",
   "category": "Pečivo",
   "mealTypes": [
-    "Snídaně"
+    "Pečivo"
   ],
   "servings": 10,
   "source": "Stravovací provoz Chotěšov",
@@ -37,9 +37,38 @@
       12
     ]
   },
-  "popularity": 1,
-  "history": [],
-  "lastServedAt": null,
+  "popularity": null,
+  "history": [
+    "2026-01-02",
+    "2026-01-03",
+    "2026-01-05",
+    "2026-01-07",
+    "2026-01-09",
+    "2026-01-10",
+    "2026-01-14",
+    "2026-01-15",
+    "2026-01-17",
+    "2026-01-19",
+    "2026-01-21",
+    "2026-01-22",
+    "2026-01-23",
+    "2026-01-26",
+    "2026-01-28",
+    "2026-01-29",
+    "2026-01-31",
+    "2026-02-05",
+    "2026-02-07",
+    "2026-02-09",
+    "2026-02-11",
+    "2026-02-12",
+    "2026-02-14",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-21",
+    "2026-02-26",
+    "2026-02-28"
+  ],
+  "lastServedAt": "2026-02-28",
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Studené",
@@ -47,18 +76,25 @@
   "ingredients": [
     {
       "name": "Chléb",
-      "amount": 1.0,
+      "amount": 1,
       "unit": "kg",
-      "perServing": "100 g"
+      "perServing": "100 g",
+      "needsClarification": false
     }
   ],
   "nutritionPerServing": {
     "energyKj": 1050,
     "energyKcalApprox": 251,
     "proteinG": 8.5,
-    "fatG": 2.0,
-    "carbohydratesG": 49.0,
-    "fiberG": 4.0
+    "fatG": 2,
+    "carbohydratesG": 49,
+    "fiberG": 4,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
   },
   "nutritionReview": "Orientační odhad na porci 100 g běžného konzumního chleba; skutečné hodnoty se mohou lišit podle druhu a výrobce.",
   "allergens": [
@@ -68,5 +104,240 @@
     }
   ],
   "instructions": null,
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-02",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-03",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-05",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-07",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-09",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-10",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-14",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-15",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-17",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-19",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-21",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-22",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-23",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-26",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-28",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-29",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-31",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-05",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-07",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-09",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-11",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-12",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-14",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-18",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-19",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-21",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-26",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-28",
+      "meal": "Snídaně",
+      "originalName": "chléb l00 g",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ],
+  "foodType": "Pečivo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationDays": null,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

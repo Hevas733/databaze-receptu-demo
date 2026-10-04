@@ -10,17 +10,16 @@
   "servings": 10,
   "source": "CYGNUS – Domov sociální péče Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL",
   "group": "",
   "pricePerServingCzk": 22.7,
   "season": {
-    "availability": "",
+    "availability": "Sezónní",
     "recommended": [
       "Jaro",
       "Léto",
       "Podzim"
     ],
-    "recommendedDisplay": "Jaro–Léto–Podzim",
+    "recommendedDisplay": "Jaro, Léto, Podzim",
     "months": "Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad",
     "monthNumbers": [
       3,
@@ -34,22 +33,22 @@
       11
     ]
   },
-  "popularity": 2,
-  "rotationDays": 90,
+  "popularity": 1,
+  "rotationDays": 60,
   "history": [],
   "lastServedAt": null,
   "meatType": "Kuřecí",
   "sideDish": "Bez přílohy",
   "preparationType": "Pečení",
   "status": "active",
-  "completionStatus": "reviewed-with-user",
+  "completionStatus": "needs-completion",
   "image": "ai-ilustrace.png",
   "instructions": null,
   "planningNote": "Smetana 33 %: půl balení 215 ml = 107,5 ml na 10 porcí. Sůl 1 g a pepř 0,001 ks na dávku potvrzeny uživatelem; gramáž balení pepře není doložena pro výpočet výživy. Diety: Z00, Z00*, ZVE, C00*, COOU, DVL. Alergeny ponechány nevyplněné na přání uživatele; neznamená to bezalergenní pokrm. Příprava se nedoplňuje. Obrázek je AI ilustrace.",
   "nutritionReview": "CYGNUS – hodnoty potvrzené uživatelem na jednu porci. Věrný přepis, nikoli nezávisle ověřený nebo nový výpočet. V exportu chybí výživa smetany, soli a pepře. Prázdné buňky nejsou považovány za nulu.",
   "nutritionPerServing": {
     "energyKj": 1646.7,
-    "energyKcalApprox": 394.0,
+    "energyKcalApprox": 394,
     "proteinG": 34.84,
     "fatG": 19.9,
     "carbohydratesG": 1.1,
@@ -136,5 +135,12 @@
   ],
   "nutritionStatus": "user-confirmed-cygnus",
   "imageCredit": "AI ilustrace vytvořená vestavěným image_gen; návrh servírování, nikoli fotografie normované porce.",
-  "allergensStatus": "omitted-by-user"
+  "allergensStatus": "omitted-by-user",
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

@@ -1,0 +1,108 @@
+{
+  "id": "docx-898f9d617527fb03212b95fe",
+  "name": "koláček 1 ks",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "peč. koláček",
+      "amount": 10,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1510,
+    "energyKcalApprox": 361,
+    "proteinG": 7.8,
+    "fatG": 9.5,
+    "carbohydratesG": 59,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-10-02T11:40:15.784Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 12.91,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-04",
+    "2026-02-03"
+  ],
+  "lastServedAt": "2026-02-03",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "koláček 1 ks"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-04",
+      "meal": "Snídaně",
+      "originalName": "koláček 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-03",
+      "meal": "Snídaně",
+      "originalName": "koláček 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

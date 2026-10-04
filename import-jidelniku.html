@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b4f9c">
+  <title>Import jídelníčku – Receptář</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="norm-import.css?v=72">
+  <link rel="stylesheet" href="menu-import.css?v=136">
+  <style>#selectStrong[hidden]{display:none}</style>
+</head>
+<body class="detail-page">
+<main class="recipe-detail import-page">
+  <div class="detail-toolbar"><a class="back-link" href="index.html">← Zpět na úvod</a></div>
+  <section class="import-panel menu-import-panel" id="menu-import" aria-labelledby="menu-import-title">
+    <div class="import-heading"><div><span aria-hidden="true">▦</span><div><h1 id="menu-import-title">Import jídelníčku</h1><p>Jisté, jednoznačné shody se po načtení uloží automaticky. Potvrzujte už jen nejasné položky.</p></div></div></div>
+    <div class="menu-upload-grid">
+      <label class="file-drop" for="menuFile"><span>📄</span><b>Vybrat jídelní lístek</b><small>CYGNUS DOCX, TXT nebo CSV</small><input id="menuFile" type="file" accept=".docx,.txt,.csv,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/csv"></label>
+      <div><label class="import-label" for="menuText">Nebo vložit jednoduchý text</label><textarea id="menuText" rows="6" placeholder="1. 1.; Oběd; Vepřový řízek holandský, bramborová kaše"></textarea><button class="analyze-button" id="analyzeMenuText" type="button">Analyzovat text</button></div>
+    </div>
+    <p id="menuStorageStatus" class="norm-local-note" role="status">Načítám katalog receptů…</p>
+    <details class="menu-import-database" open><summary>Naimportované jídelní lístky</summary><p>Každý uložený soubor je vedený jako samostatná dávka. Po odstranění můžete upravený export z CYGNUSU vložit znovu.</p><div id="savedMenuImports"></div><p id="savedMenuImportsStatus" role="status"></p></details>
+    <p id="menuImportStatus" role="status" aria-live="polite">Vyberte soubor. Jisté shody se uloží automaticky, ostatní zůstanou k ruční kontrole.</p>
+    <section id="menuResults" class="menu-results" hidden>
+      <div class="menu-results-toolbar"><div id="menuSummary" class="menu-summary"></div><div class="norm-actions"><label>Zobrazit <select id="menuFilter"><option value="">Všechny zbývající položky</option><option value="strong">Jisté shody</option><option value="possible">Ke kontrole</option><option value="unmatched">Nenalezené</option></select></label><button id="selectStrong" type="button" class="secondary-button" hidden>Uložit jisté shody</button><button id="clearMenuDraft" type="button" class="secondary-button">Zahodit rozpracovaný import</button></div></div>
+      <div class="menu-column-head"><span></span><b>Položka z jídelníčku</b><b>Přiřazený recept</b><b>Pravidlo pro příště</b></div>
+      <p class="norm-local-note">Tlačítko „Otevřít normu“ zobrazí její suroviny a gramáže v náhledu nad importerem. Otevření ani zavření náhledu nepotvrdí přiřazení.</p>
+      <div id="menuRows"></div>
+      <div class="menu-save-bar"><p>Jisté shody se ukládají automaticky. Ručně potvrďte jen zbývající položky.</p><button id="saveMenuImport" type="button" class="save-import">Uložit ručně potvrzené</button></div>
+    </section>
+  </section>
+</main>
+<dialog id="normPreview" class="norm-preview-dialog" aria-labelledby="normPreviewTitle" aria-describedby="normPreviewHint">
+  <div class="norm-preview-header"><div><p id="normPreviewHint">Náhled normy · pouze ke kontrole, nic se zde neukládá</p><h2 id="normPreviewTitle">Norma</h2></div><button id="normPreviewClose" class="norm-preview-close" type="button" aria-label="Zavřít náhled normy" autofocus>×</button></div>
+  <div id="normPreviewBody" class="norm-preview-body" aria-live="polite"></div>
+  <div class="norm-preview-footer"><span>Po zavření můžete pokračovat v přiřazování.</span><button id="normPreviewDone" class="secondary-button" type="button">Zavřít náhled</button></div>
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+<script src="vendor/jszip.min.js?v=55"></script>
+<script src="menu-import-rules.js?v=134"></script>
+<script src="menu-web-storage.js?v=152"></script>
+<script src="menu-importer-v86.js?v=152"></script>
+<script src="demo-mode.js?v=152"></script></body>
+</html>

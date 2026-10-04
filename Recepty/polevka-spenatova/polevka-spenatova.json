@@ -1,7 +1,6 @@
 {
   "id": "docx-3913dc1dc29b93737f435c85",
   "name": "Polévka špenátová",
-  "sourceVariant": "00, 03, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -16,14 +15,14 @@
       "amount": 1,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "vejce",
       "amount": 2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "zelenina-cibule",
@@ -37,7 +36,7 @@
       "amount": 0.02,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "olej Forte 1l",
@@ -68,6 +67,8 @@
     "vitaminB2Mg": 0.2,
     "vitaminCMg": 8.07
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-05T09:38:37.169Z",
@@ -83,6 +84,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
@@ -95,16 +98,53 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-23",
+    "2026-02-05"
+  ],
+  "lastServedAt": "2026-02-05",
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
-  "alternativeNames": [],
-  "_imported": true
+  "alternativeNames": [
+    "polévka špenátová"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-23",
+      "meal": "Oběd",
+      "originalName": "polévka špenátová",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-05",
+      "meal": "Oběd",
+      "originalName": "polévka špenátová",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
 }

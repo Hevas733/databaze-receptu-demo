@@ -1,0 +1,138 @@
+{
+  "id": "docx-8ae9c442e3c3b2727fad068f",
+  "name": "vepřová játra po tyrolsku",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-játra vepřová",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-mrkev",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-celer",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-petržel",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "ovoce citrony",
+      "amount": 0.06,
+      "unit": "kg",
+      "perServing": "6 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.12,
+      "unit": "kg",
+      "perServing": "12 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana kysaná 1 l",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1226,
+    "energyKcalApprox": null,
+    "proteinG": 25.4,
+    "fatG": 13.9,
+    "carbohydratesG": 17.4,
+    "fiberG": 1.6,
+    "calciumMg": 201,
+    "ironMg": 23.14,
+    "vitaminAUg": 8899,
+    "vitaminB1Mg": 0.969,
+    "vitaminB2Mg": 3.312,
+    "vitaminCMg": 53.14
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_4.docx",
+  "importedAt": "2026-10-03T15:42:32.856Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Chybí energie.",
+    "Chybí bílkoviny.",
+    "Chybí tuky.",
+    "Chybí sacharidy.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 12.72,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 3,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 120,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

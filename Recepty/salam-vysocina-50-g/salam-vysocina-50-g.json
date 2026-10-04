@@ -1,0 +1,89 @@
+{
+  "id": "docx-984bfb115b5bd02e31520fd8",
+  "name": "salám vysocina 50 g",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "uzenina-vysočina kg",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 855,
+    "energyKcalApprox": 213,
+    "proteinG": 9,
+    "fatG": 19,
+    "carbohydratesG": 0.5,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_08.docx",
+  "importedAt": "2026-09-28T18:06:38.202Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = .\nChybí vláknina.\nOvěřit gramáž normy: původní DOCX i název uvádějí 50 g, ale 1 kg salámu na 10 porcí znamená 100 g na porci. Do ověření nelze tuto normu potvrdit v importu jídelníčku.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = .",
+    "Chybí vláknina.",
+    "Ověřit gramáž normy: původní DOCX i název uvádějí 50 g, ale 1 kg salámu na 10 porcí znamená 100 g na porci. Do ověření nelze tuto normu potvrdit v importu jídelníčku."
+  ],
+  "pricePerServingCzk": 13.8,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "salám vysočina vak."
+  ],
+  "_imported": true,
+  "menuHistory": []
+}

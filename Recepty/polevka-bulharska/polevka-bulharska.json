@@ -1,7 +1,6 @@
 {
   "id": "docx-6b5c1f3631f02df5b81b050e",
   "name": "Polévka bulharská",
-  "sourceVariant": "00, 02, 03, 09, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -51,7 +50,7 @@
       "amount": 1,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "mraž. fazol. lusky",
@@ -89,6 +88,8 @@
     "vitaminB2Mg": 1.16,
     "vitaminCMg": 373.92
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-05T09:38:37.169Z",
@@ -104,11 +105,13 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Hovězí",
   "sideDish": "Bez přílohy",
   "preparationType": "Vařené",
-  "popularity": 3,
+  "popularity": 1,
   "season": {
     "availability": "Celoročně",
     "recommended": [
@@ -116,16 +119,44 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
-  "history": [],
-  "lastServedAt": null,
-  "rotationDays": 120,
+  "history": [
+    "2026-01-20"
+  ],
+  "lastServedAt": "2026-01-20",
+  "rotationDays": 60,
   "status": "paused",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
-  "alternativeNames": [],
-  "_imported": true
+  "alternativeNames": [
+    "polévka bulharská"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-20",
+      "meal": "Večeře",
+      "originalName": "polévka bulharská",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
 }

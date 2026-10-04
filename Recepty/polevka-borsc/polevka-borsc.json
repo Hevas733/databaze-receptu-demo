@@ -10,7 +10,7 @@
   "description": "Výrazná řepná polévka s hovězím, vepřovým a uzeným masem, bramborami, zelím, rajčaty a smetanou.",
   "category": "Polévka",
   "mealTypes": [
-    "Polévka"
+    "Příloha"
   ],
   "servings": 10,
   "source": "Stravovací provoz Chotěšov",
@@ -19,25 +19,32 @@
   "season": {
     "availability": "Celoročně",
     "recommended": [
-      "Podzim",
-      "Zima"
+      "Celoročně"
     ],
-    "recommendedDisplay": "Podzim–zima",
-    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
       9,
       10,
       11,
-      12,
-      1,
-      2,
-      3
+      12
     ]
   },
-  "popularity": 1,
-  "rotationDays": null,
-  "lastServedAt": null,
-  "history": [],
+  "popularity": null,
+  "rotationDays": 30,
+  "lastServedAt": "2026-02-20",
+  "history": [
+    "2026-01-27",
+    "2026-02-20"
+  ],
   "meatType": "Hovězí a vepřové",
   "sideDish": "Bez přílohy",
   "preparationType": "Vařené",
@@ -152,5 +159,31 @@
     }
   ],
   "instructions": null,
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-27",
+      "meal": "Oběd",
+      "originalName": "polévka boršč",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-20",
+      "meal": "Oběd",
+      "originalName": "polévka boršč",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ],
+  "foodType": "Polévka",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

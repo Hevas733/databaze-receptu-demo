@@ -11,7 +11,7 @@ test('local save sends only allowed fields and never rewrites browser overlays',
  const items=new Map([['receptar:test','original']]);let body;
  const api=client(true,items,async(url,options)=>{body=JSON.parse(options.body);return disk({id:'test',name:'New'},'def')});
  const result=await api.save('receptar:test',{name:'New',history:[],ingredients:[],rotationDays:999},{_diskRevision:'abc'});
- assert.equal(body.baseRevision,'abc');assert.deepEqual(body.patch,{name:'New'});assert.equal(result._diskRevision,'def');assert.equal(items.get('receptar:test'),'original');
+ assert.equal(body.baseRevision,'abc');assert.deepEqual(body.patch,{name:'New',ingredients:[]});assert.equal(result._diskRevision,'def');assert.equal(items.get('receptar:test'),'original');
 });
 test('offline and stale saves reject without a browser-only fallback',async()=>{
  const items=new Map();const api=client(true,items);

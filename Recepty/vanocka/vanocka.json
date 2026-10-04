@@ -35,7 +35,7 @@
       12
     ]
   },
-  "popularity": 1,
+  "popularity": null,
   "history": [],
   "lastServedAt": null,
   "meatType": "Bezmasé",
@@ -56,7 +56,7 @@
     "proteinG": 10.8,
     "fatG": 7.9,
     "carbohydratesG": 73.9,
-    "fiberG": 3.0
+    "fiberG": 3
   },
   "nutritionReview": "Orientační odhad na porci 132 g. Vychází z běžné 400g vánočky a referenčních hodnot přibližně 1 334 kJ, 8,2 g bílkovin, 6 g tuků, 56 g sacharidů a 2,3 g vlákniny na 100 g.",
   "allergens": [
@@ -70,5 +70,16 @@
     }
   ],
   "instructions": null,
-  "menuHistory": []
+  "menuHistory": [],
+  "metadataIssues": [
+    "typ jídla",
+    "charakter",
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "rotationDays": null,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

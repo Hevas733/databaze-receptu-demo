@@ -1,0 +1,141 @@
+{
+  "id": "docx-512795a3c041779998efdd59",
+  "name": "nákyp masový",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-hov.přední",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-vepř.plec",
+      "amount": 0.6,
+      "unit": "kg",
+      "perServing": "60 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 4,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "peč. veka 400g",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "máslo čerstvé 250 g",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1129.05,
+    "energyKcalApprox": 270,
+    "proteinG": 24.9,
+    "fatG": 14.55,
+    "carbohydratesG": 9.86,
+    "fiberG": null,
+    "calciumMg": 241.2,
+    "ironMg": 3.55,
+    "vitaminAUg": 38,
+    "vitaminB1Mg": 0.49,
+    "vitaminB2Mg": 0.44,
+    "vitaminCMg": 2.2
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_04.docx",
+  "importedAt": "2026-09-28T15:33:18.227Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 2,15.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 2,15.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 20.81,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-12"
+  ],
+  "lastServedAt": "2026-01-12",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "nákyp masový"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-12",
+      "meal": "Večeře",
+      "originalName": "nákyp masový",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

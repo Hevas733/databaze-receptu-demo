@@ -4,12 +4,11 @@
   document.querySelector('.detail-toolbar').hidden=true;
   document.querySelector('.database-heading h2').textContent='Vyberte náhradní jídlo';
   const results=document.getElementById('recipeResults');
-  const path=href=>new URL(href,location.href).pathname;
   results.addEventListener('click',event=>{
     const card=event.target.closest('.recipe-card');
     if(!card)return;
     event.preventDefault();
-    const recipe=recipes.find(item=>path(RecipeImports.href(item))===path(card.href));
+    const recipe=recipes.find(item=>item.id===card.dataset.recipeId&&RecipeImports.isActive(item));
     if(recipe)window.parent.postMessage({type:'menu-recipe-selected',recipeId:recipe.id},location.origin);
   });
   function labelCards(){

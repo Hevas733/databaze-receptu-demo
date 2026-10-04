@@ -1,0 +1,133 @@
+{
+  "id": "docx-773eb816892b0822e4537767",
+  "name": "Bulka Burgr",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mouka hladká",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.026,
+      "unit": "kg",
+      "perServing": "2,6 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 4,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "sůl",
+      "amount": 0.032,
+      "unit": "kg",
+      "perServing": "3,2 g",
+      "needsClarification": false
+    },
+    {
+      "name": "droždí 1 kg",
+      "amount": 0.05,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1950.55,
+    "energyKcalApprox": 466,
+    "proteinG": 15.18,
+    "fatG": 11.98,
+    "carbohydratesG": 75.5,
+    "fiberG": 3.66,
+    "calciumMg": 25,
+    "ironMg": 1.72,
+    "vitaminAUg": 18,
+    "vitaminB1Mg": 0.23,
+    "vitaminB2Mg": 0.1,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-10-02T11:40:15.783Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,96."
+  ],
+  "pricePerServingCzk": 4.79,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Pečivo"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-16"
+  ],
+  "lastServedAt": "2026-01-16",
+  "rotationDays": null,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "Bulka Burgr"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-16",
+      "meal": "Večeře",
+      "originalName": "Bulka Burgr",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

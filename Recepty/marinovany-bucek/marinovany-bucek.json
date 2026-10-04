@@ -1,0 +1,147 @@
+{
+  "id": "docx-2897be675540a6bae12bb6b4",
+  "name": "Marinovaný bůček",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-vepř.bok",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření nové",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření bobkový list",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření pepř celý",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření grilovací",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "hořčice 400g",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.04,
+      "unit": "kg",
+      "perServing": "4 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření majoránka",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření tymián",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "maso-vepř.kotleta",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1836.54,
+    "energyKcalApprox": 439,
+    "proteinG": 24.76,
+    "fatG": 37.19,
+    "carbohydratesG": 2.11,
+    "fiberG": 0.21,
+    "calciumMg": 46.9,
+    "ironMg": 5.64,
+    "vitaminAUg": 8,
+    "vitaminB1Mg": 0.52,
+    "vitaminB2Mg": 0.18,
+    "vitaminCMg": 3.72
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_04.docx",
+  "importedAt": "2026-09-28T15:33:18.227Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 6,55.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 6,55."
+  ],
+  "pricePerServingCzk": 21.1,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 90,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

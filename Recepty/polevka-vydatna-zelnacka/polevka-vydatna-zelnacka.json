@@ -1,0 +1,140 @@
+{
+  "id": "docx-f9fc9de4861764454669f465",
+  "name": "polévka vydatná zelňačka",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-hov.přední",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-vepř.plec",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-uzené",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "klobásy",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "ster. zelí kysané 4l",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "smetana Master 1l",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1207.9,
+    "energyKcalApprox": 289,
+    "proteinG": 17.45,
+    "fatG": 20.02,
+    "carbohydratesG": 8.77,
+    "fiberG": 1.9,
+    "calciumMg": 98.6,
+    "ironMg": 4.01,
+    "vitaminAUg": 37.5,
+    "vitaminB1Mg": 0.4,
+    "vitaminB2Mg": 0.23,
+    "vitaminCMg": 15
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_06.docx",
+  "importedAt": "2026-09-28T16:49:51.300Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 1,97.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,97."
+  ],
+  "pricePerServingCzk": 23.48,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

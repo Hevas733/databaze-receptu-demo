@@ -1,0 +1,149 @@
+{
+  "id": "docx-e481854bbad0efcd66a9fa96",
+  "name": "Domácí Croissant",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.4,
+      "unit": "kg",
+      "perServing": "40 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko plnotučné 1l",
+      "amount": 0.23,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "droždí 1 kg",
+      "amount": 0.021,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.6,
+      "unit": "kg",
+      "perServing": "60 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.56,
+      "unit": "kg",
+      "perServing": "56 g",
+      "needsClarification": false
+    },
+    {
+      "name": "med 250g",
+      "amount": 0.04,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 3281.32,
+    "energyKcalApprox": 784,
+    "proteinG": 11.57,
+    "fatG": 37.36,
+    "carbohydratesG": 101.23,
+    "fiberG": 2.09,
+    "calciumMg": 44.9,
+    "ironMg": 1.3,
+    "vitaminAUg": 24.8,
+    "vitaminB1Mg": 0.15,
+    "vitaminB2Mg": 0.11,
+    "vitaminCMg": 0.26
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-10-02T11:40:15.783Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,75.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,75."
+  ],
+  "pricePerServingCzk": 11.07,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-14",
+    "2026-01-26"
+  ],
+  "lastServedAt": "2026-01-26",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "Domácí Croissant"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-14",
+      "meal": "Svačina",
+      "originalName": "Domácí Croissant",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-26",
+      "meal": "Svačina",
+      "originalName": "Domácí Croissant",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

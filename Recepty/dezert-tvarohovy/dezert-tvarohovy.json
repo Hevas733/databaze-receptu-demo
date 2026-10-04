@@ -1,0 +1,99 @@
+{
+  "id": "docx-0bc086b55ee6331d183b0298",
+  "name": "dezert tvarohový",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "dezert tvarohový",
+      "amount": 10,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1235,
+    "energyKcalApprox": 295,
+    "proteinG": 18.5,
+    "fatG": 17.1,
+    "carbohydratesG": 16.8,
+    "fiberG": null,
+    "calciumMg": 199,
+    "ironMg": 0.2,
+    "vitaminAUg": 201,
+    "vitaminB1Mg": 0.02,
+    "vitaminB2Mg": 0.17,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-10-02T11:40:15.783Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,60.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 21.17,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-17"
+  ],
+  "lastServedAt": "2026-01-17",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "dezert tvarohový"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-17",
+      "meal": "Svačina",
+      "originalName": "dezert tvarohový",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

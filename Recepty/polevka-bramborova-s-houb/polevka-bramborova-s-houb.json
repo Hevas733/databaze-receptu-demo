@@ -1,0 +1,147 @@
+{
+  "id": "docx-749172d594b042debbae249e",
+  "name": "polévka bramborová s houb.",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-brambory",
+      "amount": 1.25,
+      "unit": "kg",
+      "perServing": "125 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.17,
+      "unit": "kg",
+      "perServing": "17 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.06,
+      "unit": "l",
+      "perServing": "6 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "koření houbové",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření majoránka",
+      "amount": 0.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. houby",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-kosti",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 910.03,
+    "energyKcalApprox": 218,
+    "proteinG": 5.28,
+    "fatG": 6.79,
+    "carbohydratesG": 34.82,
+    "fiberG": 2.77,
+    "calciumMg": 190.73,
+    "ironMg": 12.13,
+    "vitaminAUg": 187.5,
+    "vitaminB1Mg": 1.16,
+    "vitaminB2Mg": 0.42,
+    "vitaminCMg": 106.25
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_5.docx",
+  "importedAt": "2026-10-03T16:18:30.135Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,12.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,12."
+  ],
+  "pricePerServingCzk": 4.74,
+  "nutritionReview": "Porovnáno s opraveným DOCX Leden_2026_normy_a_nutricni_hodnoty_cast_5-opraveny-1801d971b6.docx dne 3. 10. 2026. Hodnoty na 1 porci převzaty přesně ze zdroje; nejde o nezávislý nutriční výpočet. Prázdné údaje jsou neznámé, nikoli nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-09"
+  ],
+  "lastServedAt": "2026-01-09",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "polévka bramborová s houb."
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-09",
+      "meal": "Oběd",
+      "originalName": "polévka bramborová s houb.",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

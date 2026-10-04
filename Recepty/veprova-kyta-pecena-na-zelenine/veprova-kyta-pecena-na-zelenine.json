@@ -1,0 +1,187 @@
+{
+  "id": "docx-697bdf7ebb3c3cba380b8ab3",
+  "name": "Vepřová kýta pečená na zelenině",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-vepř.kýta",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-mrkev",
+      "amount": 0.35,
+      "unit": "kg",
+      "perServing": "35 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-celer",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "slanina",
+      "amount": 0.12,
+      "unit": "kg",
+      "perServing": "12 g",
+      "needsClarification": false
+    },
+    {
+      "name": "sůl",
+      "amount": 0.022,
+      "unit": "kg",
+      "perServing": "2,2 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření nové",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření bobkový list",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření pepř celý",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.03,
+      "unit": "kg",
+      "perServing": "3 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.06,
+      "unit": "l",
+      "perServing": "6 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-rozmarýn",
+      "amount": 0.04,
+      "unit": "kg",
+      "perServing": "4 g",
+      "needsClarification": false
+    },
+    {
+      "name": "Zelenina - Tymián",
+      "amount": 0.04,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1413.38,
+    "energyKcalApprox": 338,
+    "proteinG": 27,
+    "fatG": 21.38,
+    "carbohydratesG": 11.28,
+    "fiberG": 3.88,
+    "calciumMg": 434.9,
+    "ironMg": 13.13,
+    "vitaminAUg": 12494,
+    "vitaminB1Mg": 1.72,
+    "vitaminB2Mg": 0.74,
+    "vitaminCMg": 53.39
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_10.docx",
+  "importedAt": "2026-09-28T18:06:47.878Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 4,33.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 4,33."
+  ],
+  "pricePerServingCzk": 22.06,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-02-02"
+  ],
+  "lastServedAt": "2026-02-02",
+  "rotationDays": 90,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-02-02",
+      "meal": "Oběd",
+      "originalName": "Vepřová kýta pečená na zelenině",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

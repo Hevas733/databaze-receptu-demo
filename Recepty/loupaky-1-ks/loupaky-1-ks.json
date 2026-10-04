@@ -1,0 +1,162 @@
+{
+  "id": "docx-a409de780a4e3714c8e0c9e2",
+  "name": "loupáky 1 ks",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "peč. loupák",
+      "amount": 10,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 822.5,
+    "energyKcalApprox": 197,
+    "proteinG": 4.3,
+    "fatG": 5.75,
+    "carbohydratesG": 28,
+    "fiberG": 1.15,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_20-40.docx",
+  "importedAt": "2026-10-02T13:31:33.386Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = —.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —."
+  ],
+  "pricePerServingCzk": 6.54,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina",
+    "Pečivo"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-03",
+    "2026-01-07",
+    "2026-01-10",
+    "2026-01-24",
+    "2026-01-31",
+    "2026-02-07",
+    "2026-02-14",
+    "2026-02-21"
+  ],
+  "lastServedAt": "2026-02-21",
+  "rotationDays": null,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "loupáky 1 ks"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-03",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-07",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-10",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-24",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-31",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-07",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-14",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-21",
+      "meal": "Svačina",
+      "originalName": "loupáky 1 ks",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

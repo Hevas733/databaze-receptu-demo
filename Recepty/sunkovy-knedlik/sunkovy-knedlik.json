@@ -1,0 +1,133 @@
+{
+  "id": "docx-86213398c6f3da77354763e0",
+  "name": "šunkový knedlík",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "peč. veka 400g",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "uzenina-šunka",
+      "amount": 0.4,
+      "unit": "kg",
+      "perServing": "40 g",
+      "needsClarification": false
+    },
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "smetana Master 1l",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 8,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 605.95,
+    "energyKcalApprox": 145,
+    "proteinG": 11.45,
+    "fatG": 9.52,
+    "carbohydratesG": 3.57,
+    "fiberG": 0.63,
+    "calciumMg": 178,
+    "ironMg": 10.69,
+    "vitaminAUg": 87,
+    "vitaminB1Mg": 2.21,
+    "vitaminB2Mg": 0.97,
+    "vitaminCMg": 20.7
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_5.docx",
+  "importedAt": "2026-10-03T16:18:30.135Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 5,39."
+  ],
+  "pricePerServingCzk": 19.98,
+  "nutritionReview": "Porovnáno s opraveným DOCX Leden_2026_normy_a_nutricni_hodnoty_cast_5-opraveny-1801d971b6.docx dne 3. 10. 2026. Hodnoty na 1 porci převzaty přesně ze zdroje; nejde o nezávislý nutriční výpočet. Prázdné údaje jsou neznámé, nikoli nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-08"
+  ],
+  "lastServedAt": "2026-01-08",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "šunkový knedlík"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-08",
+      "meal": "Oběd",
+      "originalName": "šunkový knedlík",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

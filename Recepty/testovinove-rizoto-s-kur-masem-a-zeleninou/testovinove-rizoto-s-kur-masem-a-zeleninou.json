@@ -1,0 +1,182 @@
+{
+  "id": "docx-885ee40b687a0b5cd6cb66f2",
+  "name": "těstovinové rizoto s kuř.masem a zeleninou",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "těstovinová rýže",
+      "amount": 0.625,
+      "unit": "kg",
+      "perServing": "62,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.125,
+      "unit": "kg",
+      "perServing": "12,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.135,
+      "unit": "l",
+      "perServing": "13,5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "maso - kuřecí prsa",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.005,
+      "unit": "kg",
+      "perServing": "0,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletá paprika",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-mrkev",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cuketa",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-paprika červená",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. hrášek",
+      "amount": 0.375,
+      "unit": "kg",
+      "perServing": "37,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. kukuřice",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "sýr cihla 30%",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření bazalka",
+      "amount": 0.125,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "sůl",
+      "amount": 0.012,
+      "unit": "kg",
+      "perServing": "1,2 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.25,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 3545.13,
+    "energyKcalApprox": 847,
+    "proteinG": 52.37,
+    "fatG": 26.18,
+    "carbohydratesG": 86.15,
+    "fiberG": 4.2,
+    "calciumMg": 1042.18,
+    "ironMg": 22.6,
+    "vitaminAUg": 7322.5,
+    "vitaminB1Mg": 0.3,
+    "vitaminB2Mg": 0.58,
+    "vitaminCMg": 18.89
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_09.docx",
+  "importedAt": "2026-09-28T18:06:43.363Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 1,20.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,20."
+  ],
+  "pricePerServingCzk": 28.29,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 90,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

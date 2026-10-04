@@ -1,0 +1,144 @@
+{
+  "id": "docx-73115cbe000756c6c6028ecc",
+  "name": "ster.okurky 4l",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "ster. okurky 4l",
+      "amount": 0.4,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 86.4,
+    "energyKcalApprox": 21,
+    "proteinG": 0.48,
+    "fatG": 0,
+    "carbohydratesG": 3.84,
+    "fiberG": 0.8,
+    "calciumMg": 1600,
+    "ironMg": 41.6,
+    "vitaminAUg": 1536,
+    "vitaminB1Mg": 1.34,
+    "vitaminB2Mg": 1.09,
+    "vitaminCMg": 480
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_3.docx",
+  "importedAt": "2026-10-03T13:14:06.754Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Chybí tuky."
+  ],
+  "pricePerServingCzk": 3.66,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-01",
+    "2026-01-21",
+    "2026-02-08",
+    "2026-02-09",
+    "2026-02-18",
+    "2026-02-25"
+  ],
+  "lastServedAt": "2026-02-25",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "ster.okurky 4l"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-01",
+      "meal": "Oběd",
+      "originalName": "ster.okurky 4l",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-21",
+      "meal": "Oběd",
+      "originalName": "ster.okurky 4l",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-08",
+      "meal": "Večeře",
+      "originalName": "ster.okurky 4l",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-09",
+      "meal": "Oběd",
+      "originalName": "ster.okurky 4l",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-18",
+      "meal": "Oběd",
+      "originalName": "ster.okurky 4l",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-25",
+      "meal": "Oběd",
+      "originalName": "ster.okurky 4l",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

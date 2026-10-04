@@ -35,7 +35,7 @@
       12
     ]
   },
-  "popularity": 1,
+  "popularity": null,
   "history": [],
   "lastServedAt": null,
   "meatType": "Bezmasé",
@@ -53,10 +53,10 @@
   "nutritionPerServing": {
     "energyKj": 1650,
     "energyKcalApprox": 394,
-    "proteinG": 11.0,
-    "fatG": 8.0,
-    "carbohydratesG": 68.0,
-    "fiberG": 4.0
+    "proteinG": 11,
+    "fatG": 8,
+    "carbohydratesG": 68,
+    "fiberG": 4
   },
   "nutritionReview": "Orientační odhad na porci 132 g. Přesné hodnoty závisejí na výrobci a použitém sladidle; označení DIA samo o sobě neznamená výrazně nižší energetickou hodnotu.",
   "allergens": [
@@ -77,5 +77,16 @@
       "name": "Vlčí bob (Lupina)"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "metadataIssues": [
+    "typ jídla",
+    "charakter",
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "rotationDays": null,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

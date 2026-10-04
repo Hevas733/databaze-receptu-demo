@@ -1,7 +1,6 @@
 {
   "id": "docx-4bedb80d0fd9704494548c0d",
   "name": "Polévka hovězí s játr. knedlíčky",
-  "sourceVariant": "00, 02, 09, 03, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -23,7 +22,7 @@
       "amount": 2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "olej Forte 1l",
@@ -89,6 +88,8 @@
     "vitaminB2Mg": 0.87,
     "vitaminCMg": 9.33
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-02T17:26:01.486Z",
@@ -104,6 +105,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Hovězí",
   "sideDish": "Bez přílohy",
@@ -116,16 +119,42 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-02-22"
+  ],
+  "lastServedAt": "2026-02-22",
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],
-  "_imported": true
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-02-22",
+      "meal": "Oběd",
+      "originalName": "polévka hovězí s játr.knedlíčky",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
 }

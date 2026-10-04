@@ -1,0 +1,119 @@
+{
+  "id": "docx-b3175cabac210ec35ad50da1",
+  "name": "pomazánka z tuňáka - velká porce",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "máslo čerstvé 200g",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "hořčice 400g",
+      "amount": 0.45,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "tuňák 125g",
+      "amount": 4.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1075.8,
+    "energyKcalApprox": 257,
+    "proteinG": 1.41,
+    "fatG": 26.18,
+    "carbohydratesG": 5.39,
+    "fiberG": 0.94,
+    "calciumMg": 143.1,
+    "ironMg": 2.06,
+    "vitaminAUg": 51,
+    "vitaminB1Mg": 0.11,
+    "vitaminB2Mg": 0.14,
+    "vitaminCMg": 20.7
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_07.docx",
+  "importedAt": "2026-09-28T17:02:30.261Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,42."
+  ],
+  "pricePerServingCzk": 5.87,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-14"
+  ],
+  "lastServedAt": "2026-01-14",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "pomazánka z tuňáka - velká porce"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-14",
+      "meal": "Večeře",
+      "originalName": "pomazánka z tuňáka - velká porce",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

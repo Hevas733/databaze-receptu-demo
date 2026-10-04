@@ -36,7 +36,7 @@
       12
     ]
   },
-  "popularity": 1,
+  "popularity": null,
   "history": [],
   "lastServedAt": null,
   "meatType": "Uzenina",
@@ -55,9 +55,9 @@
   "nutritionPerServing": {
     "energyKj": 1770,
     "energyKcalApprox": 423,
-    "proteinG": 18.0,
-    "fatG": 38.0,
-    "carbohydratesG": 1.0
+    "proteinG": 18,
+    "fatG": 38,
+    "carbohydratesG": 1
   },
   "nutritionReview": "Název zdroje uvádí 50 g, ale receptura 1 kg na 10 porcí odpovídá 100 g na porci; množství je třeba ověřit.",
   "allergens": [
@@ -70,5 +70,16 @@
       "name": "Vejce – uvedeno ve zdroji"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "metadataIssues": [
+    "typ jídla",
+    "charakter",
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "rotationDays": null,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

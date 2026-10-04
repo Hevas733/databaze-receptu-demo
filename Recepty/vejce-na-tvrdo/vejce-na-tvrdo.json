@@ -1,0 +1,127 @@
+{
+  "id": "docx-27aa51f27dca39e8ccddbe73",
+  "name": "vejce na tvrdo",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "vejce",
+      "amount": 10,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 287.5,
+    "energyKcalApprox": 69,
+    "proteinG": 6.25,
+    "fatG": 4.6,
+    "carbohydratesG": 0.65,
+    "fiberG": null,
+    "calciumMg": 15,
+    "ironMg": 0.5,
+    "vitaminAUg": 45,
+    "vitaminB1Mg": 0.02,
+    "vitaminB2Mg": 0.08,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Snidane_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-19T08:37:27.021Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,66.\nUpřesnit velikost balení / jednotku ks: vejce.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,66.",
+    "Upřesnit velikost balení / jednotku ks: vejce.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 4.37,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-07",
+    "2026-01-23",
+    "2026-02-11",
+    "2026-02-18"
+  ],
+  "lastServedAt": "2026-02-18",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "vejce  na tvrdo"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-07",
+      "meal": "Snídaně",
+      "originalName": "vejce  na tvrdo",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-23",
+      "meal": "Večeře",
+      "originalName": "vejce  na tvrdo",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-11",
+      "meal": "Snídaně",
+      "originalName": "vejce  na tvrdo",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-18",
+      "meal": "Snídaně",
+      "originalName": "vejce  na tvrdo",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

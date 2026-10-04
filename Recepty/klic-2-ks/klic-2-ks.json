@@ -1,0 +1,131 @@
+{
+  "id": "docx-440d9026d0539f2007b8c184",
+  "name": "klíč 2 ks",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "peč. klíč",
+      "amount": 20,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1725,
+    "energyKcalApprox": 412,
+    "proteinG": 6.7,
+    "fatG": 24,
+    "carbohydratesG": 43,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Snidane_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-19T08:37:27.021Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Upřesnit velikost balení / jednotku ks: peč. klíč.",
+    "Chybí energie.",
+    "Chybí bílkoviny.",
+    "Chybí tuky.",
+    "Chybí sacharidy.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 17.07,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-06",
+    "2026-01-13",
+    "2026-01-27",
+    "2026-02-17"
+  ],
+  "lastServedAt": "2026-02-17",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "klíč 2 ks"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-06",
+      "meal": "Snídaně",
+      "originalName": "klíč 2 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-13",
+      "meal": "Snídaně",
+      "originalName": "klíč 2 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-27",
+      "meal": "Snídaně",
+      "originalName": "klíč 2 ks",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-17",
+      "meal": "Snídaně",
+      "originalName": "klíč 2 ks",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

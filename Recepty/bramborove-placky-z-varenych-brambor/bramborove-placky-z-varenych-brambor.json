@@ -16,27 +16,31 @@
   "source": "Stravovací provoz Chotěšov",
   "pricePerServingCzk": 8.79,
   "season": {
-    "availability": "Celoročně",
+    "availability": "Sezónní",
     "recommended": [
+      "Jaro",
       "Podzim",
       "Zima"
     ],
-    "recommendedDisplay": "Podzim–zima",
-    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "recommendedDisplay": "Jaro, Podzim, Zima",
+    "months": "Leden, Únor, Březen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
+      1,
+      2,
+      3,
       9,
       10,
       11,
-      12,
-      1,
-      2,
-      3
+      12
     ]
   },
   "popularity": 1,
-  "rotationDays": null,
-  "lastServedAt": null,
-  "history": [],
+  "rotationDays": 60,
+  "lastServedAt": "2026-02-24",
+  "history": [
+    "2026-01-08",
+    "2026-02-24"
+  ],
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Smažené",
@@ -79,7 +83,7 @@
     "proteinG": 17.8,
     "fatG": 32.6,
     "carbohydratesG": 117.9,
-    "fiberG": 8.0
+    "fiberG": 8
   },
   "nutritionReview": "Energie a makroživiny odpovídají přibližnému propočtu ze zadaných surovin. Mikronutrienty ze zdroje nebyly převzaty jako ověřené.",
   "allergens": [
@@ -93,5 +97,31 @@
     }
   ],
   "instructions": null,
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-08",
+      "meal": "Večeře",
+      "originalName": "bramborové placky z vařených brambor",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-24",
+      "meal": "Oběd",
+      "originalName": "bramborové placky z vařených brambor",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ],
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

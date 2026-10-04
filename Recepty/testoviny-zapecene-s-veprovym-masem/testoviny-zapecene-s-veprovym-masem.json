@@ -1,0 +1,126 @@
+{
+  "id": "docx-4c289d00e61df20729208554",
+  "name": "těstoviny zapečené s vepřovým masem",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "těstoviny šir.nudle 5kg",
+      "amount": 1.25,
+      "unit": "kg",
+      "perServing": "125 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-vepř.plec",
+      "amount": 0.8,
+      "unit": "kg",
+      "perServing": "80 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.15,
+      "unit": "l",
+      "perServing": "15 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 3055.65,
+    "energyKcalApprox": 730,
+    "proteinG": 33.57,
+    "fatG": 22.63,
+    "carbohydratesG": 98.73,
+    "fiberG": 3.5,
+    "calciumMg": 386.1,
+    "ironMg": 15.03,
+    "vitaminAUg": 52.5,
+    "vitaminB1Mg": 1.78,
+    "vitaminB2Mg": 1,
+    "vitaminCMg": 0.55
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_6.docx",
+  "importedAt": "2026-10-03T18:15:36.784Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 9,73."
+  ],
+  "pricePerServingCzk": 16.34,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-15"
+  ],
+  "lastServedAt": "2026-01-15",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "těstoviny zapečené s vepřovým masem"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-15",
+      "meal": "Večeře",
+      "originalName": "těstoviny zapečené s vepřovým masem",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "docx-514390f87c41d4f972070e71",
+  "name": "Vaječná tlačenka - domácí",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "vejce",
+      "amount": 15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "uzenina-šunka",
+      "amount": 0.35,
+      "unit": "kg",
+      "perServing": "35 g",
+      "needsClarification": false
+    },
+    {
+      "name": "ster. Moravanka",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "smetana kysaná 1 l",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-pažitka",
+      "amount": 0.015,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "sůl",
+      "amount": 0.018,
+      "unit": "kg",
+      "perServing": "1,8 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření mletý pepř",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "Želatina - prášková",
+      "amount": 0.035,
+      "unit": "kg",
+      "perServing": "3,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina - jarní cibulka",
+      "amount": 0.06,
+      "unit": "kg",
+      "perServing": "6 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 590.3,
+    "energyKcalApprox": 141,
+    "proteinG": 14.74,
+    "fatG": 8.31,
+    "carbohydratesG": 1.78,
+    "fiberG": 0.01,
+    "calciumMg": 57.5,
+    "ironMg": 8.09,
+    "vitaminAUg": 67.5,
+    "vitaminB1Mg": 1.85,
+    "vitaminB2Mg": 0.79,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_10.docx",
+  "importedAt": "2026-09-28T18:06:47.878Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 5,01."
+  ],
+  "pricePerServingCzk": 22.2,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

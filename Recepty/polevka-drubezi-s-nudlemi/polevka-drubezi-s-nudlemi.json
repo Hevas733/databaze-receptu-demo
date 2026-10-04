@@ -1,0 +1,137 @@
+{
+  "id": "docx-16565bdd00ca663bfacd901f",
+  "name": "polévka drůbeží s nudlemi",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mraž. slepice",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "těstoviny vlasové 500g",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 597.3,
+    "energyKcalApprox": 143,
+    "proteinG": 10.48,
+    "fatG": 7.85,
+    "carbohydratesG": 7.68,
+    "fiberG": 0.28,
+    "calciumMg": 25,
+    "ironMg": 1,
+    "vitaminAUg": 2,
+    "vitaminB1Mg": 0.1,
+    "vitaminB2Mg": 0.06,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_5.docx",
+  "importedAt": "2026-10-03T16:18:30.135Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,56."
+  ],
+  "pricePerServingCzk": 5.22,
+  "nutritionReview": "Porovnáno s opraveným DOCX Leden_2026_normy_a_nutricni_hodnoty_cast_5-opraveny-1801d971b6.docx dne 3. 10. 2026. Hodnoty na 1 porci převzaty přesně ze zdroje; nejde o nezávislý nutriční výpočet. Prázdné údaje jsou neznámé, nikoli nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-11",
+    "2026-02-09",
+    "2026-02-15",
+    "2026-02-28"
+  ],
+  "lastServedAt": "2026-02-28",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-11",
+      "meal": "Oběd",
+      "originalName": "polévka drůbeží s nudlemi",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-09",
+      "meal": "Oběd",
+      "originalName": "polévka drůbeží s nudlemi",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-15",
+      "meal": "Oběd",
+      "originalName": "polévka drůbeží s nudlemi",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-28",
+      "meal": "Oběd",
+      "originalName": "polévka drůbeží s nudlemi",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

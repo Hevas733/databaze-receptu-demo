@@ -12,14 +12,14 @@ window.DocxNormParser=(()=>{
   if(xml.length>8000000||/<!DOCTYPE|<!ENTITY/i.test(xml))throw Error('Dokument je příliš velký nebo obsahuje nepodporované XML.');
   const dom=new DOMParser().parseFromString(xml,'application/xml');if(dom.querySelector('parsererror'))throw Error('Poškozené XML dokumentu.');
   const body=dom.getElementsByTagNameNS(W,'body')[0];if(!body)throw Error('Soubor neobsahuje dokument Word.');
-  const blocks=Array.from(body.children),records=[],rejected=[];let lastTitle='',diet='',current=null,mode='',nutritionBasis=false;
+  const blocks=Array.from(body.children),records=[],rejected=[];let lastTitle='',current=null,mode='',nutritionBasis=false;
   function finish(){if(!current)return;if(!current.ingredients.length)current.errors.push('Chybí tabulka surovin.');if(current.errors.length)rejected.push({name:current.name,reason:current.errors.join(' ')});else records.push(current);current=null;}
   for(const block of blocks){
    if(block.localName==='p'){
     const t=txt(block);if(!t)continue;
-    if(/^Diety\s*:/i.test(t)){diet=t.replace(/^Diety\s*:\s*/i,'');continue;}
+    if(/^Diety\s*:/i.test(t))continue;
     const servings=t.match(/^Norma\s+na\s+(\d+)\s+porc[ií]\s*$/i);
-    if(servings){finish();current={name:lastTitle,sourceVariant:diet,servings:Number(servings[1]),ingredients:[],nutritionPerServing:{},importWarnings:[],errors:[]};if(!lastTitle||current.servings<1||current.servings>100000)current.errors.push('Chybí název nebo platný počet porcí.');diet='';mode='ingredients';nutritionBasis=false;continue;}
+    if(servings){finish();current={name:lastTitle,servings:Number(servings[1]),ingredients:[],nutritionPerServing:{},importWarnings:[],errors:[]};if(!lastTitle||current.servings<1||current.servings>100000)current.errors.push('Chybí název nebo platný počet porcí.');mode='ingredients';nutritionBasis=false;continue;}
     if(/^Nutriční\s+hodnoty/i.test(t)){mode='nutrition';nutritionBasis=/^Nutriční\s+hodnoty\s+na\s+1\s+porci\s*$/i.test(t);if(current&&!nutritionBasis)current.errors.push('Neznámý základ výživy: '+t);continue;}
     if(current&&mode==='ingredients')current.errors.push('Neočekávaný text před tabulkou surovin: '+t);
     lastTitle=t;
@@ -35,7 +35,7 @@ window.DocxNormParser=(()=>{
        const m=row[1].match(/^(.+?)\s*(kg|g|ml|l|ks)\s*$/i);if(!m)throw Error('Neznámé množství nebo jednotka: '+row.join(' / '));
        const amount=number(m[1]),unit=m[2].toLowerCase();if(amount===null)throw Error('Chybějící množství: '+row[0]);
        const n=amount/current.servings*(unit==='kg'||unit==='l'?1000:1);
-       current.ingredients.push({name:row[0],amount,unit,perServing:unit==='ks'?null:fmt(n)+' '+({kg:'g',l:'ml'}[unit]||unit),needsClarification:unit==='ks'});
+       current.ingredients.push({name:row[0],amount,unit,perServing:unit==='ks'?null:fmt(n)+' '+({kg:'g',l:'ml'}[unit]||unit),needsClarification:false});
       }
       mode='afterIngredients';
      }else if(mode==='nutrition'){
@@ -47,14 +47,14 @@ window.DocxNormParser=(()=>{
      }else throw Error('Tabulka bez rozpoznané hlavičky.');
     }catch(e){current.errors.push(e.message)}
    }
-  }finish();if(!records.length&&!rejected.length)throw Error('Nenalezena žádná norma. Podporovaný DOCX má název, Diety, Norma na N porcí, tabulku Surovina / Množství a volitelnou výživu na 1 porci.');
+  }finish();if(!records.length&&!rejected.length)throw Error('Nenalezena žádná norma. Podporovaný DOCX má název, Normu na N porcí, tabulku Surovina / Množství a volitelnou výživu na 1 porci.');
   if(records.length+rejected.length>500)throw Error('Nejvýše 500 norem v jednom souboru.');
   const output=[];
   for(const r of records){
    r.id='docx-'+(await hash(RecipeImports.identity(r))).slice(0,24);
    r.source='DOCX';r.sourceFile=fileName;r.importedAt=new Date().toISOString();
    r.importWarnings.unshift('Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.');
-   const units=r.ingredients.filter(i=>i.needsClarification).map(i=>i.name);if(units.length)r.importWarnings.push('Upřesnit velikost balení / jednotku ks: '+units.join(', ')+'.');
+
    for(const k of ['energyKj','proteinG','fatG','carbohydratesG','fiberG'])if(r.nutritionPerServing[k]==null)r.importWarnings.push('Chybí '+({energyKj:'energie',proteinG:'bílkoviny',fatG:'tuky',carbohydratesG:'sacharidy',fiberG:'vláknina'}[k])+'.');
    if(r.nutritionPerServing.energyKj!=null)r.nutritionPerServing.energyKcalApprox=Math.round(r.nutritionPerServing.energyKj/4.184);
    // Compare core source values, independently of derived kcal.

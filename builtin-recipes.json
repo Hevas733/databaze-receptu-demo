@@ -1,152 +1,122 @@
 [
   {
     "id": "bramborova-kase",
-    "name": "Bramborová kaše",
-    "sourceVariant": "00, 03, 33"
+    "name": "Bramborová kaše"
   },
   {
     "id": "bramborove-noky-s-kurecim-masem-a-spenatem",
-    "name": "Bramborové noky s kuřecím masem a špenátem",
-    "sourceVariant": ""
+    "name": "Bramborové noky s kuřecím masem a špenátem"
   },
   {
     "id": "bramborove-placky-z-varenych-brambor",
-    "name": "Bramborové placky z vařených brambor",
-    "sourceVariant": ""
+    "name": "Bramborové placky z vařených brambor"
   },
   {
     "id": "bramborovy-knedlik-plneny-uzenym",
-    "name": "Bramborový knedlík plněný uzeným masem",
-    "sourceVariant": ""
+    "name": "Bramborový knedlík plněný uzeným masem"
   },
   {
     "id": "chleb-100-g",
-    "name": "Chléb 100 g",
-    "sourceVariant": ""
+    "name": "Chléb 100 g"
   },
   {
     "id": "chleb-150-g",
-    "name": "Chléb 150 g",
-    "sourceVariant": ""
+    "name": "Chléb 150 g"
   },
   {
     "id": "houskove-knedliky",
-    "name": "Houskové knedlíky",
-    "sourceVariant": ""
+    "name": "Houskové knedlíky"
   },
   {
     "id": "hovezi-gulas",
-    "name": "Hovězí guláš",
-    "sourceVariant": "00, 03, 33"
+    "name": "Hovězí guláš"
   },
   {
     "id": "hovezi-na-cesneku",
-    "name": "Hovězí pečeně na česneku",
-    "sourceVariant": ""
+    "name": "Hovězí pečeně na česneku"
   },
   {
     "id": "kremova-kureci-polevka",
-    "name": "Krémová kuřecí polévka",
-    "sourceVariant": "000, 009, Z… (zkráceno)"
+    "name": "Krémová kuřecí polévka"
   },
   {
     "id": "kureci-platek-na-zampionech",
-    "name": "Kuřecí plátek na čerstvých žampionech",
-    "sourceVariant": ""
+    "name": "Kuřecí plátek na čerstvých žampionech"
   },
   {
     "id": "kureci-platek-se-smetanovo-bylinkovou-omackou-nove",
-    "name": "Kuřecí plátek se smetanovo-bylinkovou omáčkou",
-    "sourceVariant": "O00, O09, ZAM"
+    "name": "Kuřecí plátek se smetanovo-bylinkovou omáčkou"
   },
   {
     "id": "kureci-prirodni-rizek",
-    "name": "Kuřecí přírodní řízek",
-    "sourceVariant": "3,9,33"
+    "name": "Kuřecí přírodní řízek"
   },
   {
     "id": "kureci-prsa-s-nivou-a-slaninou",
-    "name": "Kuřecí prsa s nivou a slaninou",
-    "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL"
+    "name": "Kuřecí prsa s nivou a slaninou"
   },
   {
     "id": "kureci-rizek-smazeny",
-    "name": "Kuřecí řízek smažený",
-    "sourceVariant": "00, 03, 09, 33"
+    "name": "Kuřecí řízek smažený"
   },
   {
     "id": "kureci-rolada-plnena-vejci-hraskem-a-sunkou",
-    "name": "Kuřecí roláda plněná vejci, hráškem a šunkou",
-    "sourceVariant": "O00, O09, ZAM"
+    "name": "Kuřecí roláda plněná vejci, hráškem a šunkou"
   },
   {
     "id": "kureci-stehna-uzena",
-    "name": "Kuřecí stehna uzená",
-    "sourceVariant": "00, 03, 09, 33"
+    "name": "Kuřecí stehna uzená"
   },
   {
     "id": "kureci-zavitek-s-nivou-a-slaninou",
-    "name": "Kuřecí závitek s nivou a slaninou",
-    "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL"
+    "name": "Kuřecí závitek s nivou a slaninou"
   },
   {
     "id": "polevka-borsc",
-    "name": "Polévka boršč",
-    "sourceVariant": ""
+    "name": "Polévka boršč"
   },
   {
     "id": "polevka-gulasova-vecere",
-    "name": "Gulášová polévka – večeře",
-    "sourceVariant": "00, 03, 33"
+    "name": "Gulášová polévka – večeře"
   },
   {
     "id": "polevka-kapustova-s-uzeninou",
-    "name": "Polévka kapustová s uzeninou",
-    "sourceVariant": ""
+    "name": "Polévka kapustová s uzeninou"
   },
   {
     "id": "polevka-porkova",
-    "name": "Pórková polévka",
-    "sourceVariant": "00, 03, 33"
+    "name": "Pórková polévka"
   },
   {
     "id": "sterilovane-okurky",
-    "name": "Sterilované okurky",
-    "sourceVariant": "00, 03, 07, 09…"
+    "name": "Sterilované okurky"
   },
   {
     "id": "testovinova-ryze",
-    "name": "Těstovinová rýže",
-    "sourceVariant": "000, 009, Z…"
+    "name": "Těstovinová rýže"
   },
   {
     "id": "toustovy-chleb",
-    "name": "Toustový chléb",
-    "sourceVariant": ""
+    "name": "Toustový chléb"
   },
   {
     "id": "vanocka",
-    "name": "Vánočka",
-    "sourceVariant": ""
+    "name": "Vánočka"
   },
   {
     "id": "vanocka-dia",
-    "name": "Vánočka DIA",
-    "sourceVariant": ""
+    "name": "Vánočka DIA"
   },
   {
     "id": "veprovy-rizek-holandsky",
-    "name": "Vepřový řízek holandský",
-    "sourceVariant": "00, 03, 09, 33"
+    "name": "Vepřový řízek holandský"
   },
   {
     "id": "vysocina-snidane",
-    "name": "Salám Vysočina – snídaně",
-    "sourceVariant": ""
+    "name": "Salám Vysočina – snídaně"
   },
   {
     "id": "zapecene-brambory-s-kurecim-masem-a-besamelem",
-    "name": "Zapečené brambory s kuřecím masem a bešamelem",
-    "sourceVariant": ""
+    "name": "Zapečené brambory s kuřecím masem a bešamelem"
   }
 ]

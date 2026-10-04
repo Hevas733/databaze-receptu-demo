@@ -2,7 +2,7 @@
   "id": "kureci-stehna-uzena",
   "name": "Kuřecí stehna uzená",
   "alternativeNames": [],
-  "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
+  "description": "  Norma z exportu CYGNUS na 10 porcí.",
   "category": "Hlavní jídlo",
   "mealTypes": [
     "Oběd"
@@ -10,7 +10,6 @@
   "servings": 10,
   "source": "CYGNUS – Domov sociální péče Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "00, 03, 09, 33",
   "group": "",
   "pricePerServingCzk": 22.38,
   "season": {
@@ -35,8 +34,8 @@
       12
     ]
   },
-  "popularity": 3,
-  "rotationDays": 120,
+  "popularity": 2,
+  "rotationDays": 90,
   "history": [],
   "lastServedAt": null,
   "meatType": "Kuřecí",
@@ -68,5 +67,12 @@
     }
   ],
   "nutritionStatus": "imported-unverified",
-  "allergensStatus": "not-provided"
+  "allergensStatus": "not-provided",
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

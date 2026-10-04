@@ -38,10 +38,20 @@
       12
     ]
   },
-  "popularity": 1,
+  "popularity": null,
   "rotationDays": null,
-  "lastServedAt": null,
-  "history": [],
+  "lastServedAt": "2026-02-22",
+  "history": [
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-09",
+    "2026-02-15",
+    "2026-02-22"
+  ],
   "meatType": "Bezmasé",
   "sideDish": "Houskový knedlík",
   "preparationType": "Vařené",
@@ -92,5 +102,86 @@
     }
   ],
   "instructions": null,
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-04",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-11",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-18",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-25",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-01",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-08",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-09",
+      "meal": "Večeře",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-15",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    },
+    {
+      "date": "2026-02-22",
+      "meal": "Oběd",
+      "originalName": "houskové knedlíky",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ],
+  "foodType": "Příloha",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

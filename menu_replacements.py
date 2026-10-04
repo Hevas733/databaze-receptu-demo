@@ -39,6 +39,8 @@ def save(root, raw, recipe_paths):
     if not isinstance(rid, str) or rid not in recipe_paths:
         raise ValueError('Vybraný recept není v databázi.')
     recipe = json.loads(folder_store.safe(root, recipe_paths[rid]).read_text(encoding='utf-8'))
+    if recipe.get('status') not in {None, '', 'active'}:
+        raise ValueError('Neaktivní normu nelze vybrat do jídelníčku. Nejprve ji znovu aktivujte v detailu normy.')
     current = load(root)
     if raw.get('baseRevision') != current['revision']:
         raise Conflict('Jídelníček změnilo jiné okno. Zavřete výběr, obnovte stránku a zkuste to znovu.')

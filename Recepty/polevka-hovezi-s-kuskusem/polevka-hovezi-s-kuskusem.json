@@ -1,7 +1,6 @@
 {
   "id": "docx-8b1d016554ac6c07f6622e6f",
   "name": "Polévka hovězí s kuskusem",
-  "sourceVariant": "00, 02, 03, 04, 09, 33, 94",
   "servings": 10,
   "ingredients": [
     {
@@ -47,6 +46,8 @@
     "vitaminB2Mg": 0.07,
     "vitaminCMg": 6.9
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-02T17:26:01.487Z",
@@ -61,6 +62,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Hovězí",
   "sideDish": "Bez přílohy",
@@ -73,14 +76,28 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "history": [],
   "lastServedAt": null,
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],

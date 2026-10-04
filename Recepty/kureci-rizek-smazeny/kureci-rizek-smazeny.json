@@ -10,7 +10,6 @@
   "servings": 10,
   "source": "CYGNUS – Domov sociální péče Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "00, 03, 09, 33",
   "group": "",
   "pricePerServingCzk": 14.95,
   "season": {
@@ -103,5 +102,12 @@
     }
   ],
   "nutritionStatus": "imported-unverified",
-  "allergensStatus": "not-provided"
+  "allergensStatus": "not-provided",
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

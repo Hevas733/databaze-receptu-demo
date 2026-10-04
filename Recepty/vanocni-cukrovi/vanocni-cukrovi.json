@@ -1,0 +1,89 @@
+{
+  "id": "docx-7d14e281ef8eda79c0e6c8a7",
+  "name": "vánoční cukroví",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "vánoční cukroví",
+      "amount": 5,
+      "unit": "kg",
+      "perServing": "500 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 11565,
+    "energyKcalApprox": 2764,
+    "proteinG": 37.5,
+    "fatG": 169,
+    "carbohydratesG": 276,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_3.docx",
+  "importedAt": "2026-10-03T13:14:06.754Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 0,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Sezónní",
+    "recommended": [
+      "Zima"
+    ],
+    "recommendedDisplay": "Zima",
+    "months": "Leden, Prosinec",
+    "monthNumbers": [
+      1,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-01"
+  ],
+  "lastServedAt": "2026-01-01",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "vánoční cukroví"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-01",
+      "meal": "Svačina",
+      "originalName": "vánoční cukroví",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

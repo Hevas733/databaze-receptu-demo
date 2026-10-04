@@ -2,7 +2,7 @@
   "id": "kureci-zavitek-s-nivou-a-slaninou",
   "name": "Kuřecí závitek s nivou a slaninou",
   "alternativeNames": [],
-  "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
+  "description": "",
   "category": "Hlavní jídlo",
   "mealTypes": [
     "Oběd"
@@ -10,7 +10,6 @@
   "servings": 10,
   "source": "CYGNUS – Domov sociální péče Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "Z00, Z00*, ZVE, C00*, COOU, DVL",
   "group": "",
   "pricePerServingCzk": 22.7,
   "season": {
@@ -21,22 +20,15 @@
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
       7,
-      8,
-      9,
-      10,
-      11,
-      12
+      8
     ]
   },
-  "popularity": 3,
-  "rotationDays": 120,
+  "popularity": 2,
+  "rotationDays": 90,
   "history": [],
   "lastServedAt": null,
   "meatType": "Kuřecí",
@@ -46,7 +38,7 @@
   "completionStatus": "needs-completion",
   "image": "ai-ilustrace.png",
   "instructions": null,
-  "planningNote": "K doplnění: cena, zařazení, sezóna, měsíce, oblíbenost. Možná duplicita: Kuřecí prsa s nivou a slaninou mají stejnou exportovanou normu a součty. Zatím samostatný záznam, nesloučeno. V součtech chybí smetana, sůl a pepř. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "planningNote": "",
   "nutritionReview": "CYGNUS – převzaté hodnoty na porci podle předchozího potvrzení základu exportu uživatelem, nikoli nezávisle ověřený výpočet. Možná duplicita: Kuřecí prsa s nivou a slaninou mají stejnou exportovanou normu a součty. Zatím samostatný záznam, nesloučeno. V součtech chybí smetana, sůl a pepř.",
   "nutritionPerServing": {
     "energyKj": 1646.7,
@@ -117,5 +109,12 @@
     }
   ],
   "nutritionStatus": "imported-unverified",
-  "allergensStatus": "not-provided"
+  "allergensStatus": "not-provided",
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

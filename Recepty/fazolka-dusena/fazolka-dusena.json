@@ -1,0 +1,112 @@
+{
+  "id": "docx-395184ef6a47da977a179ee9",
+  "name": "fazolka dušená",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "mraž. fazol. lusky",
+      "amount": 1.5,
+      "unit": "kg",
+      "perServing": "150 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.05,
+      "unit": "l",
+      "perServing": "5 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "solamyl",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 453.05,
+    "energyKcalApprox": 108,
+    "proteinG": 3.47,
+    "fatG": 5.3,
+    "carbohydratesG": 14.64,
+    "fiberG": 5.55,
+    "calciumMg": 1.76,
+    "ironMg": 0.09,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-10-02T11:40:15.784Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —."
+  ],
+  "pricePerServingCzk": 4.9,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Příloha"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-27"
+  ],
+  "lastServedAt": "2026-01-27",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "fazolka dušená"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-27",
+      "meal": "Oběd",
+      "originalName": "fazolka dušená",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

@@ -18,6 +18,7 @@ test('rotation images and quick-info links resolve for imported and built-in rec
   context.RecipeImports = api;
   const code = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const render = code.split('\n').find(line => line.includes('repeat.innerHTML=visible.length'));
+  vm.runInContext(code.slice(code.indexOf('function rotationBand('),code.indexOf('\nfunction ',code.indexOf('function rotationBand(')+1)),context);
   const imported = ['Čaj', 'Kakao', 'Káva bílá'].map(name => {
     const recipe = api.list().find(item => item.name === name);
     assert.ok(recipe, name);

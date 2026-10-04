@@ -1,7 +1,6 @@
 {
   "id": "docx-1cc2c36754c9b6f31a39b50c",
   "name": "Polévka cuketový krém se špenátem a krutony",
-  "sourceVariant": "00, 09, ZAM",
   "servings": 10,
   "ingredients": [
     {
@@ -37,7 +36,7 @@
       "amount": 0.25,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "olej Forte 1l",
@@ -51,7 +50,7 @@
       "amount": 0.3,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "sůl",
@@ -65,7 +64,7 @@
       "amount": 0.1,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     }
   ],
   "nutritionPerServing": {
@@ -82,6 +81,8 @@
     "vitaminB2Mg": 0.09,
     "vitaminCMg": 13.8
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-05T09:38:37.169Z",
@@ -97,6 +98,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
@@ -105,18 +108,26 @@
   "season": {
     "availability": "Sezónní",
     "recommended": [
+      "Léto",
       "Podzim"
     ],
-    "recommendedDisplay": "Podzim",
-    "months": "Srpen, Září, Říjen",
-    "monthNumbers": []
+    "recommendedDisplay": "Léto, Podzim",
+    "months": "Červen, Červenec, Srpen, Září, Říjen",
+    "monthNumbers": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
   },
   "history": [],
   "lastServedAt": null,
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],

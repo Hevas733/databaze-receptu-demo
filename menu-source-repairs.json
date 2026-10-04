@@ -1,0 +1,981 @@
+{
+  "version": 3,
+  "files": {
+    "Leden 2026.docx": [
+      {
+        "date": "2026-01-04",
+        "meal": "Svačina",
+        "from": "mattoni Esence 1",
+        "to": "mattoni Esence 1,5l"
+      },
+      {
+        "date": "2026-01-11",
+        "meal": "Svačina",
+        "from": "mattoni Esence 1",
+        "to": "mattoni Esence 1,5l"
+      },
+      {
+        "date": "2026-01-18",
+        "meal": "Svačina",
+        "from": "mattoni Esence 1",
+        "to": "mattoni Esence 1,5l"
+      },
+      {
+        "date": "2026-01-25",
+        "meal": "Svačina",
+        "from": "mattoni Esence 1",
+        "to": "mattoni Esence 1,5l"
+      },
+      {
+        "date": "2026-01-24",
+        "meal": "Oběd",
+        "from": "rizoto s masem",
+        "to": "rizoto s masem, zeleninou a sýrem"
+      },
+      {
+        "date": "2026-01-24",
+        "meal": "Oběd",
+        "from": "zeleninou a sýrem",
+        "to": "rizoto s masem, zeleninou a sýrem"
+      }
+    ]
+  },
+  "sources": {
+    "Leden 2026.docx": {
+      "year": 2026,
+      "sha256": "16e02307b502107bab595c14107e47f788d65eaa785d6980aae384cd265e870d",
+      "cells": [
+        {
+          "date": "2026-01-01",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka krupková, čočka nakyselo, uzené maso vařené, ster.okurky 4l"
+        },
+        {
+          "date": "2026-01-01",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-01",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, houska 2ks, sýr gervais 50g"
+        },
+        {
+          "date": "2026-01-01",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, vánoční cukroví, punč ovocný nealkoholický"
+        },
+        {
+          "date": "2026-01-01",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, pomazánka masová - velká porce, pivo nealko ovocné"
+        },
+        {
+          "date": "2026-01-02",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, knedlíky kynuté s ovocem, polévka zelná bílá"
+        },
+        {
+          "date": "2026-01-02",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "štáva-sirup, ovoce"
+        },
+        {
+          "date": "2026-01-02",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, rostlinné máslo 20 g, salám 50 g"
+        },
+        {
+          "date": "2026-01-02",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, obložený chléb svačina"
+        },
+        {
+          "date": "2026-01-02",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, těstoviny zapečené s masem a brokolicí"
+        },
+        {
+          "date": "2026-01-03",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka česneková s bramborem, vepřový řízek holandský, bramborová kaše, kompot"
+        },
+        {
+          "date": "2026-01-03",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-03",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, rostlinné máslo 20 g, sýr hermelín"
+        },
+        {
+          "date": "2026-01-03",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, jogurt ovocný, loupáky 1 ks"
+        },
+        {
+          "date": "2026-01-03",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, paštika játr. ve stříbře"
+        },
+        {
+          "date": "2026-01-04",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka hovězí s nudlemi, vepřová pečeně frankfurtská, houskové knedlíky"
+        },
+        {
+          "date": "2026-01-04",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-04",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, kakao, koláček 1 ks"
+        },
+        {
+          "date": "2026-01-04",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, oplatky, mattoni Esence 1,5l"
+        },
+        {
+          "date": "2026-01-04",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, šunka 100 g, rostlinné máslo 20 g"
+        },
+        {
+          "date": "2026-01-05",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka gulášová, kuře maminčino"
+        },
+        {
+          "date": "2026-01-05",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-05",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, pom. - pěna šunková - malá porce"
+        },
+        {
+          "date": "2026-01-05",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, peč. croissant"
+        },
+        {
+          "date": "2026-01-05",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, párky - velká porce, bramborová kaše"
+        },
+        {
+          "date": "2026-01-06",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka uzená s noky, Zelňáky s uzeným masem"
+        },
+        {
+          "date": "2026-01-06",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-06",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, káva bílá, klíč 2 ks"
+        },
+        {
+          "date": "2026-01-06",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, obložená houska malá"
+        },
+        {
+          "date": "2026-01-06",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, polévka kulajda večeře"
+        },
+        {
+          "date": "2026-01-07",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka zeleninová s vejci, vepřová směs na kari s pórkem, rýže"
+        },
+        {
+          "date": "2026-01-07",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-07",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, rostlinné máslo 20 g, vejce  na tvrdo"
+        },
+        {
+          "date": "2026-01-07",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, šlehaný tvaroh s čokoládovou omáčkou, loupáky 1 ks"
+        },
+        {
+          "date": "2026-01-07",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, paštika játrová -velká porce, rostlinné máslo 20 g"
+        },
+        {
+          "date": "2026-01-08",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka kmínová s vejcem, šunkový knedlík, Kuře na pivě a žampionech"
+        },
+        {
+          "date": "2026-01-08",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "štáva-sirup, ovoce"
+        },
+        {
+          "date": "2026-01-08",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, houska 2ks, pomazánkové máslo křenové"
+        },
+        {
+          "date": "2026-01-08",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, káva ledová 500ml, M - bábovka olejová"
+        },
+        {
+          "date": "2026-01-08",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, bramborové placky z vařených brambor"
+        },
+        {
+          "date": "2026-01-09",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka bramborová s houb., lívance s povidly a tvarohem"
+        },
+        {
+          "date": "2026-01-09",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "štáva-sirup, ovoce"
+        },
+        {
+          "date": "2026-01-09",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, rostlinné máslo 20 g, metský salám 50 g"
+        },
+        {
+          "date": "2026-01-09",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, obložený chlebíček 1ks"
+        },
+        {
+          "date": "2026-01-09",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, špagety boloňské"
+        },
+        {
+          "date": "2026-01-10",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka krupicová s vejcem, vepřový přírodní řízek, brambory maštěné"
+        },
+        {
+          "date": "2026-01-10",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "štáva-sirup, ovoce"
+        },
+        {
+          "date": "2026-01-10",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, sýr tavený - malá porce"
+        },
+        {
+          "date": "2026-01-10",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, termix, loupáky 1 ks"
+        },
+        {
+          "date": "2026-01-10",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, sýr cihla,chléb,máslo"
+        },
+        {
+          "date": "2026-01-11",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka drůbeží s nudlemi, sekaná pečeně svíčková, houskové knedlíky"
+        },
+        {
+          "date": "2026-01-11",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-11",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "kakao, čaj, vánočka pečivo"
+        },
+        {
+          "date": "2026-01-11",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, oplatky, mattoni Esence 1,5l"
+        },
+        {
+          "date": "2026-01-11",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, utopence hotové"
+        },
+        {
+          "date": "2026-01-12",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, květák smažený mr., brambory maštěné, tatarská omáčka, polévka česneková s bramborem"
+        },
+        {
+          "date": "2026-01-12",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-12",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, houska 2ks, rostlinné máslo 20 g, šunka 100 g"
+        },
+        {
+          "date": "2026-01-12",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, šáteček 1 ks"
+        },
+        {
+          "date": "2026-01-12",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, nákyp masový, chléb 150 g"
+        },
+        {
+          "date": "2026-01-13",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka hrstková, vepřový guláš Flamendr, brambory amer.- vl.výroba"
+        },
+        {
+          "date": "2026-01-13",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-13",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, káva bílá, klíč 2 ks"
+        },
+        {
+          "date": "2026-01-13",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, houska 1ks, hlávkový salát-příloha, šunka 50 g, rostlinné máslo 10 g"
+        },
+        {
+          "date": "2026-01-13",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, nudle s tvarohem"
+        },
+        {
+          "date": "2026-01-14",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka celestýnská, kološvárské zelí"
+        },
+        {
+          "date": "2026-01-14",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-14",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, míchaná vejce"
+        },
+        {
+          "date": "2026-01-14",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, Domácí Croissant"
+        },
+        {
+          "date": "2026-01-14",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, pomazánka z tuňáka - velká porce"
+        },
+        {
+          "date": "2026-01-15",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka dýňová, kuře ohnivé, brambory šťouchané, Salát Coleslaw"
+        },
+        {
+          "date": "2026-01-15",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-15",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, rostlinné máslo 20 g, salám vysočina vak."
+        },
+        {
+          "date": "2026-01-15",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, káva ledová 500ml, M - bábovka olejová"
+        },
+        {
+          "date": "2026-01-15",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, těstoviny zapečené s vepřovým masem, kompot"
+        },
+        {
+          "date": "2026-01-16",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka frankfurtská, buchty s povidly a tvarohem"
+        },
+        {
+          "date": "2026-01-16",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-16",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, houska 2ks, rostlinné máslo 20 g, sýr plátkový uzený"
+        },
+        {
+          "date": "2026-01-16",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, obložený chlebíček 1ks"
+        },
+        {
+          "date": "2026-01-16",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, sekaná pečeně, Bulka Burgr"
+        },
+        {
+          "date": "2026-01-17",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka italská, těstoviny se sýr. omáčkou, kuřecí přírodní řízek"
+        },
+        {
+          "date": "2026-01-17",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-17",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, pomazánkové máslo - malá porce, chléb l00 g"
+        },
+        {
+          "date": "2026-01-17",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, dezert tvarohový, peč. makovka"
+        },
+        {
+          "date": "2026-01-17",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, salát v kelímku"
+        },
+        {
+          "date": "2026-01-18",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka hovězí s nudlemi, klopsy na rajčatech, houskové knedlíky"
+        },
+        {
+          "date": "2026-01-18",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-18",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, kakao, kobliha 2 ks"
+        },
+        {
+          "date": "2026-01-18",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, oplatky, mattoni Esence 1,5l"
+        },
+        {
+          "date": "2026-01-18",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, sýr Lučina, chléb 150 g, rajské-příloha"
+        },
+        {
+          "date": "2026-01-19",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka brokolicová, vepřová krkovice peč., bramborová kaše, kompot"
+        },
+        {
+          "date": "2026-01-19",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-19",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, rostlinné máslo 20 g, paštika drůbeží malá porce"
+        },
+        {
+          "date": "2026-01-19",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, pudink s piškoty"
+        },
+        {
+          "date": "2026-01-19",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, vepřová pečeně po zahradnicku, těstoviny"
+        },
+        {
+          "date": "2026-01-20",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka zeleninová s kapáním, krůtí guláš moravský, těstoviny"
+        },
+        {
+          "date": "2026-01-20",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-20",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, káva bílá, peč. závin"
+        },
+        {
+          "date": "2026-01-20",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, Taštičky z listového těsta s pizza náplní"
+        },
+        {
+          "date": "2026-01-20",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, polévka bulharská, chléb 150 g"
+        },
+        {
+          "date": "2026-01-21",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka uzená s noky, kaše hrachová, uzené maso vařené, ster.okurky 4l"
+        },
+        {
+          "date": "2026-01-21",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-21",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, Frittata"
+        },
+        {
+          "date": "2026-01-21",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, peč. makovka"
+        },
+        {
+          "date": "2026-01-21",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, pomazánka sýrová s tvarohem - velká porce"
+        },
+        {
+          "date": "2026-01-22",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka ragú, čína z kuřecího masa, rýže"
+        },
+        {
+          "date": "2026-01-22",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-22",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, pomazánka salámová hot."
+        },
+        {
+          "date": "2026-01-22",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, káva ledová 500ml, M - makovník"
+        },
+        {
+          "date": "2026-01-22",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, langoše z jogurtového těsta s kečupem a sýrem"
+        },
+        {
+          "date": "2026-01-23",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka špenátová, škubánky z brambor s mákem"
+        },
+        {
+          "date": "2026-01-23",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-23",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, párky - malá porce, hořčice"
+        },
+        {
+          "date": "2026-01-23",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, obložený chlebíček 1ks"
+        },
+        {
+          "date": "2026-01-23",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, omáčka koprová, vejce  na tvrdo, brambory"
+        },
+        {
+          "date": "2026-01-24",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka drůbeží kaldoun 2, rizoto s masem, zeleninou a sýrem, salát mrkvový"
+        },
+        {
+          "date": "2026-01-24",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-24",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, houska 2ks, sýr Lučina snídaně"
+        },
+        {
+          "date": "2026-01-24",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, jogurt s ovocným rozvarem, loupáky 1 ks"
+        },
+        {
+          "date": "2026-01-24",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, debrecínka,chléb s máslem"
+        },
+        {
+          "date": "2026-01-25",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka hovězí s nudlemi, hovězí španělský ptáček, houskové knedlíky"
+        },
+        {
+          "date": "2026-01-25",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-25",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, kakao, vánočka pečivo"
+        },
+        {
+          "date": "2026-01-25",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, mattoni Esence 1,5l, oplatky"
+        },
+        {
+          "date": "2026-01-25",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, chléb 150 g, tlačenka drůbeží"
+        },
+        {
+          "date": "2026-01-26",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka bramborová, uhlířina s cibulkou"
+        },
+        {
+          "date": "2026-01-26",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-26",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, rostlinné máslo 20 g, salám vysočina vak."
+        },
+        {
+          "date": "2026-01-26",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, Domácí Croissant"
+        },
+        {
+          "date": "2026-01-26",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, játra drůbeží na cibulce, rýže"
+        },
+        {
+          "date": "2026-01-27",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka boršč, vepřové nudličky na kmíně, fazolka dušená, brambory"
+        },
+        {
+          "date": "2026-01-27",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-27",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, klíč 2 ks, káva bílá"
+        },
+        {
+          "date": "2026-01-27",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, houska 1ks, rostlinné máslo 10 g, debrecínka 50g, hlávkový salát-příloha"
+        },
+        {
+          "date": "2026-01-27",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, kaše krupicová s kakaem"
+        },
+        {
+          "date": "2026-01-28",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, jitrnice,hořčice,chléb"
+        },
+        {
+          "date": "2026-01-28",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-28",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, sýr tavený - malá porce"
+        },
+        {
+          "date": "2026-01-28",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, zákusek, káva ledová 500ml"
+        },
+        {
+          "date": "2026-01-28",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, šunková pěna ks, chléb 150 g"
+        },
+        {
+          "date": "2026-01-29",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka drůbeží s rýží, kuře s nádivkou, salát okurkový"
+        },
+        {
+          "date": "2026-01-29",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-29",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, chléb l00 g, čajovka, rostlinné máslo 20 g"
+        },
+        {
+          "date": "2026-01-29",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, M - listový závin jablkový"
+        },
+        {
+          "date": "2026-01-29",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, Vepřové po štýrsku, chléb 150 g"
+        },
+        {
+          "date": "2026-01-30",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka drštková, vdolky bavorské"
+        },
+        {
+          "date": "2026-01-30",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-30",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, houska 2ks, rostlinné máslo 20 g, šunka 50 g"
+        },
+        {
+          "date": "2026-01-30",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, obložený chlebíček 1ks"
+        },
+        {
+          "date": "2026-01-30",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, hovězí guláš, těstoviny"
+        },
+        {
+          "date": "2026-01-31",
+          "meal": "Oběd",
+          "dietCode": "O00",
+          "text": "čaj, polévka pórková, hovězí roštěná přírodní, brambory šťouchané"
+        },
+        {
+          "date": "2026-01-31",
+          "meal": "Přesnídávka",
+          "dietCode": "O00",
+          "text": "ovoce, štáva-sirup"
+        },
+        {
+          "date": "2026-01-31",
+          "meal": "Snídaně",
+          "dietCode": "O00",
+          "text": "čaj, rostlinné máslo 20 g, sýr cihla malá porce, chléb l00 g"
+        },
+        {
+          "date": "2026-01-31",
+          "meal": "Svačina",
+          "dietCode": "O00",
+          "text": "štáva-sirup, bobík, loupáky 1 ks"
+        },
+        {
+          "date": "2026-01-31",
+          "meal": "Večeře",
+          "dietCode": "O00",
+          "text": "čaj, šunka,chléb,máslo"
+        }
+      ]
+    }
+  }
+}

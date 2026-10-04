@@ -1,0 +1,88 @@
+{
+  "id": "docx-c0f9ac7a0fce18b98ce7da19",
+  "name": "koláček 50 g 2 ks",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "peč. koláček 50g",
+      "amount": 20,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": null,
+    "energyKcalApprox": null,
+    "proteinG": null,
+    "fatG": null,
+    "carbohydratesG": null,
+    "fiberG": null,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Snidane_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-09-19T08:37:27.021Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = —.\nUpřesnit velikost balení / jednotku ks: peč. koláček 50g.\nChybí energie.\nChybí bílkoviny.\nChybí tuky.\nChybí sacharidy.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = —.",
+    "Upřesnit velikost balení / jednotku ks: peč. koláček 50g.",
+    "Chybí energie.",
+    "Chybí bílkoviny.",
+    "Chybí tuky.",
+    "Chybí sacharidy.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 13.62,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [],
+    "recommendedDisplay": "",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

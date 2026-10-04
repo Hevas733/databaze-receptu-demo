@@ -1,7 +1,6 @@
 {
   "id": "docx-0d9815b29bcba29ad4b5912e",
   "name": "Polévka čočková",
-  "sourceVariant": "00, 03, 09, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -61,6 +60,8 @@
     "vitaminB2Mg": 0.03,
     "vitaminCMg": 4.38
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-05T09:38:37.169Z",
@@ -75,6 +76,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Vepřové",
   "sideDish": "Bez přílohy",
@@ -87,14 +90,28 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "history": [],
   "lastServedAt": null,
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],

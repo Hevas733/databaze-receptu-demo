@@ -1,5 +1,3 @@
-const rotationIntervals={1:60,2:90,3:120};
-
 const sources=[
 
 {folder:'kureci-rolada-plnena-vejci-hraskem-a-sunkou',file:'kureci-rolada-plnena-vejci-hraskem-a-sunkou.json',storage:'receptar:kureci-rolada-plnena-vejci-hraskem-a-sunkou'},
@@ -71,61 +69,63 @@ const normalize=value=>(value||'').toLocaleLowerCase('cs').normalize('NFD').repl
 const monthNames=['leden','unor','brezen','duben','kveten','cerven','cervenec','srpen','zari','rijen','listopad','prosinec'];
 
 function recipeMonths(recipe){
-
- const s=recipe.season||{},raw=normalize(s.months),names=raw.split(' ').filter(w=>monthNames.includes(w));
-
- if(raw==='celorocne')return monthNames;
-
- if(names.length===2&&/[–—-]/.test(s.months||'')){const out=[];let i=monthNames.indexOf(names[0]);for(let count=0;count<12;count++,i=(i+1)%12){out.push(monthNames[i]);if(monthNames[i]===names[1])break}return out}
-
- if(names.length)return [...new Set(names)];
-
- const rec=(s.recommended||[]).map(normalize);if(rec.includes('celorocne'))return monthNames;
-
- const map={jaro:[2,3,4],leto:[5,6,7],podzim:[8,9,10],zima:[11,0,1]};
-
- const out=[...new Set(rec.flatMap(x=>(map[x]||[]).map(i=>monthNames[i])))];
-
- return out.length?out:normalize(s.availability)==='celorocne'?monthNames:[];
-
+ return RecipeImports.seasonMonths(recipe.season).map(number=>monthNames[number-1]);
 }
 
 
 
-function needsCompletion(recipe){return ['needs-completion','needs-review'].includes(recipe.completionStatus)&&RecipeImports.needsCompletion(recipe)}
+function needsCompletion(recipe){return RecipeImports.needsCompletion(recipe)}
 let recipes=[],activeMeal='',rotationFilter='';
+const isMenuPicker=new URLSearchParams(location.search).get('pick')==='menu'&&window.parent!==window;
+function activityMatches(recipe){const active=RecipeImports.isActive(recipe),status=document.getElementById('statusFilter').value;return (!isMenuPicker||active)&&(status==='all'||(status==='inactive'?!active:active))}
+function planningMatches(recipe){if(!selectedMonth())return true;return RecipeImports.isActive(recipe)?RecipeImports.rotationMonth(recipe,selectedMonth())?.eligible:RecipeImports.seasonMonths(recipe.season).includes(Number(selectedMonth().slice(5)))}
 
-function rotationState(recipe){const last=[...(recipe.history||[]),recipe.lastServedAt].filter(Boolean).sort().at(-1),interval=rotationIntervals[recipe.popularity]||null;if(!last)return'none';if(!interval)return'unset';const next=new Date(new Date(`${last}T12:00:00`).getTime()+interval*86400000),remaining=Math.ceil((next-new Date())/86400000),overdue=Math.abs(remaining);if(remaining>14)return'early';if(remaining>0)return'soon';if(overdue>interval)return'forgotten';if(overdue>30)return'overdue';return'ready'}
+function selectedMonth(){return document.getElementById('planningMonth').value}
+function recommendation(recipe){return RecipeImports.rotationMonth(recipe,selectedMonth())?.state||RecipeImports.rotationState(recipe)}
+function rotationState(recipe){return RecipeImports.rotationState(recipe).key}
 
-function rotationLabel(recipe){return({none:'bez historie',unset:'čeká na nastavení',early:'příliš brzy',soon:'brzy bude možné',ready:'lze zařadit',overdue:'dlouho nebylo',forgotten:'zapomenuté'})[rotationState(recipe)]}
+function rotationLabel(recipe){return recommendation(recipe).label}
 
-function searchable(recipe){return normalize([recipe.name,recipe.description,recipe.planningNote,...(recipe.alternativeNames||[]),recipe.meatType,recipe.sideDish,recipe.preparationType,recipe.season?.availability,recipe.season?.recommendedDisplay,...(recipe.season?.recommended||[]),recipe.pricePerServingCzk].join(' '))}
+function searchable(recipe){return normalize([recipe.name,recipe.description,recipe.planningNote,...(recipe.alternativeNames||[]),RecipeImports.flavorOf(recipe),recipe.meatType,recipe.sideDish,recipe.preparationType,recipe.season?.availability,recipe.season?.recommendedDisplay,...(recipe.season?.recommended||[]),recipe.pricePerServingCzk].join(' '))}
 
 let numericFilters={priceMin:null,priceMax:null,energyMin:null,energyMax:null,unit:'kcal'};
 function readNumericFilters(){for(const key of ['priceMin','priceMax','energyMin','energyMax'])numericFilters[key]=RecipeFilters.bound(document.getElementById(key).value);numericFilters.unit=document.getElementById('energyUnit').value;return RecipeFilters.error(numericFilters.priceMin,numericFilters.priceMax,'Cena')||RecipeFilters.error(numericFilters.energyMin,numericFilters.energyMax,'Energie')}
 function energyLabel(recipe){const value=RecipeFilters.energy(recipe,document.getElementById('energyUnit').value);return value===null?'Energie: neuvedena':value.toLocaleString('cs-CZ',{maximumFractionDigits:2})+' '+document.getElementById('energyUnit').value+' / porce'}
-function matches(recipe){const words=normalize(document.querySelector('#databaseQuery').value).split(' ').filter(Boolean),season=document.querySelector('#seasonFilter').value,popularity=document.querySelector('#popularityFilter').value,text=searchable(recipe),seasons=[recipe.season?.availability,recipe.season?.recommendedDisplay,...(recipe.season?.recommended||[])].filter(Boolean);return RecipeFilters.matches(recipe,numericFilters)&&words.every(word=>monthNames.includes(word)?recipeMonths(recipe).includes(word):text.includes(word))&&(!activeMeal||(activeMeal==='K doplnění'?needsCompletion(recipe):(recipe.mealTypes||[]).includes(activeMeal)))&&(!season||normalize(recipe.season?.availability)==='celorocne'||seasons.some(value=>normalize(value).includes(normalize(season))))&&(!popularity||Number(popularity)===Number(recipe.popularity))&&(!rotationFilter||rotationFilter===rotationState(recipe))}
+function matches(recipe){const words=normalize(document.querySelector('#databaseQuery').value).split(' ').filter(Boolean),season=document.querySelector('#seasonFilter').value,popularity=document.querySelector('#popularityFilter').value,text=searchable(recipe),seasons=[recipe.season?.availability,recipe.season?.recommendedDisplay,...(recipe.season?.recommended||[])].filter(Boolean);return activityMatches(recipe)&&planningMatches(recipe)&&RecipeFilters.matches(recipe,numericFilters)&&words.every(word=>monthNames.includes(word)?recipeMonths(recipe).includes(word):text.includes(word))&&(!activeMeal||(activeMeal==='K doplnění'?needsCompletion(recipe):(recipe.mealTypes||[]).includes(activeMeal)))&&(!season||normalize(recipe.season?.availability)==='celorocne'||seasons.some(value=>normalize(value).includes(normalize(season))))&&(!popularity||Number(popularity)===Number(recipe.popularity))&&(!rotationFilter||(RecipeImports.isActive(recipe)&&rotationFilter===rotationState(recipe)))}
 
-function card(recipe){recipe=RecipeImports.display(recipe);const base=`Recepty/${encodeURIComponent(recipe._folder)}/`,imagePath=recipe._imported?RecipeImports.imageHref(recipe):recipe.image?base+encodeURIComponent(recipe.image):null,image=imagePath?`<img src="${imagePath}" alt="">`:'🥔',recommended=recipe.season?.recommendedDisplay||recipe.season?.recommended?.join('–')||'—',price=recipe.pricePerServingCzk==null?'—':`${recipe.pricePerServingCzk.toLocaleString('cs-CZ',{minimumFractionDigits:2,maximumFractionDigits:2})} Kč`;return `<a class="recipe-card" href="${RecipeImports.href(recipe)}"><span class="recipe-thumb">${image}</span><div class="recipe-card-body"><div class="recipe-title"><h3>${recipe.name}</h3><strong>${price}</strong></div><p>${recipe.description}</p><div class="recipe-tags">${[energyLabel(recipe),needsCompletion(recipe)?'K doplnění':null,...(recipe.mealTypes||[]),recipe.meatType,recipe.season?.availability,recommended,`${recipe.servings} porcí`].filter(Boolean).map(value=>`<span>${value}</span>`).join('')}</div><div class="recipe-meta"><span>${recipe.popularity?`Oblíbenost: ${recipe.popularity}`:'Oblíbenost: neurčena'}</span><span>Rotace: ${rotationLabel(recipe)}</span></div></div><em>›</em></a>`}
+function card(recipe){recipe=RecipeImports.display(recipe);const base=`Recepty/${encodeURIComponent(recipe._folder)}/`,imagePath=recipe._imported?RecipeImports.imageHref(recipe):recipe.image?base+encodeURIComponent(recipe.image):null,image=imagePath?`<img src="${imagePath}" alt="">`:'🥔',price=recipe.pricePerServingCzk==null?'—':`${recipe.pricePerServingCzk.toLocaleString('cs-CZ',{minimumFractionDigits:2,maximumFractionDigits:2})} Kč`;return `<a class="recipe-card${RecipeImports.isActive(recipe)?'':' is-inactive'}" data-recipe-id="${recipe.id}" href="${RecipeImports.href(recipe)}"><span class="recipe-thumb">${image}</span><div class="recipe-card-body"><div class="recipe-title"><h3>${recipe.name}</h3><strong>${price}</strong></div><p>${recipe.description}</p><div class="recipe-tags">${[...new Set([energyLabel(recipe),!RecipeImports.isActive(recipe)?'Neaktivní / nepoužívaná':null,needsCompletion(recipe)?'K doplnění':null,RecipeImports.flavorOf(recipe),...(recipe.mealTypes||[]),recipe.season?.availability,`${recipe.servings} porcí`].filter(Boolean))].map(value=>`<span>${value}</span>`).join('')}</div><div class="recipe-meta"><span>${recipe.popularity?`Oblíbenost: ${recipe.popularity}`:'Oblíbenost: neurčena'}</span><span>${rotationLabel(recipe)}</span></div></div><em>›</em></a>`}
 
-function applyFilters(){saveFilterState();const error=readNumericFilters(),message=document.getElementById('valueFilterError');message.textContent=error;message.hidden=!error;const visible=error?[]:recipes.filter(matches);document.getElementById('filteredCount').textContent=error?'':`Zobrazeno ${visible.length} z ${recipes.length} norem`;const results=document.querySelector('#recipeResults');results.innerHTML=visible.map(card).join('');results.querySelectorAll('a[href$=".html"]').forEach(link=>link.href+='?v=55');document.querySelector('#noResults').hidden=!!error||visible.length>0}
+function applyFilters(){saveFilterState();const error=readNumericFilters(),message=document.getElementById('valueFilterError');message.textContent=error;message.hidden=!error;const visible=error?[]:recipes.filter(matches);if(rotationFilter==='ready')visible.sort((a,b)=>RecipeImports.rotationState(b).overdueDays-RecipeImports.rotationState(a).overdueDays||a.name.localeCompare(b.name,'cs'));document.getElementById('filteredCount').textContent=error?'':`Zobrazeno ${visible.length} z ${recipes.length} norem`;const results=document.querySelector('#recipeResults');results.innerHTML=visible.map(card).join('');results.querySelectorAll('a[href$=".html"]').forEach(link=>link.href+='?v=55');document.querySelector('#noResults').hidden=!!error||visible.length>0}
 
 document.querySelector('#databaseSearch').addEventListener('submit',event=>{event.preventDefault();applyFilters()});
 
 document.querySelectorAll('[data-meal]').forEach(button=>button.addEventListener('click',()=>{activeMeal=activeMeal===button.dataset.meal?'':button.dataset.meal;document.querySelectorAll('[data-meal]').forEach(item=>item.classList.toggle('selected',item.dataset.meal===activeMeal));applyFilters()}));
 
-document.querySelector('#seasonFilter').addEventListener('change',applyFilters);document.querySelector('#popularityFilter').addEventListener('change',applyFilters);document.querySelector('#rotationFilter').addEventListener('change',event=>{rotationFilter=event.target.value;applyFilters()});
+document.getElementById('planningMonth').addEventListener('change',()=>{rotationFilter='';document.getElementById('rotationFilter').value='';applyFilters()});
+document.querySelector('#statusFilter').addEventListener('change',applyFilters);document.querySelector('#seasonFilter').addEventListener('change',applyFilters);document.querySelector('#popularityFilter').addEventListener('change',applyFilters);document.querySelector('#rotationFilter').addEventListener('change',event=>{rotationFilter=event.target.value;applyFilters()});
 
-document.querySelector('#clearFilters').addEventListener('click',()=>{activeMeal='';rotationFilter='';document.querySelectorAll('[data-meal]').forEach(button=>button.classList.remove('selected'));document.querySelectorAll('#seasonFilter,#popularityFilter,#rotationFilter,#databaseQuery,#priceMin,#priceMax,#energyMin,#energyMax').forEach(input=>input.value='');applyFilters()});
+document.querySelector('#clearFilters').addEventListener('click',()=>{activeMeal='';rotationFilter='';document.getElementById('statusFilter').value='active';document.querySelectorAll('[data-meal]').forEach(button=>button.classList.remove('selected'));document.querySelectorAll('#planningMonth,#seasonFilter,#popularityFilter,#rotationFilter,#databaseQuery,#priceMin,#priceMax,#energyMin,#energyMax').forEach(input=>input.value='');applyFilters()});
 
 const filterStorageKey='receptar:database-filters:v1';
-const filterFields=['databaseQuery','seasonFilter','popularityFilter','rotationFilter','priceMin','priceMax','energyMin','energyMax','energyUnit'];
-function saveFilterState(){try{sessionStorage.setItem(filterStorageKey,JSON.stringify({meal:activeMeal,...Object.fromEntries(filterFields.map(id=>[id,document.getElementById(id).value]))}))}catch{}}
-const params=new URLSearchParams(location.search);const explicit=['meal','rotation','q','season','popularity'].some(k=>params.has(k));let previous={};if(!explicit)try{previous=JSON.parse(sessionStorage.getItem(filterStorageKey)||'{}')}catch{}
+// Returning from an editor/import must use fresh disk history and recommendations.
+window.addEventListener('pageshow',event=>{if(event.persisted)location.reload()});
+const filterFields=['statusFilter','planningMonth','databaseQuery','seasonFilter','popularityFilter','rotationFilter','priceMin','priceMax','energyMin','energyMax','energyUnit'];
+const filterParams={status:'statusFilter',month:'planningMonth',q:'databaseQuery',season:'seasonFilter',popularity:'popularityFilter',rotation:'rotationFilter',priceMin:'priceMin',priceMax:'priceMax',energyMin:'energyMin',energyMax:'energyMax',unit:'energyUnit'};
+function saveFilterState(){
+ try{sessionStorage.setItem(filterStorageKey,JSON.stringify({meal:activeMeal,...Object.fromEntries(filterFields.map(id=>[id,document.getElementById(id).value]))}))}catch{}
+ const url=new URL(location.href);
+ for(const [param,id] of Object.entries(filterParams)){const value=document.getElementById(id).value;if(value)url.searchParams.set(param,value);else url.searchParams.delete(param)}
+ if(activeMeal)url.searchParams.set('meal',activeMeal);else url.searchParams.delete('meal');
+ history.replaceState(null,'',url);
+}
+const params=new URLSearchParams(location.search);const explicit=['meal',...Object.keys(filterParams)].some(k=>params.has(k));let previous={};if(!explicit)try{previous=JSON.parse(sessionStorage.getItem(filterStorageKey)||'{}')}catch{}
 for(const id of filterFields)if(typeof previous[id]==='string')document.getElementById(id).value=previous[id];
 if(!['kcal','kJ'].includes(document.getElementById('energyUnit').value))document.getElementById('energyUnit').value='kcal';
 activeMeal=explicit?(params.get('meal')||''):(previous.meal||'');
-if(explicit)for(const [param,id] of Object.entries({q:'databaseQuery',season:'seasonFilter',popularity:'popularityFilter',rotation:'rotationFilter'}))document.getElementById(id).value=params.get(param)||'';
+if(explicit)for(const [param,id] of Object.entries(filterParams))document.getElementById(id).value=params.get(param)||(id==='energyUnit'?'kcal':id==='statusFilter'?'active':'');
+if(!['active','inactive','all'].includes(document.getElementById('statusFilter').value))document.getElementById('statusFilter').value='active';
+if(isMenuPicker){document.getElementById('statusFilter').value='active';document.getElementById('statusFilter').disabled=true;document.getElementById('statusFilter').title='Do jídelníčku lze vybrat pouze aktivní normy.'}
+if(params.get('rotation')==='overdue')document.getElementById('rotationFilter').value='ready';
 rotationFilter=document.getElementById('rotationFilter').value;document.querySelectorAll('[data-meal]').forEach(button=>button.classList.toggle('selected',button.dataset.meal===activeMeal));
 window.addEventListener('pagehide',saveFilterState);document.getElementById('databaseQuery').addEventListener('input',saveFilterState);
 

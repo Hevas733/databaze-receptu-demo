@@ -36,7 +36,7 @@
       12
     ]
   },
-  "popularity": 1,
+  "popularity": 2,
   "history": [],
   "lastServedAt": null,
   "meatType": "Kuřecí",
@@ -46,12 +46,12 @@
   "ingredients": [
     {
       "name": "Kuřecí plátky",
-      "amount": 1.0,
+      "amount": 1,
       "unit": "kg"
     },
     {
       "name": "Čerstvé žampiony",
-      "amount": 1.0,
+      "amount": 1,
       "unit": "kg"
     },
     {
@@ -104,5 +104,17 @@
       "name": "Mléko včetně laktózy"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "metadataIssues": [
+    "typ jídla",
+    "charakter",
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "rotationDays": 90,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

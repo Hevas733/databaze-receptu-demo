@@ -1,0 +1,112 @@
+{
+  "id": "docx-a90bb3dd4923a1f99719cf40",
+  "name": "vajíčková pomazánka s ředkvičkami",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-ředkvičky",
+      "amount": 0.1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "sýr Maratonec 1kg",
+      "amount": 0.07,
+      "unit": "kg",
+      "perServing": "7 g",
+      "needsClarification": false
+    },
+    {
+      "name": "jogurt bílý 1kg",
+      "amount": 0.03,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "sýr cihla 30%",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 284.45,
+    "energyKcalApprox": 68,
+    "proteinG": 5.51,
+    "fatG": 4.73,
+    "carbohydratesG": 0.82,
+    "fiberG": 0.01,
+    "calciumMg": 385,
+    "ironMg": 0.58,
+    "vitaminAUg": 134,
+    "vitaminB1Mg": 0.04,
+    "vitaminB2Mg": 0.22,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_10.docx",
+  "importedAt": "2026-09-28T18:06:47.878Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,59.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,59."
+  ],
+  "pricePerServingCzk": 4.14,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Snídaně"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [],
+  "lastServedAt": null,
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true
+}

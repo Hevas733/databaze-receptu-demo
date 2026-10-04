@@ -1,0 +1,119 @@
+{
+  "id": "docx-cb8a1521d093ec18c9b5d250",
+  "name": "uzené maso vařené",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-uzené",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 2176.8,
+    "energyKcalApprox": 520,
+    "proteinG": 20.88,
+    "fatG": 48.72,
+    "carbohydratesG": 0,
+    "fiberG": null,
+    "calciumMg": 44.4,
+    "ironMg": 3.6,
+    "vitaminAUg": null,
+    "vitaminB1Mg": 0.41,
+    "vitaminB2Mg": 0.22,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_09.docx",
+  "importedAt": "2026-09-28T18:06:43.363Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 4,63.",
+    "Chybí sacharidy.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 20.03,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd",
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-01",
+    "2026-01-21",
+    "2026-02-26"
+  ],
+  "lastServedAt": "2026-02-26",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "uzené maso vařené"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-01",
+      "meal": "Oběd",
+      "originalName": "uzené maso vařené",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-21",
+      "meal": "Oběd",
+      "originalName": "uzené maso vařené",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-26",
+      "meal": "Oběd",
+      "originalName": "uzené maso vařené",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

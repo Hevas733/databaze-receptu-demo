@@ -1,0 +1,154 @@
+{
+  "id": "docx-f0178588fa2cefda686b96d7",
+  "name": "vepřový guláš Flamendr",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-vepř.kotleta",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.15,
+      "unit": "l",
+      "perServing": "15 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-cibule",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.015,
+      "unit": "kg",
+      "perServing": "1,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. paprika mix",
+      "amount": 0.4,
+      "unit": "kg",
+      "perServing": "40 g",
+      "needsClarification": false
+    },
+    {
+      "name": "kečup jemný 5 kg",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "koření grilovací",
+      "amount": 0.3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "hořčice 400g",
+      "amount": 0.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1746.79,
+    "energyKcalApprox": 417,
+    "proteinG": 26.81,
+    "fatG": 20.02,
+    "carbohydratesG": 33.61,
+    "fiberG": 2.32,
+    "calciumMg": 153.1,
+    "ironMg": 4.86,
+    "vitaminAUg": 54,
+    "vitaminB1Mg": 0.78,
+    "vitaminB2Mg": 0.33,
+    "vitaminCMg": 22.1
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_6.docx",
+  "importedAt": "2026-10-03T18:15:36.784Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 3,43."
+  ],
+  "pricePerServingCzk": 21.95,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-13"
+  ],
+  "lastServedAt": "2026-01-13",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "vepřový guláš Flamendr"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-13",
+      "meal": "Oběd",
+      "originalName": "vepřový guláš Flamendr",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

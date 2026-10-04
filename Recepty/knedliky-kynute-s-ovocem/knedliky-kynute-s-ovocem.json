@@ -1,7 +1,6 @@
 {
   "id": "docx-aecdb8fba26a175315c0fb18",
   "name": "Knedlíky kynuté s ovocem",
-  "sourceVariant": "00, 03, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -16,14 +15,14 @@
       "amount": 0.5,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "droždí porce",
       "amount": 1.7,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "cukr krupice",
@@ -37,7 +36,7 @@
       "amount": 2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "máslo čerstvé 200g",
@@ -96,6 +95,8 @@
     "vitaminB2Mg": 2.93,
     "vitaminCMg": 0.55
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Receptury_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-01T18:21:10.494Z",
@@ -111,11 +112,13 @@
   "mealTypes": [
     "Oběd"
   ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
   "category": "",
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Vařené",
-  "popularity": 1,
+  "popularity": 2,
   "season": {
     "availability": "Celoročně",
     "recommended": [
@@ -123,20 +126,44 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "history": [
     "2026-01-02"
   ],
   "lastServedAt": "2026-01-02",
-  "rotationDays": 60,
+  "rotationDays": 90,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [
     "knedlíky kynuté s ovocem"
   ],
-  "_imported": true
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-02",
+      "meal": "Oběd",
+      "originalName": "knedlíky kynuté s ovocem",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
 }

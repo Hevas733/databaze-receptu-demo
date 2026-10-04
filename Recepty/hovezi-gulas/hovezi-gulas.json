@@ -12,7 +12,6 @@
   "servings": 10,
   "source": "CYGNUS – Stravovací provoz Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "00, 03, 33",
   "group": "Obědy",
   "pricePerServingCzk": 28.64,
   "season": {
@@ -37,10 +36,12 @@
       12
     ]
   },
-  "popularity": 1,
-  "rotationDays": 60,
-  "history": [],
-  "lastServedAt": null,
+  "popularity": 2,
+  "rotationDays": 90,
+  "history": [
+    "2026-01-30"
+  ],
+  "lastServedAt": "2026-01-30",
   "meatType": "Hovězí",
   "sideDish": "Volitelná",
   "preparationType": "Dušení",
@@ -90,5 +91,22 @@
     }
   ],
   "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026.",
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-30",
+      "meal": "Večeře",
+      "originalName": "hovězí guláš",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ],
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

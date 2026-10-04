@@ -1,0 +1,131 @@
+{
+  "id": "docx-screenshot-20261004-veprova-pecene-po-zahradnicku",
+  "name": "vepřová pečeně po zahradnicku",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.1,
+      "unit": "l",
+      "perServing": "10 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. mrkev kostky",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. květák pol.",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "maso-vepř.plec",
+      "amount": 0.8,
+      "unit": "kg",
+      "perServing": "80 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 981,
+    "energyKcalApprox": 234,
+    "proteinG": 18.1,
+    "fatG": 13.6,
+    "carbohydratesG": 10.9,
+    "fiberG": 1.8,
+    "calciumMg": 12,
+    "ironMg": 2.14,
+    "vitaminAUg": null,
+    "vitaminB1Mg": 0.522,
+    "vitaminB2Mg": 0.147,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "CYGNUS – Stravovací provoz Chotěšov (snímek obrazovky)",
+  "sourceFile": "po zahradnicku.png",
+  "importedAt": "2026-10-04",
+  "description": "Norma přepsaná z dodaného snímku obrazovky.",
+  "planningNote": "",
+  "importWarnings": [
+    "Základ ceny a nutričních hodnot není na snímku výslovně uveden; převzaty na porci podle dosavadní databáze.",
+    "Úplný seznam kódů prvního sloupce je na snímku zkrácený."
+  ],
+  "pricePerServingCzk": 11.62,
+  "nutritionReview": "Věrný přepis hodnot ze snímku CYGNUS. Uloženo jako výživa na 1 porci podle dosavadního formátu databáze; snímek základ výživy výslovně neuvádí. Hodnoty nebyly nezávisle ověřeny. Kcal = kJ / 4,184, zaokrouhleno. Neuvedené údaje nejsou nuly.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "Vepřové",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 3,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-19"
+  ],
+  "lastServedAt": "2026-01-19",
+  "rotationDays": 120,
+  "status": "paused",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    }
+  ],
+  "allergensIncomplete": false,
+  "alternativeNames": [
+    "vepřová pečeně po zahradnicku"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-19",
+      "meal": "Večeře",
+      "originalName": "vepřová pečeně po zahradnicku",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

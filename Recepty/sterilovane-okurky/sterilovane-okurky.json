@@ -11,7 +11,6 @@
   "source": "CYGNUS – Stravovací provoz Chotěšov",
   "sourceCode": "",
   "sourceDescription": "",
-  "sourceVariant": "00, 03, 07, 09…",
   "group": "Ostatní",
   "pricePerServingCzk": 3.83,
   "season": {
@@ -52,7 +51,7 @@
   "nutritionPerServing": {
     "fatG": 0,
     "carbohydratesG": 3.8,
-    "energyKcalApprox": 21.0,
+    "energyKcalApprox": 21,
     "energyKj": 86,
     "fiberG": 0.8,
     "proteinG": 0.5
@@ -72,5 +71,13 @@
       "name": "Sterilované okurky 4 l",
       "unit": "ks"
     }
-  ]
+  ],
+  "foodType": "Příloha",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

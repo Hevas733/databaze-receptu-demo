@@ -1,0 +1,119 @@
+{
+  "id": "docx-6302685f1c691c1b3d014dd5",
+  "name": "polévka zeleninová s vejci",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "vejce",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "maso-hov.před.s kost",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "krupice",
+      "amount": 0.14,
+      "unit": "kg",
+      "perServing": "14 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 265.54,
+    "energyKcalApprox": 63,
+    "proteinG": 4.94,
+    "fatG": 4.32,
+    "carbohydratesG": 1.23,
+    "fiberG": 0.05,
+    "calciumMg": 8.1,
+    "ironMg": 0.76,
+    "vitaminAUg": 13.5,
+    "vitaminB1Mg": 0.04,
+    "vitaminB2Mg": 0.05,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_4.docx",
+  "importedAt": "2026-10-03T15:42:32.856Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,33."
+  ],
+  "pricePerServingCzk": 5.55,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-07"
+  ],
+  "lastServedAt": "2026-01-07",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "polévka zeleninová s vejci"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-07",
+      "meal": "Oběd",
+      "originalName": "polévka zeleninová s vejci",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

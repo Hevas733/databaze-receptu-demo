@@ -1,0 +1,135 @@
+{
+  "id": "docx-44944de7d17067d6b0e00b6f",
+  "name": "polévka česneková s bramborem",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "zelenina-česnek",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-brambory",
+      "amount": 1.25,
+      "unit": "kg",
+      "perServing": "125 g",
+      "needsClarification": false
+    },
+    {
+      "name": "sádlo",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "maso-kosti",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 715.05,
+    "energyKcalApprox": 171,
+    "proteinG": 5.2,
+    "fatG": 6.75,
+    "carbohydratesG": 23.28,
+    "fiberG": 2.14,
+    "calciumMg": 207.5,
+    "ironMg": 12.66,
+    "vitaminAUg": 211,
+    "vitaminB1Mg": 1.19,
+    "vitaminB2Mg": 0.46,
+    "vitaminCMg": 110.9
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_3.docx",
+  "importedAt": "2026-10-03T13:14:06.754Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,23."
+  ],
+  "pricePerServingCzk": 5.26,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-03",
+    "2026-01-12"
+  ],
+  "lastServedAt": "2026-01-12",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "polévka česneková s bramborem"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-03",
+      "meal": "Oběd",
+      "originalName": "polévka česneková s bramborem",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-12",
+      "meal": "Oběd",
+      "originalName": "polévka česneková s bramborem",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

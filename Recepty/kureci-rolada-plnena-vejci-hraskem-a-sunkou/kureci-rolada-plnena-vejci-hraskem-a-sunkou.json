@@ -2,7 +2,7 @@
   "id": "kureci-rolada-plnena-vejci-hraskem-a-sunkou",
   "name": "Kuřecí roláda plněná vejci, hráškem a šunkou",
   "alternativeNames": [],
-  "description": "K doplnění · Norma z exportu CYGNUS na 10 porcí.",
+  "description": " Norma z exportu CYGNUS na 10 porcí.",
   "category": "Hlavní jídlo",
   "mealTypes": [
     "Oběd"
@@ -10,7 +10,6 @@
   "servings": 10,
   "source": "CYGNUS – Domov sociální péče Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "O00, O09, ZAM",
   "group": "",
   "pricePerServingCzk": 9.56,
   "season": {
@@ -35,8 +34,8 @@
       12
     ]
   },
-  "popularity": 2,
-  "rotationDays": 90,
+  "popularity": 1,
+  "rotationDays": 60,
   "history": [],
   "lastServedAt": null,
   "meatType": "Kuřecí",
@@ -46,7 +45,7 @@
   "completionStatus": "needs-completion",
   "image": "ai-ilustrace.png",
   "instructions": null,
-  "planningNote": "K doplnění: cena, zařazení, sezóna, měsíce, oblíbenost. Výživový součet nezahrnuje celé kuře – hlavní surovinu. Chybí také hodnoty soli a koření. Hmotnost celého kuřete není uvedena. Obrázek je AI ilustrace, nikoli fotografie skutečného jídla.",
+  "planningNote": "",
   "nutritionReview": "CYGNUS – převzaté hodnoty na porci podle předchozího potvrzení základu exportu uživatelem, nikoli nezávisle ověřený výpočet. Výživový součet nezahrnuje celé kuře – hlavní surovinu. Chybí také hodnoty soli a koření. Hmotnost celého kuřete není uvedena.",
   "nutritionPerServing": {
     "energyKj": 668.6,
@@ -54,7 +53,13 @@
     "fatG": 9.52,
     "carbohydratesG": 10.39,
     "fiberG": 2.01,
-    "energyKcalApprox": 160
+    "energyKcalApprox": 160,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
   },
   "allergens": [],
   "allergensIncomplete": true,
@@ -64,7 +69,7 @@
       "amount": 1.25,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "vejce",
@@ -113,7 +118,7 @@
       "amount": 0.015,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "mouka hladká",
@@ -134,16 +139,23 @@
       "amount": 0.015,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "koření na kuře",
       "amount": 0.7,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     }
   ],
   "nutritionStatus": "imported-unverified",
-  "allergensStatus": "not-provided"
+  "allergensStatus": "not-provided",
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

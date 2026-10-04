@@ -1,7 +1,6 @@
 {
   "id": "docx-6eace2f02e952a82fef185fc",
   "name": "Polévka hovězí s vaječným svítkem",
-  "sourceVariant": "00, 02, 03, 09, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -9,7 +8,7 @@
       "amount": 3,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "mouka polohrubá",
@@ -44,7 +43,7 @@
       "amount": 0.2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     }
   ],
   "nutritionPerServing": {
@@ -61,6 +60,8 @@
     "vitaminB2Mg": 0.08,
     "vitaminCMg": 0.22
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Hovezi_polevky_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-02T17:26:01.487Z",
@@ -76,6 +77,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Hovězí",
   "sideDish": "Bez přílohy",
@@ -88,16 +91,42 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-02-17"
+  ],
+  "lastServedAt": "2026-02-17",
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],
-  "_imported": true
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-02-17",
+      "meal": "Oběd",
+      "originalName": "polévka hovězí s vaječným svítkem",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
 }

@@ -51,7 +51,10 @@ def load_menu_catalog(root):
         recipes.append({
             'id': rid,
             'name': recipe.get('name', ''),
+            'status': recipe.get('status', 'active'),
             'alternativeNames': recipe.get('alternativeNames', []),
+            'servings': recipe.get('servings'),
+            'ingredients': recipe.get('ingredients', []),
             'mealTypes': recipe.get('mealTypes', []),
             'history': recipe.get('history', []),
             'menuHistory': recipe.get('menuHistory', [])
@@ -125,7 +128,7 @@ def validate_menu_import(data):
             raise ValueError('Neplatné přiřazení receptu, data nebo chodu.')
         if not isinstance(original,str) or not original.strip() or len(original)>300 or not isinstance(diet,str) or len(diet)>50:
             raise ValueError('Neplatný původní název nebo dieta.')
-        clean.append({'recipeId':rid,'date':date,'meal':meal,'originalName':original.strip(),'dietCode':diet.strip(),'learnAlias':bool(event.get('learnAlias'))})
+        clean.append({'recipeId':rid,'date':date,'meal':meal,'originalName':original.strip(),'dietCode':diet.strip(),'learnAlias':bool(event.get('learnAlias')),'review':bool(event.get('review')),'automatic':bool(event.get('automatic'))})
     return source, clean
 
 def validate(data):
@@ -285,10 +288,10 @@ def handler_for(root):
                                 if len(after) == len(before):
                                     continue
                                 removed += len(before) - len(after)
+                                previous = dict(recipe)
                                 recipe['menuHistory'] = after
-                                history = sorted({x.get('date') for x in after if isinstance(x,dict) and x.get('date')})
-                                recipe['history'] = history
-                                recipe['lastServedAt'] = max(history) if history else None
+                                import menu_import_store
+                                menu_import_store.sync_history(recipe, previous)
                                 files[relative] = (json.dumps(recipe,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8')
                             registry['imports'] = [x for x in registry.get('imports',[]) if x.get('id') != import_id]
                             files[MENU_IMPORTS] = (json.dumps(registry,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8')
@@ -299,64 +302,9 @@ def handler_for(root):
                         import_id = raw.get('importId')
                         if not isinstance(import_id, str) or not re.fullmatch(r'[a-f0-9-]{36}', import_id):
                             import_id = str(uuid.uuid4())
-                        mapping = dict(recipe_files(root))
-                        unknown = {e['recipeId'] for e in events} - set(mapping)
-                        if unknown:
-                            raise ValueError('Některý přiřazený recept už neexistuje.')
-                        grouped = {}
-                        for event in events:
-                            grouped.setdefault(event['recipeId'], []).append(event)
-                        files = {}
-                        aliases_path = root/MENU_ALIASES
-                        aliases = {'version':1,'aliases':{}}
-                        if aliases_path.exists():
-                            aliases = json.loads(aliases_path.read_text(encoding='utf-8'))
-                            if aliases.get('version') != 1 or not isinstance(aliases.get('aliases'),dict):
-                                raise ValueError('Poškozený slovník synonym.')
-                        added = duplicates = 0
-                        for rid, additions in grouped.items():
-                            relative = mapping[rid]
-                            recipe = json.loads((root/relative).read_text(encoding='utf-8'))
-                            history = set(recipe.get('history') or [])
-                            menu_history = recipe.get('menuHistory') or []
-                            keys = {(x.get('date'),x.get('meal')) for x in menu_history if isinstance(x,dict)}
-                            alternative = list(recipe.get('alternativeNames') or [])
-                            normalized_alternatives = {normalized(x) for x in alternative}
-                            for event in additions:
-                                key = (event['date'],event['meal'])
-                                if key in keys:
-                                    duplicates += 1
-                                    continue
-                                menu_history.append({'date':event['date'],'meal':event['meal'],'originalName':event['originalName'],'dietCode':event['dietCode'],'sourceFile':source,'importId':import_id})
-                                keys.add(key); history.add(event['date']); added += 1
-                                if event['learnAlias']:
-                                    alias_key = normalized(event['originalName'])
-                                    aliases['aliases'][alias_key] = rid
-                                    if alias_key and alias_key not in normalized_alternatives:
-                                        alternative.append(event['originalName']); normalized_alternatives.add(alias_key)
-                            recipe['history'] = sorted(history)
-                            recipe['lastServedAt'] = max(history) if history else None
-                            recipe['menuHistory'] = sorted(menu_history,key=lambda x:(x.get('date',''),x.get('meal',''),x.get('originalName','')))
-                            recipe['alternativeNames'] = alternative
-                            files[relative] = (json.dumps(recipe,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8')
-                        files[MENU_ALIASES] = (json.dumps(aliases,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8')
-                        imports_path = root/MENU_IMPORTS
-                        registry = {'version':1,'imports':[]}
-                        if imports_path.exists():
-                            registry = json.loads(imports_path.read_text(encoding='utf-8'))
-                        imports = registry.get('imports', [])
-                        entry = next((x for x in imports if x.get('id') == import_id), None)
-                        dates = sorted({e['date'] for e in events})
-                        if entry:
-                            entry['saved'] = int(entry.get('saved',0)) + added
-                            entry['from'] = min([entry.get('from','9999-99-99'), *dates])
-                            entry['to'] = max([entry.get('to',''), *dates])
-                        else:
-                            imports.append({'id':import_id,'sourceFile':source or 'bez názvu','createdAt':__import__('datetime').datetime.now().astimezone().isoformat(timespec='seconds'),'from':dates[0] if dates else '', 'to':dates[-1] if dates else '', 'saved':added})
-                        registry['imports'] = imports
-                        files[MENU_IMPORTS] = (json.dumps(registry,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8')
-                        folder_store.commit(root, files)
-                    return self.json_response(200, {'saved':added,'duplicates':duplicates,'recipes':len(grouped),'importId':import_id})
+                        import menu_import_store
+                        result = menu_import_store.save(root, recipe_files(root), source, events, import_id)
+                    return self.json_response(200, result)
                 data = validate(raw)
                 with LOCK:
                     current = folder_store.load(root)
@@ -372,7 +320,7 @@ def handler_for(root):
                         if 'menuHistory' in previous:
                             recipe['menuHistory'] = previous['menuHistory']
                             dates = set(recipe.get('history') or [])
-                            dates.update(e['date'] for e in previous['menuHistory'] if e.get('date'))
+                            dates.update(e['date'] for e in previous['menuHistory'] if e.get('date') and not e.get('needsReview'))
                             recipe['history'] = sorted(dates)
                             if dates:
                                 recipe['lastServedAt'] = max(dates | {recipe.get('lastServedAt') or ''})

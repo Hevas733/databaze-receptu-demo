@@ -1,0 +1,152 @@
+{
+  "id": "docx-09d731d254ffccaf4df36fdb",
+  "name": "polévka uzená s noky",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-uzený bok",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "vejce",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "krupička dětská",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    },
+    {
+      "name": "rostlinné máslo",
+      "amount": 0.08,
+      "unit": "kg",
+      "perServing": "8 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.14,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mraž. Mochovská zelenina",
+      "amount": 0.15,
+      "unit": "kg",
+      "perServing": "15 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 405.42,
+    "energyKcalApprox": 97,
+    "proteinG": 3.53,
+    "fatG": 8.77,
+    "carbohydratesG": 1.06,
+    "fiberG": null,
+    "calciumMg": 19.87,
+    "ironMg": 0.33,
+    "vitaminAUg": 10.4,
+    "vitaminB1Mg": 0.04,
+    "vitaminB2Mg": 0.05,
+    "vitaminCMg": 0.15
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_4.docx",
+  "importedAt": "2026-10-03T15:42:32.856Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,00.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 5.14,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Polévka"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 1,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-06",
+    "2026-01-21",
+    "2026-02-26"
+  ],
+  "lastServedAt": "2026-02-26",
+  "rotationDays": 60,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "polévka uzená s noky"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-06",
+      "meal": "Oběd",
+      "originalName": "polévka uzená s noky",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-01-21",
+      "meal": "Oběd",
+      "originalName": "polévka uzená s noky",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-26",
+      "meal": "Oběd",
+      "originalName": "polévka uzená s noky",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

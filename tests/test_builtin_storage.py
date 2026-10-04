@@ -79,6 +79,29 @@ class StorageTest(unittest.TestCase):
         revision = revision or store.load(self.root, 'test-recipe')['revision']
         return self.request('POST', {'id': 'test-recipe', 'patch': patch, 'baseRevision': revision}, '/__builtin_recipe')
 
+    def test_automatic_rotation_from_meals(self):
+        for meal in ('Snídaně', 'Svačina', 'Příloha'):
+            status, result = self.save({'mealTypes': [meal, 'Oběd'], 'popularity': 3})
+            self.assertEqual(status, 200)
+            self.assertEqual(result['recipe']['rotationDays'], 30)
+        status, result = self.save({'mealTypes': ['Oběd']})
+        self.assertEqual(status, 200)
+        self.assertEqual(result['recipe']['rotationDays'], 120)
+
+    def test_bread_has_no_rotation(self):
+        for meals in (['Pečivo'], ['Pečivo', 'Snídaně'], ['Příloha', 'Pečivo']):
+            for popularity in (None, 1, 3):
+                status, result = self.save({'mealTypes': meals, 'popularity': popularity})
+                self.assertEqual(status, 200)
+                self.assertIn('Pečivo', result['recipe']['mealTypes'])
+                self.assertIsNone(result['recipe']['rotationDays'])
+        status, result = self.save({'mealTypes': ['Snídaně']})
+        self.assertEqual(status, 200)
+        self.assertEqual(result['recipe']['rotationDays'], 30)
+        status, result = self.save({'mealTypes': ['Oběd']})
+        self.assertEqual(status, 200)
+        self.assertEqual(result['recipe']['rotationDays'], 120)
+
     def test_save_restart_and_restore(self):
         original = self.file.read_bytes()
         status, data = self.save({'pricePerServingCzk': 29.75, 'popularity': 3})

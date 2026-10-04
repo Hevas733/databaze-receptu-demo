@@ -1,0 +1,140 @@
+{
+  "id": "docx-a3e06a262652700e212b4b95",
+  "name": "těstoviny se sýr. omáčkou",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "těstoviny mašle 5 kg",
+      "amount": 1.2,
+      "unit": "kg",
+      "perServing": "120 g",
+      "needsClarification": false
+    },
+    {
+      "name": "tvaroh měkký",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "sýr Niva",
+      "amount": 0.3,
+      "unit": "kg",
+      "perServing": "30 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hladká",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.2,
+      "unit": "l",
+      "perServing": "20 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "ster. paprika 720g",
+      "amount": 1,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1971.2,
+    "energyKcalApprox": 471,
+    "proteinG": 16.04,
+    "fatG": 34.15,
+    "carbohydratesG": 26.47,
+    "fiberG": 0.62,
+    "calciumMg": 3436.6,
+    "ironMg": 3.48,
+    "vitaminAUg": 245.3,
+    "vitaminB1Mg": 0.27,
+    "vitaminB2Mg": 1.37,
+    "vitaminCMg": 31.4
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_6.docx",
+  "importedAt": "2026-10-03T18:15:36.784Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,38."
+  ],
+  "pricePerServingCzk": 56.79,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-17"
+  ],
+  "lastServedAt": "2026-01-17",
+  "rotationDays": 90,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "těstoviny se sýr. omáčkou"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-17",
+      "meal": "Oběd",
+      "originalName": "těstoviny se sýr. omáčkou",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

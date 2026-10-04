@@ -15,24 +15,25 @@
   "source": "Stravovací provoz Chotěšov",
   "pricePerServingCzk": 31.69,
   "season": {
-    "availability": "Celoročně",
+    "availability": "Sezónní",
     "recommended": [
+      "Jaro",
       "Podzim",
       "Zima"
     ],
-    "recommendedDisplay": "Podzim–zima",
-    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "recommendedDisplay": "Jaro, Podzim, Zima",
+    "months": "Leden, Únor, Březen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
+      1,
+      2,
+      3,
       9,
       10,
       11,
-      12,
-      1,
-      2,
-      3
+      12
     ]
   },
-  "popularity": 1,
+  "popularity": 2,
   "history": [],
   "lastServedAt": null,
   "meatType": "Hovězí",
@@ -42,7 +43,7 @@
   "ingredients": [
     {
       "name": "Hovězí zadní",
-      "amount": 1.0,
+      "amount": 1,
       "unit": "kg"
     },
     {
@@ -86,5 +87,17 @@
       "name": "Obiloviny obsahující lepek"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "metadataIssues": [
+    "typ jídla",
+    "charakter",
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "rotationDays": 90,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

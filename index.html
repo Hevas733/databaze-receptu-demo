@@ -3,6 +3,7 @@
 <html lang="cs">
 
 <head>
+  <script>if(location.protocol==='file:')location.replace('http://127.0.0.1:8001/index.html');</script>
 
   <meta charset="UTF-8" />
 
@@ -14,7 +15,7 @@
 
   <link rel="manifest" href="manifest.webmanifest" />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=109" />
 
   <title>Receptář – můj pomocník</title>
 
@@ -36,9 +37,9 @@
 
         <a href="jidelniky.html"><span>▦</span>Jídelníček</a>
 
-        <a href="import.html?v=75#menu-import"><span>▦</span>Import jídelníčku</a>
+        <a href="import-jidelniku.html?v=133"><span>▦</span>Import jídelníčku</a>
 
-        <a href="import.html?v=75#norm-import"><span>⇧</span>Import norem</a>
+        <a href="import.html?v=133"><span>⇧</span>Import norem</a>
 
         <a href="#stats"><span>▥</span>Statistiky</a>
 
@@ -76,17 +77,7 @@
 
 
 
-      <section class="search-card">
 
-        <h2>Najít vhodné jídlo</h2>
-
-        <form id="searchForm"><label class="search-field"><span>⌕</span><input id="searchInput" placeholder="Napište, co hledáte… (např. kuře, levné, bez brambor…)" /></label><button>HLEDAT</button></form>
-
-        <p class="hint">Zkuste například: „lehčí oběd s kuřetem“ nebo „jídlo do 35 Kč“</p>
-
-        <div class="quick"><b>Rychlý výběr</b><div class="chips"><button data-quick-meal="Snídaně">☕ Snídaně</button><button data-quick-meal="Oběd">☀ Oběd</button><button data-quick-meal="Polévka">🍲 Polévka</button><button data-quick-meal="Příloha">🍽️ Přílohy</button><button data-quick-meal="Svačina">🍏 Svačina</button><button data-quick-meal="Večeře">☾ Večeře</button><label style="display:flex;align-items:center;gap:8px;margin-left:auto;font-size:13px;font-weight:700">Sezóna<select id="quickSeasonFilter" style="padding:10px;border:1px solid #cbd6e1;border-radius:8px;background:#fff"><option value="">Všechny sezóny</option><option>Jaro</option><option>Léto</option><option>Podzim</option><option>Zima</option><option>Celoročně</option></select></label><label style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700">Oblíbenost<select id="quickPopularityFilter" style="padding:10px;border:1px solid #cbd6e1;border-radius:8px;background:#fff"><option value="">Všechny</option><option value="1">1 – rotace 60 dní</option><option value="2">2 – rotace 90 dní</option><option value="3">3 – rotace 120 dní</option></select></label><button data-quick-all class="more">☷ Další filtry</button></div></div>
-
-      </section>
 
 
 
@@ -96,9 +87,9 @@
 
         <a href="jidelniky.html" class="green"><span>▦</span><b>Jídelníček</b><small>Procházet všechny minulé, aktuální a budoucí jídelníčky.</small><em>›</em></a>
 
-        <a href="import.html?v=75#menu-import" class="purple"><span>▦</span><b>Import jídelníčku</b><small>Načtěte export CYGNUS, zkontrolujte shody a uložte historii receptů.</small><em>›</em></a>
+        <a href="import-jidelniku.html?v=133" class="purple"><span>▦</span><b>Import jídelníčku</b><small>Načtěte export CYGNUS, zkontrolujte shody a uložte historii receptů.</small><em>›</em></a>
 
-        <a href="import.html?v=75#norm-import" class="orange"><span>⇧</span><b>Import norem</b><small>Přidejte nové receptury a nutriční hodnoty z dokumentu Word.</small><em>›</em></a>
+        <a href="import.html?v=133" class="orange"><span>⇧</span><b>Import norem</b><small>Přidejte nové receptury a nutriční hodnoty z dokumentu Word.</small><em>›</em></a>
 
         
 
@@ -106,7 +97,15 @@
 
       <div class="lists" style="grid-template-columns:1fr">
 
-        <section class="list-card repeat"><div class="card-heading"><div><h3>💡 Přehled rotace</h3><p>Rychlé skupiny podle historie použití</p></div><span>›</span></div><div class="chips" style="margin:14px 0"><button onclick="location.href='databaze.html?rotation=ready'">Lze použít nyní</button><button onclick="location.href='databaze.html?rotation=overdue'">Dlouho nebylo</button><button onclick="location.href='databaze.html?rotation=forgotten'">Zapomenuté</button><button onclick="location.href='databaze.html?rotation=soon'">Brzy bude možné</button><button onclick="location.href='databaze.html?rotation=early'">Používá se příliš často</button><button onclick="location.href='databaze.html?rotation=none'">Bez historie</button></div><div id="repeatList"></div><a href="databaze.html">Zobrazit celou databázi</a></section>
+        <section class="list-card repeat"><div class="card-heading"><div><h3>💡 Přehled rotace</h3><p>Sezónně vhodné normy po doporučené rotaci a normy bez historie použití. Nejdříve uvidíte nejdéle opomíjené.</p></div></div><form id="rotationFilters" class="rotation-filters" aria-label="Filtry přehledu rotace">
+<label class="rotation-search">Název normy<input id="rotationSearch" type="search" placeholder="Hledat v normách po rotaci…" autocomplete="off"></label>
+<label>Plánuji měsíc<input id="rotationMonth" type="month" aria-describedby="rotationPeriod"></label>
+<label>Chod<select id="rotationMeal"><option value="">Všechny chody</option><option>Snídaně</option><option>Oběd</option><option>Svačina</option><option>Večeře</option><option>Polévka</option><option>Salát</option><option>Příloha</option></select></label>
+
+<label>Stav rotace<select id="rotationUrgency"><option value="">Všechny k hlídání</option><option value="fresh">Po rotaci (0–29 dní)</option><option value="waiting">Dlouho nepoužito (30–59 dní po rotaci)</option><option value="forgotten">Zapomenuté (60+ dní po rotaci)</option><option value="no-history">Bez historie použití</option></select></label>
+<label>Řazení<select id="rotationSort"><option value="overdue-desc">Nejvíc zapomenuté</option><option value="overdue-asc">Nově po rotaci</option><option value="name">Podle názvu</option></select></label>
+<button type="reset" class="secondary-button">Zrušit filtry</button>
+</form><p id="rotationPeriod" class="filter-help">Bez vybraného měsíce se přehled řídí dnešním datem a vhodností pro aktuální měsíc.</p><p id="rotationCount" class="filter-help" role="status"></p><div id="repeatList"></div><button type="button" id="rotationMore" class="secondary-button" hidden>Zobrazit další normy</button><a href="databaze.html">Otevřít databázi norem</a></section>
 
       </div>
 
@@ -136,11 +135,16 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="recipe-imports.js?v=70"></script><script src="builtin-storage.js?v=88"></script><script src="app.js?v=92"></script>
+  <script src="recipe-imports.js?v=119"></script><script src="builtin-storage.js?v=109"></script><script src="app.js?v=115"></script>
 
-</body>
+<script src="demo-mode.js?v=152"></script></body>
 
 </html>
+
+
+
+
+
 
 
 

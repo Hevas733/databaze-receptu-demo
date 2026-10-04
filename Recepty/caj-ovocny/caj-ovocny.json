@@ -1,7 +1,6 @@
 {
   "id": "docx-551c22900cf0ca0e1bea4068",
   "name": "Čaj ovocný",
-  "sourceVariant": "00, 02, 03, 04, 07, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -9,7 +8,7 @@
       "amount": 0.05,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "cukr krupice",
@@ -33,6 +32,8 @@
     "vitaminB2Mg": null,
     "vitaminCMg": null
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Napoje_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-08-31T16:23:13.582Z",
@@ -52,11 +53,13 @@
     "Snídaně",
     "Svačina"
   ],
+  "foodType": "Nápoj",
+  "flavor": "Neutrální",
   "category": "Nápoj",
   "meatType": "Bezmasé",
   "sideDish": "Bez přílohy",
   "preparationType": "Příprava nápoje",
-  "popularity": 1,
+  "popularity": null,
   "season": {
     "availability": "Celoročně",
     "recommended": [
@@ -81,8 +84,9 @@
   },
   "history": [],
   "lastServedAt": null,
-  "rotationDays": 60,
+  "rotationDays": 30,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],

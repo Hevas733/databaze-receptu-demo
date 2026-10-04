@@ -1,0 +1,177 @@
+{
+  "id": "docx-screenshot-20261004-tasticky-z-listoveho-testa-s-pizza-naplni",
+  "name": "Taštičky z listového těsta s pizza náplní",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "vejce",
+      "amount": 3,
+      "unit": "ks",
+      "perServing": "0,3 ks",
+      "needsClarification": false
+    },
+    {
+      "name": "strouhanka",
+      "amount": 0.05,
+      "unit": "kg",
+      "perServing": "5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "listové těsto",
+      "amount": 2,
+      "unit": "ks",
+      "perServing": "0,2 ks",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "Drcená rajčata",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "uzenina-šunka",
+      "amount": 0.35,
+      "unit": "kg",
+      "perServing": "35 g",
+      "needsClarification": false
+    },
+    {
+      "name": "sýr cihla 30%",
+      "amount": 0.4,
+      "unit": "kg",
+      "perServing": "40 g",
+      "needsClarification": false
+    },
+    {
+      "name": "koření oregano",
+      "amount": 0.15,
+      "unit": "ks",
+      "perServing": "0,015 ks",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 4066,
+    "energyKcalApprox": 972,
+    "proteinG": 31,
+    "fatG": 55.9,
+    "carbohydratesG": 90.5,
+    "fiberG": 0.2,
+    "calciumMg": 3060,
+    "ironMg": 10.14,
+    "vitaminAUg": 906,
+    "vitaminB1Mg": 2.031,
+    "vitaminB2Mg": 2.106,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "CYGNUS – Stravovací provoz Chotěšov (snímek obrazovky)",
+  "sourceFile": "pizza taštičky.png",
+  "importedAt": "2026-10-04",
+  "description": "Norma přepsaná z dodaného snímku obrazovky.",
+  "planningNote": "",
+  "importWarnings": [
+    "Základ ceny a nutričních hodnot není na snímku výslovně uveden; převzaty na porci podle dosavadní databáze.",
+    "Nezvykle vysoké hodnoty zdroje (4 066 kJ a vápník 3 060 mg) byly zachovány bez opravy a vyžadují ověření.",
+    "Hmotnost balení listového těsta a oregana není uvedena; nebyla odhadována."
+  ],
+  "pricePerServingCzk": 14.71,
+  "nutritionReview": "Věrný přepis hodnot ze snímku CYGNUS. Uloženo jako výživa na 1 porci podle dosavadního formátu databáze; snímek základ výživy výslovně neuvádí. Hodnoty nebyly nezávisle ověřeny. Kcal = kJ / 4,184, zaokrouhleno. Neuvedené údaje nejsou nuly.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Svačina",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "Vepřové",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-20"
+  ],
+  "lastServedAt": "2026-01-20",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [
+    {
+      "number": 1,
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "number": 3,
+      "name": "Vejce"
+    },
+    {
+      "number": 6,
+      "name": "Sójové boby"
+    },
+    {
+      "number": 7,
+      "name": "Mléko včetně laktózy"
+    },
+    {
+      "number": 11,
+      "name": "Sezamová semena"
+    },
+    {
+      "number": 12,
+      "name": "Oxid siřičitý a siřičitany"
+    },
+    {
+      "number": 13,
+      "name": "Vlčí bob (Lupina)"
+    }
+  ],
+  "allergensIncomplete": false,
+  "alternativeNames": [
+    "Taštičky z listového těsta s pizza náplní"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-20",
+      "meal": "Svačina",
+      "originalName": "Taštičky z listového těsta s pizza náplní",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

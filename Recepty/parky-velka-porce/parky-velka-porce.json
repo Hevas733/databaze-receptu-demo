@@ -1,0 +1,99 @@
+{
+  "id": "docx-eb529998b035c6ad545eb9e3",
+  "name": "párky - velká porce",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "uzenina-párky slabé",
+      "amount": 1,
+      "unit": "kg",
+      "perServing": "100 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1240,
+    "energyKcalApprox": 296,
+    "proteinG": 12,
+    "fatG": 26,
+    "carbohydratesG": 4,
+    "fiberG": null,
+    "calciumMg": 1280,
+    "ironMg": 14.9,
+    "vitaminAUg": null,
+    "vitaminB1Mg": 1.17,
+    "vitaminB2Mg": 1.75,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_4.docx",
+  "importedAt": "2026-10-03T15:42:32.856Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 11,90.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 17.36,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Večeře"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 2,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-05"
+  ],
+  "lastServedAt": "2026-01-05",
+  "rotationDays": 90,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "párky - velká porce"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-05",
+      "meal": "Večeře",
+      "originalName": "párky - velká porce",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

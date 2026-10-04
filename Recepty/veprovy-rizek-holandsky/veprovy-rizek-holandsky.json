@@ -12,7 +12,6 @@
   "servings": 10,
   "source": "CYGNUS – Stravovací provoz Chotěšov",
   "sourceCode": "",
-  "sourceVariant": "00, 03, 09, 33",
   "group": "Ostatní",
   "pricePerServingCzk": 15.22,
   "season": {
@@ -37,10 +36,13 @@
       12
     ]
   },
-  "popularity": 1,
-  "rotationDays": 60,
-  "history": [],
-  "lastServedAt": null,
+  "popularity": 2,
+  "rotationDays": 90,
+  "history": [
+    "2026-01-03",
+    "2026-02-23"
+  ],
+  "lastServedAt": "2026-02-23",
   "meatType": "Vepřové",
   "sideDish": "Volitelná",
   "preparationType": "Smažení",
@@ -134,5 +136,30 @@
     }
   ],
   "imageCredit": "AI ilustrace, vestavěný image_gen, 30. 8. 2026.",
-  "menuHistory": []
+  "menuHistory": [
+    {
+      "date": "2026-01-03",
+      "meal": "Oběd",
+      "originalName": "vepřový řízek holandský",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    },
+    {
+      "date": "2026-02-23",
+      "meal": "Oběd",
+      "originalName": "vepřový řízek holandský",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ],
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

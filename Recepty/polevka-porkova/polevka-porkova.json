@@ -13,7 +13,6 @@
   "source": "CYGNUS – Stravovací provoz Chotěšov",
   "sourceCode": "",
   "sourceDescription": "2032",
-  "sourceVariant": "00, 03, 33",
   "group": "Polévky",
   "pricePerServingCzk": 3.15,
   "season": {
@@ -38,8 +37,8 @@
       12
     ]
   },
-  "popularity": 1,
-  "rotationDays": 60,
+  "popularity": 2,
+  "rotationDays": 90,
   "history": [],
   "lastServedAt": null,
   "meatType": "Bezmasé",
@@ -107,5 +106,13 @@
       "perServing": "6 ml"
     }
   ],
-  "menuHistory": []
+  "menuHistory": [],
+  "foodType": "Polévka",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112
 }

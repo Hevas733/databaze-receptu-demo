@@ -1,7 +1,6 @@
 {
   "id": "docx-b6d640f27f8292837b2db4b5",
   "name": "Polévka frankfurtská",
-  "sourceVariant": "00, 03, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -37,7 +36,7 @@
       "amount": 0.28,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "olej Forte 1l",
@@ -68,6 +67,8 @@
     "vitaminB2Mg": 1.3,
     "vitaminCMg": 188.85
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-05T09:38:37.169Z",
@@ -83,6 +84,8 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Vepřové",
   "sideDish": "Bez přílohy",
@@ -95,16 +98,44 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
-  "history": [],
-  "lastServedAt": null,
+  "history": [
+    "2026-01-16"
+  ],
+  "lastServedAt": "2026-01-16",
   "rotationDays": 60,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
-  "alternativeNames": [],
-  "_imported": true
+  "alternativeNames": [
+    "polévka frankfurtská"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-16",
+      "meal": "Oběd",
+      "originalName": "polévka frankfurtská",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
 }

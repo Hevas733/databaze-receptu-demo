@@ -1,17 +1,18 @@
 <!doctype html>
 <html lang="cs">
 <head>
+  <script>if(location.protocol==='file:')location.replace('http://127.0.0.1:8001/jidelniky.html');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0b4f9c">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="jidelniky.css?v=90">
+  <link rel="stylesheet" href="jidelniky.css?v=150">
   <title>Jídelníčky – Receptář</title>
 </head>
 <body>
 <main class="menus-page">
-  <div class="detail-toolbar"><a class="back-link" href="index.html">← Zpět na úvod</a><a class="secondary-button" href="import.html#menu-import">Importovat jídelníček</a></div>
+  <div class="detail-toolbar"><a class="back-link" href="index.html">← Zpět na úvod</a><a class="secondary-button" href="import-jidelniku.html?v=133">Importovat jídelníček</a></div>
   <header class="menus-hero"><div><span class="menus-icon">▦</span><div><h1>Jídelníčky</h1><p>Všechny uložené jídelníčky – minulé, aktuální i budoucí.</p></div></div><div class="menus-today"><small>Dnes</small><b id="todayLabel"></b></div></header>
   <section class="menus-toolbar">
     <label>Období<select id="periodFilter"><option value="all">Všechny</option><option value="current">Aktuální</option><option value="future">Budoucí</option><option value="past">Minulé</option></select></label>
@@ -19,14 +20,32 @@
     <span id="menuCount"></span>
   </section>
   <p id="menusStatus" role="status">Načítám uložené jídelníčky…</p>
+  <p class="summary-legend">Hodnota / norma na osobu · zelená = pod nebo na normě · červená = nad normou · oranžová = neúplné údaje. U výživy barvy ukazují odchylku, ne zdravotní vhodnost.</p>
   <section id="menusOverview" class="menus-overview"></section>
   <section id="menuDays" class="menu-days"></section>
 </main>
+<div id="mealInfoPopover" popover role="note" aria-labelledby="mealInfoName">
+  <div class="meal-info-heading"><b id="mealInfoName"></b><button type="button" id="mealInfoClose" aria-label="Zavřít informace">×</button></div>
+  <p id="mealInfoText"></p>
+</div>
+<dialog id="menuNormEditor" aria-labelledby="menuNormTitle" aria-describedby="menuNormStatus">
+  <header class="menu-norm-heading"><div><h2 id="menuNormTitle">Upravit normu</h2><p id="menuNormStatus" role="status" aria-live="polite"></p></div><div class="menu-norm-actions"><button type="button" id="menuNormReplace">Nahradit</button><button type="button" id="menuNormClose" aria-label="Zavřít normu a vrátit se do jídelníčku">Zavřít ×</button></div></header>
+  <p id="menuNormIssues" role="note" hidden></p>
+  <p id="menuNormMissing" hidden>Tato položka zatím nemá dostupnou normu. Tlačítkem Nahradit vyberte normu z databáze.</p>
+  <iframe id="menuNormFrame" title="Detail a úprava normy"></iframe>
+</dialog>
 <dialog id="recipePicker" aria-labelledby="pickerTitle" aria-describedby="pickerContext">
   <header class="picker-heading"><div><h2 id="pickerTitle">Nahradit jídlo</h2><p id="pickerContext"></p></div><button type="button" id="pickerClose" aria-label="Zavřít výběr">Zavřít ×</button></header>
   <iframe id="pickerFrame" title="Databáze receptů se všemi filtry"></iframe>
   <footer class="picker-footer"><p id="pickerStatus" role="status" aria-live="polite">Vyberte jídlo z databáze.</p><button type="button" id="pickerSave" disabled>Nahradit a uložit</button></footer>
 </dialog>
-<script src="jidelniky.js?v=90"></script>
-</body>
+<script src="menu-import-rules.js?v=134"></script>
+<script src="menu-web-storage.js?v=152"></script>
+<script src="jidelniky.js?v=152"></script>
+<script src="menu-norm-editor.js?v=150"></script>
+<style>.meal-block .menu-review-warning{color:#92400e;font-weight:600}</style>
+<script src="demo-mode.js?v=152"></script></body>
 </html>
+
+
+

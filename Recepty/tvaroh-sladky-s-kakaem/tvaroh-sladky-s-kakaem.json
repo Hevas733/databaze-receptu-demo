@@ -1,7 +1,6 @@
 {
   "id": "docx-10d0b2660c1bb71c38917f44",
   "name": "Tvaroh sladký s kakaem",
-  "sourceVariant": "00, 02, 03, 04, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -23,14 +22,14 @@
       "amount": 0.2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     },
     {
       "name": "kakao",
       "amount": 0.2,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     }
   ],
   "nutritionPerServing": {
@@ -47,33 +46,35 @@
     "vitaminB2Mg": 3.07,
     "vitaminCMg": 0.22
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
-  "importedAt": "2026-08-31T16:06:26.504Z",
+  "importedAt": "2026-08-31T16:00:23.211Z",
   "description": "Norma importovaná z DOCX.",
-  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,58.\nUpřesnit velikost balení / jednotku ks: mléko polotučné 1l, kakao.\nShodná základní výživa s normou „Tvaroh sladký s kakaem a kokosem“, ale jiné suroviny. Ověřte zdroj.",
+  "planningNote": "",
   "importWarnings": [
     "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
     "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,58.",
     "Upřesnit velikost balení / jednotku ks: mléko polotučné 1l, kakao.",
     "Shodná základní výživa s normou „Tvaroh sladký s kakaem a kokosem“, ale jiné suroviny. Ověřte zdroj."
   ],
-  "pricePerServingCzk": 6.59,
+  "pricePerServingCzk": 6.23,
   "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
   "mealTypes": [
     "Svačina"
   ],
-  "category": "Dezert",
-  "meatType": "Bezmasé",
-  "sideDish": "Bez přílohy",
-  "preparationType": "Studená kuchyně",
-  "popularity": 2,
+  "foodType": "Svačina",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
   "season": {
     "availability": "Celoročně",
-    "recommended": [
-      "Celoročně"
-    ],
-    "recommendedDisplay": "Celoročně",
+    "recommended": [],
+    "recommendedDisplay": "",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
       1,
@@ -90,14 +91,27 @@
       12
     ]
   },
-  "history": [],
-  "lastServedAt": null,
-  "rotationDays": 90,
+  "history": [
+    "2026-02-17"
+  ],
+  "lastServedAt": "2026-02-17",
+  "rotationDays": 30,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [],
-  "_imported": true
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-02-17",
+      "meal": "Svačina",
+      "originalName": "tvaroh sladký s kakaem",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
 }

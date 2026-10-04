@@ -1,7 +1,6 @@
 {
   "id": "docx-52ca016901ec93ffc929ab89",
   "name": "Polévka krupková",
-  "sourceVariant": "00, 02, 03, 33, 09",
   "servings": 10,
   "ingredients": [
     {
@@ -47,6 +46,8 @@
     "vitaminB2Mg": 0.01,
     "vitaminCMg": null
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Polevky_leden_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-05T09:38:37.169Z",
@@ -61,11 +62,13 @@
   "mealTypes": [
     "Polévka"
   ],
+  "foodType": "Polévka",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Vepřové",
   "sideDish": "Bez přílohy",
   "preparationType": "Vařené",
-  "popularity": 2,
+  "popularity": 1,
   "season": {
     "availability": "Celoročně",
     "recommended": [
@@ -73,16 +76,44 @@
     ],
     "recommendedDisplay": "Celoročně",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
-  "history": [],
-  "lastServedAt": null,
-  "rotationDays": 90,
+  "history": [
+    "2026-01-01"
+  ],
+  "lastServedAt": "2026-01-01",
+  "rotationDays": 60,
   "status": "paused",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
-  "alternativeNames": [],
-  "_imported": true
+  "alternativeNames": [
+    "polévka krupková"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-01",
+      "meal": "Oběd",
+      "originalName": "polévka krupková",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
 }

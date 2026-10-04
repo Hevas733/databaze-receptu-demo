@@ -1,7 +1,6 @@
 {
   "id": "docx-c09b5d556eea26b03a9d6366",
   "name": "Salám 50 g",
-  "sourceVariant": "00, 03, 09, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -9,7 +8,7 @@
       "amount": 5,
       "unit": "ks",
       "perServing": null,
-      "needsClarification": true
+      "needsClarification": false
     }
   ],
   "nutritionPerServing": {
@@ -26,6 +25,8 @@
     "vitaminB2Mg": 0.08,
     "vitaminCMg": null
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Receptury_normy_a_nutricni_hodnoty.docx",
   "importedAt": "2026-09-01T18:21:10.494Z",
@@ -42,32 +43,51 @@
   "mealTypes": [
     "Snídaně"
   ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
   "category": "",
   "meatType": "Uzenina",
   "sideDish": "Bez přílohy",
   "preparationType": "Studené",
-  "popularity": 1,
+  "popularity": null,
   "season": {
-    "availability": "Celoročně",
+    "availability": "Sezónní",
     "recommended": [
       "Celoročně"
     ],
     "recommendedDisplay": "Celoročně",
-    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
-    "monthNumbers": []
+    "months": "Leden, Duben, Srpen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      4,
+      8,
+      11,
+      12
+    ]
   },
   "history": [
     "2026-01-02"
   ],
   "lastServedAt": "2026-01-02",
-  "rotationDays": 60,
+  "rotationDays": 30,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
-  "image": null,
+  "image": "ai-ilustrace.png",
   "allergens": [],
   "allergensIncomplete": true,
   "alternativeNames": [
     "salám 50 g"
   ],
-  "_imported": true
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-02",
+      "meal": "Snídaně",
+      "originalName": "salám 50 g",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
 }

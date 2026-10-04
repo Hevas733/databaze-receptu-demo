@@ -4,6 +4,7 @@ Thumbs.db
 __pycache__/
 *.pyc
 menu-replacements.json
+builtin-storage-state.json
 imported-norms.json
 Recepty/*/IMPORT.md
 Recepty/*/podklady/

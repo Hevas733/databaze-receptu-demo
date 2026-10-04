@@ -16,25 +16,26 @@
   "sourceCode": "2029",
   "pricePerServingCzk": 4.12,
   "season": {
-    "availability": "Celoročně",
+    "availability": "Sezónní",
     "recommended": [
+      "Jaro",
       "Podzim",
       "Zima"
     ],
-    "recommendedDisplay": "Podzim–zima",
-    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "recommendedDisplay": "Jaro, Podzim, Zima",
+    "months": "Leden, Únor, Březen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
+      1,
+      2,
+      3,
       9,
       10,
       11,
-      12,
-      1,
-      2,
-      3
+      12
     ]
   },
   "popularity": 1,
-  "rotationDays": null,
+  "rotationDays": 60,
   "lastServedAt": null,
   "history": [],
   "meatType": "Uzenina",
@@ -83,7 +84,7 @@
     "energyKj": 900,
     "energyKcalApprox": 215,
     "proteinG": 7.8,
-    "fatG": 12.0,
+    "fatG": 12,
     "carbohydratesG": 19.6,
     "fiberG": 0.9
   },
@@ -97,5 +98,14 @@
       "name": "Vejce – uvedeno ve zdroji, ověřit"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "foodType": "Polévka",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

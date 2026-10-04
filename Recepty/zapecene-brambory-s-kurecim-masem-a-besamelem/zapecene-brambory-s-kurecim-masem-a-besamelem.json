@@ -9,8 +9,7 @@
   "description": "Zapečené brambory s kuřecími prsy, smetanovým bešamelem, mozzarellou a balkánským sýrem, ochucené paprikou, kmínem, česnekem, bazalkou a oreganem.",
   "category": "Hlavní jídlo",
   "mealTypes": [
-    "Oběd",
-    "Večeře"
+    "Oběd"
   ],
   "servings": 10,
   "source": "Stravovací provoz Chotěšov",
@@ -18,24 +17,26 @@
   "pricePerServingCzk": 30.57,
   "priceNeedsConfirmation": true,
   "season": {
-    "availability": "Celoročně",
+    "availability": "Sezónní",
     "recommended": [
+      "Jaro",
       "Podzim",
       "Zima"
     ],
-    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "months": "Leden, Únor, Březen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
+      1,
+      2,
+      3,
       9,
       10,
       11,
-      12,
-      1,
-      2,
-      3
-    ]
+      12
+    ],
+    "recommendedDisplay": "Jaro, Podzim, Zima"
   },
-  "popularity": null,
-  "rotationDays": null,
+  "popularity": 1,
+  "rotationDays": 60,
   "lastServedAt": null,
   "nextRotationAt": null,
   "history": [],
@@ -164,5 +165,14 @@
   "preparationTimeMinutes": null,
   "bakingTimeMinutes": null,
   "bakingTemperatureC": null,
-  "difficulty": null
+  "difficulty": null,
+  "foodType": "Hlavní jídlo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

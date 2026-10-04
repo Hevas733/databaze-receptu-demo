@@ -1,0 +1,173 @@
+{
+  "id": "docx-ab21ca535501d20f3ee35cce",
+  "name": "M - litý koláč domácí",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "vejce",
+      "amount": 2.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka polohrubá",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hrubá",
+      "amount": 0.2,
+      "unit": "kg",
+      "perServing": "20 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mléko polotučné 1l",
+      "amount": 0.32,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "kompot broskve půlené 2650 g",
+      "amount": 0.66,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "kypřící prášek",
+      "amount": 0.75,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "olej Forte 1l",
+      "amount": 0.15,
+      "unit": "l",
+      "perServing": "15 ml",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr krupice",
+      "amount": 0.125,
+      "unit": "kg",
+      "perServing": "12,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "mouka hrubá",
+      "amount": 0.125,
+      "unit": "kg",
+      "perServing": "12,5 g",
+      "needsClarification": false
+    },
+    {
+      "name": "rostlinné máslo",
+      "amount": 0.06,
+      "unit": "kg",
+      "perServing": "6 g",
+      "needsClarification": false
+    },
+    {
+      "name": "cukr vanilkovy",
+      "amount": 1.2,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 2596.03,
+    "energyKcalApprox": 620,
+    "proteinG": 8.42,
+    "fatG": 17.58,
+    "carbohydratesG": 106.47,
+    "fiberG": 5.44,
+    "calciumMg": 46.61,
+    "ironMg": 0.81,
+    "vitaminAUg": 14.45,
+    "vitaminB1Mg": 0.06,
+    "vitaminB2Mg": 0.08,
+    "vitaminCMg": 0.35
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Listopad_2026_normy_cast_04.docx",
+  "importedAt": "2026-09-28T15:33:18.227Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,47.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,47."
+  ],
+  "pricePerServingCzk": 12.21,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-02-19"
+  ],
+  "lastServedAt": "2026-02-19",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-02-19",
+      "meal": "Svačina",
+      "originalName": "M - litý koláč domácí",
+      "dietCode": "O00",
+      "sourceFile": "únor 2026.docx",
+      "importId": "c61734b0-3565-4e19-96d9-d480586267c1"
+    }
+  ]
+}

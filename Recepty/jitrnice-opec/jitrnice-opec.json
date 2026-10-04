@@ -1,0 +1,99 @@
+{
+  "id": "docx-1fbff5cd22f2de468adacfda",
+  "name": "jitrnice opeč,",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "maso-jitrnice",
+      "amount": 1.5,
+      "unit": "kg",
+      "perServing": "150 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1500,
+    "energyKcalApprox": 359,
+    "proteinG": 19.5,
+    "fatG": 22.5,
+    "carbohydratesG": 21,
+    "fiberG": null,
+    "calciumMg": 55.5,
+    "ironMg": 7.59,
+    "vitaminAUg": 10.5,
+    "vitaminB1Mg": 0.11,
+    "vitaminB2Mg": 0.18,
+    "vitaminCMg": null
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty.docx",
+  "importedAt": "2026-10-02T11:40:15.784Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 1,86.\nChybí vláknina.",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,86.",
+    "Chybí vláknina."
+  ],
+  "pricePerServingCzk": 21,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Oběd"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": 3,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-28"
+  ],
+  "lastServedAt": "2026-01-28",
+  "rotationDays": 120,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [
+    "jitrnice"
+  ],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-28",
+      "meal": "Oběd",
+      "originalName": "jitrnice",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

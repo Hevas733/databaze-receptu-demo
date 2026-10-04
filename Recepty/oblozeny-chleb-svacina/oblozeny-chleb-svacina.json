@@ -1,0 +1,124 @@
+{
+  "id": "docx-b48d096f02c79921bc3e1a00",
+  "name": "obložený chléb svačina",
+  "servings": 10,
+  "ingredients": [
+    {
+      "name": "peč. chléb",
+      "amount": 0.5,
+      "unit": "ks",
+      "perServing": null,
+      "needsClarification": false
+    },
+    {
+      "name": "uzenina-Junior",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    },
+    {
+      "name": "rostlinné máslo",
+      "amount": 0.1,
+      "unit": "kg",
+      "perServing": "10 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-rajská jabl",
+      "amount": 0.5,
+      "unit": "kg",
+      "perServing": "50 g",
+      "needsClarification": false
+    },
+    {
+      "name": "zelenina-paprika lus",
+      "amount": 0.25,
+      "unit": "kg",
+      "perServing": "25 g",
+      "needsClarification": false
+    }
+  ],
+  "nutritionPerServing": {
+    "energyKj": 1101.8,
+    "energyKcalApprox": 263,
+    "proteinG": 11.25,
+    "fatG": 10.69,
+    "carbohydratesG": 31.56,
+    "fiberG": 3.1,
+    "calciumMg": 176.5,
+    "ironMg": 8.23,
+    "vitaminAUg": 2533.25,
+    "vitaminB1Mg": 0.65,
+    "vitaminB2Mg": 0.57,
+    "vitaminCMg": 515.75
+  },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
+  "source": "DOCX",
+  "sourceFile": "Leden_2026_normy_a_nutricni_hodnoty_cast_3.docx",
+  "importedAt": "2026-10-03T13:14:06.754Z",
+  "description": "Norma importovaná z DOCX.",
+  "planningNote": "",
+  "importWarnings": [
+    "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
+    "Nepřiřazený údaj zdroje: Kyseliny [g] = 1,14."
+  ],
+  "pricePerServingCzk": 13.35,
+  "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
+  "mealTypes": [
+    "Svačina"
+  ],
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
+  "season": {
+    "availability": "Celoročně",
+    "recommended": [
+      "Celoročně"
+    ],
+    "recommendedDisplay": "Celoročně",
+    "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
+    "monthNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "history": [
+    "2026-01-02"
+  ],
+  "lastServedAt": "2026-01-02",
+  "rotationDays": 30,
+  "status": "active",
+  "metadataIssues": [],
+  "completionStatus": "complete",
+  "image": "ai-ilustrace.png",
+  "allergens": [],
+  "allergensIncomplete": true,
+  "alternativeNames": [],
+  "_imported": true,
+  "menuHistory": [
+    {
+      "date": "2026-01-02",
+      "meal": "Svačina",
+      "originalName": "obložený chléb svačina",
+      "dietCode": "O00",
+      "sourceFile": "Leden 2026.docx",
+      "importId": "b211ea22-f08c-45b9-ad4f-8d38b49fe3a3"
+    }
+  ]
+}

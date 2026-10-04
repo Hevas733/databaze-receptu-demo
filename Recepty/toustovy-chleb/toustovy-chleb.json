@@ -9,7 +9,7 @@
   "description": "Porce krájeného toustového chleba podávaná jako pečivo ke svačině.",
   "category": "Pečivo",
   "mealTypes": [
-    "Svačina"
+    "Pečivo"
   ],
   "servings": 10,
   "source": "Stravovací provoz Chotěšov",
@@ -36,7 +36,7 @@
       12
     ]
   },
-  "popularity": 1,
+  "popularity": null,
   "history": [],
   "lastServedAt": null,
   "meatType": "Bezmasé",
@@ -46,18 +46,25 @@
   "ingredients": [
     {
       "name": "Toustový chléb 500 g",
-      "amount": 2.0,
+      "amount": 2,
       "unit": "ks",
-      "perServing": "100 g"
+      "perServing": "100 g",
+      "needsClarification": false
     }
   ],
   "nutritionPerServing": {
     "energyKj": 1130,
     "energyKcalApprox": 270,
-    "proteinG": 8.0,
-    "fatG": 4.0,
-    "carbohydratesG": 49.0,
-    "fiberG": 3.0
+    "proteinG": 8,
+    "fatG": 4,
+    "carbohydratesG": 49,
+    "fiberG": 3,
+    "calciumMg": null,
+    "ironMg": null,
+    "vitaminAUg": null,
+    "vitaminB1Mg": null,
+    "vitaminB2Mg": null,
+    "vitaminCMg": null
   },
   "nutritionReview": "Hodnoty na porci 100 g převzaté z dodaného podkladu.",
   "allergens": [
@@ -82,5 +89,15 @@
       "name": "Vlčí bob (Lupina)"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "foodType": "Pečivo",
+  "metadataIssues": [
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "flavor": "Slané",
+  "rotationDays": null,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }

@@ -1,7 +1,6 @@
 {
   "id": "docx-6e3c64754dee2d59b74bcbc5",
   "name": "Tvaroh sladký",
-  "sourceVariant": "00, 02, 03, 04, 33",
   "servings": 10,
   "ingredients": [
     {
@@ -40,32 +39,34 @@
     "vitaminB2Mg": 3.04,
     "vitaminCMg": null
   },
+  "rotationPolicyVersion": 112,
+  "rotationIntervalDays": null,
   "source": "DOCX",
   "sourceFile": "Tvaroh_normy_a_nutricni_hodnoty.docx",
-  "importedAt": "2026-08-31T16:06:26.504Z",
+  "importedAt": "2026-08-31T16:00:23.211Z",
   "description": "Norma importovaná z DOCX.",
-  "planningNote": "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.\nNepřiřazený údaj zdroje: Kyseliny [g] = 0,56.\nChybí vláknina.",
+  "planningNote": "",
   "importWarnings": [
     "Cena a alergeny nejsou v tomto formátu uvedeny; nejsou doplněny odhadem.",
     "Nepřiřazený údaj zdroje: Kyseliny [g] = 0,56.",
     "Chybí vláknina."
   ],
-  "pricePerServingCzk": 7.37,
+  "pricePerServingCzk": 7,
   "nutritionReview": "Přepis DOCX na 1 porci, bez nezávislého ověření. Prázdné údaje nejsou nuly. Kcal dopočteny z kJ / 4,184.",
   "mealTypes": [
     "Svačina"
   ],
-  "category": "Dezert",
-  "meatType": "Bezmasé",
-  "sideDish": "Bez přílohy",
-  "preparationType": "Studená kuchyně",
-  "popularity": 2,
+  "foodType": "Svačina",
+  "flavor": "Sladké",
+  "category": "",
+  "meatType": "",
+  "sideDish": "",
+  "preparationType": "",
+  "popularity": null,
   "season": {
     "availability": "Celoročně",
-    "recommended": [
-      "Celoročně"
-    ],
-    "recommendedDisplay": "Celoročně",
+    "recommended": [],
+    "recommendedDisplay": "",
     "months": "Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
       1,
@@ -84,8 +85,9 @@
   },
   "history": [],
   "lastServedAt": null,
-  "rotationDays": 90,
+  "rotationDays": 30,
   "status": "active",
+  "metadataIssues": [],
   "completionStatus": "complete",
   "image": "ai-ilustrace.png",
   "allergens": [],

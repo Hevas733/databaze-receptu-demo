@@ -16,24 +16,25 @@
   "pricePerServingCzk": 24.9,
   "priceEstimate": true,
   "season": {
-    "availability": "Celoročně",
+    "availability": "Sezónní",
     "recommended": [
+      "Jaro",
       "Podzim",
       "Zima"
     ],
-    "recommendedDisplay": "Podzim–zima",
-    "months": "Září, Říjen, Listopad, Prosinec, Leden, Únor, Březen",
+    "recommendedDisplay": "Jaro, Podzim, Zima",
+    "months": "Leden, Únor, Březen, Září, Říjen, Listopad, Prosinec",
     "monthNumbers": [
+      1,
+      2,
+      3,
       9,
       10,
       11,
-      12,
-      1,
-      2,
-      3
+      12
     ]
   },
-  "popularity": 1,
+  "popularity": 2,
   "history": [],
   "lastServedAt": null,
   "meatType": "Vepřové",
@@ -63,7 +64,7 @@
     },
     {
       "name": "Brambory",
-      "amount": 4.0,
+      "amount": 4,
       "unit": "kg"
     },
     {
@@ -73,7 +74,7 @@
     },
     {
       "name": "Vejce",
-      "amount": 3.0,
+      "amount": 3,
       "unit": "ks"
     },
     {
@@ -91,7 +92,7 @@
     "energyKj": 4562,
     "energyKcalApprox": 1090,
     "proteinG": 30.1,
-    "fatG": 55.0,
+    "fatG": 55,
     "carbohydratesG": 123.1,
     "fiberG": 9.6
   },
@@ -106,5 +107,17 @@
       "name": "Vejce"
     }
   ],
-  "instructions": null
+  "instructions": null,
+  "metadataIssues": [
+    "typ jídla",
+    "charakter",
+    "oblíbenost"
+  ],
+  "completionStatus": "needs-completion",
+  "foodType": "Hlavní jídlo",
+  "flavor": "Slané",
+  "rotationDays": 90,
+  "rotationIntervalDays": null,
+  "rotationPolicyVersion": 112,
+  "planningNote": ""
 }
